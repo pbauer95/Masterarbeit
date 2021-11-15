@@ -4,11 +4,11 @@ using Masterarbeit.Interfaces.MasterData;
 
 namespace Masterarbeit.Classes.MasterData
 {
-    public class MasterDataFabFromDeserializedMasterDataService : IMasterDataFab
+    public class DistributionDataFabFromDeserializedDistributionDataService : IDistributionDataFab
     {
-        private readonly MasterDataFabXml _fabXml;
+        private readonly DistributionDataFabXml _fabXml;
 
-        public MasterDataFabFromDeserializedMasterDataService(MasterDataFabXml fabXml)
+        public DistributionDataFabFromDeserializedDistributionDataService(DistributionDataFabXml fabXml)
         {
             _fabXml = fabXml;
         }

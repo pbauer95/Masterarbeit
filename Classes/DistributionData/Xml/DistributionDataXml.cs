@@ -4,8 +4,8 @@ using System.Xml.Serialization;
 namespace Masterarbeit.Classes.MasterData.Xml
 {
     [XmlRoot("MasterData")]
-    public class MasterDataXml
+    public class DistributionDataXml
     {
-        [XmlElement("MasterDataService")] public List<MasterDataServiceXml> MasterDataServices { get; set; }
+        [XmlElement("MasterDataService")] public List<DistributionDataServiceXml> MasterDataServices { get; set; }
     }
 }
