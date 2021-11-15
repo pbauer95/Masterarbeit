@@ -1,0 +1,69 @@
+=============================================
+Log Entry Start
+Number of Partitions: 50
+Combined Partitions: 1,12,25,37,49
+Max. Number of selected Features: 15
+=============================================
+Log Entry Start
+Number of Partitions: 50
+Number of combined Partitions: 5
+Combined Partitions: 1,12,25,37,49
+Max. Number of selected Features: 999999
+=============================================
+Log Entry Start
+Number of Partitions: 50
+Number of combined Partitions: 5
+Combined Partitions: 1,12,25,37,49
+Max. Number of selected Features: 999999
+=============================================
+Log Entry Start
+Number of Partitions: 50
+Number of combined Partitions: 5
+Combined Partitions: 1,12,25,37,49
+Max. Number of selected Features: 999999
+Number of Initial Features: 70599
+Number of selected Features: 7534
+Number of added Features: 8979
+Number of Attribute Features: 72378
+Total Number of Features: 88891
+Duration generating partial Feature Selection: 8332 ms
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 999999
+Number of Initial Features: 68016
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 999999
+Number of Initial Features: 68016
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 999999
+Number of Initial Features: 68016
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 999999
+Number of Initial Features: 68016
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 999999
+Number of Initial Features: 68016
+Number of selected Features: 3856
+Number of added Features: 4665
+Number of Attribute Features: 37359
+Total Number of Features: 45880
+Duration generating partial Feature Selection: 36282 ms

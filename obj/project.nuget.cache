@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "DqHv2DJJuMI5b6Fo+r8vWcQCuDu6co3FXpivFsamFYYu9m85De6Z4GrLRusqrbJtdKR9S0zYN+mHYdv00NgNXQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\peter\\RiderProjects\\Masterarbeit\\Masterarbeit\\Masterarbeit.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\peter\\.nuget\\packages\\commandlineparser\\2.8.0\\commandlineparser.2.8.0.nupkg.sha512"
+  ],
+  "logs": []
+}
