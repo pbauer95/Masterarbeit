@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Masterarbeit.Classes.MasterData.Xml;
+using Masterarbeit.Classes.DistributionData.Xml;
 using Masterarbeit.Interfaces.Fab;
 using Masterarbeit.Interfaces.MasterData;
 using Masterarbeit.Interfaces.Service;
 
-namespace Masterarbeit.Classes.MasterData
+namespace Masterarbeit.Classes.DistributionData
 {
     public class DistributionDataServiceFromDeserializedDistributionData : IDistributionDataService
     {

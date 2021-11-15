@@ -8,13 +8,12 @@ namespace Masterarbeit.Classes.DistributionService
 {
     public static class DistributionService
     {
-        //TODO: Zuteilungsalgorithmus
-        public static IEnumerable<IPartition> AssignServicesToPartitions(IList<IService> services, IList<IMasterDataService> masterData,
+        public static IEnumerable<IPartition> AssignServicesToPartitions(IList<IService> services, IList<IDistributionDataService> distributionData,
             int count, bool global)
         {
-            var existingServices = services.Count != masterData.Count
-                ? masterData.Where(x => services.Any(y => y.Type == x.Type && y.Code == x.Code)).ToList()
-                : masterData.ToList();
+            var existingServices = services.Count != distributionData.Count
+                ? distributionData.Where(x => services.Any(y => y.Type == x.Type && y.Code == x.Code)).ToList()
+                : distributionData.ToList();
 
             existingServices = global
                 ? existingServices.OrderBy(x => x.ShareGlobal).ToList()

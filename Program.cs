@@ -8,11 +8,11 @@ using System.Xml.Linq;
 using CommandLine;
 using Masterarbeit.Classes.Attribute;
 using Masterarbeit.Classes.CommandLineOptions;
+using Masterarbeit.Classes.DistributionData;
 using Masterarbeit.Classes.Feature;
 using Masterarbeit.Classes.FeatureModel;
 using Masterarbeit.Classes.HospitalData;
 using Masterarbeit.Classes.Logger;
-using Masterarbeit.Classes.MasterData;
 using Masterarbeit.Classes.Partition;
 using Masterarbeit.Interfaces.Fab;
 using Masterarbeit.Interfaces.Feature;
@@ -38,7 +38,7 @@ namespace Masterarbeit
                         Logger.StartLogEntry();
                         Logger.LogParameterValue(options.PartitionCount, options.CombinedPartition, options.MaxSelectedFeatures);
 
-                        var masterData = new MasterDataFromXml(options.MasterDataPath);
+                        var masterData = new DistributionDataFromXml(options.DistributionDataPath);
 
                         Logger.LogInitialFeatureCount(masterData.Services.Sum(x => x.MasterDataFabs.Count()));
 
@@ -83,7 +83,7 @@ namespace Masterarbeit
         private static void GenerateSample(XDocument featureDiagram, int tWise)
         {
             const string fmFileName = "FeatureModel.xml";
-            const string generatorPath = "de.ovgu.featureide.lib.fm-v3.8.0.jar";
+            const string generatorPath = "de.ovgu.featureide.lib.fm.jar";
             const string outputPath = "sample.csv";
 
             using (var writer = new XmlTextWriter(fmFileName, new UTF8Encoding(false)))

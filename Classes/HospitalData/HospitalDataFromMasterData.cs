@@ -7,13 +7,13 @@ namespace Masterarbeit.Classes.HospitalData
 {
     public class HospitalDataFromMasterData : IHospitalData
     {
-        private readonly IMasterData _masterData;
+        private readonly IDistributionData _distributionData;
 
-        public HospitalDataFromMasterData(IMasterData masterData)
+        public HospitalDataFromMasterData(IDistributionData distributionData)
         {
-            _masterData = masterData;
+            _distributionData = distributionData;
         }
 
-        public IEnumerable<IService> Services => _masterData.Services;
+        public IEnumerable<IService> Services => _distributionData.Services;
     }
 }

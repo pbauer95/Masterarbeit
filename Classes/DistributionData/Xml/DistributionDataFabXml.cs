@@ -1,6 +1,6 @@
 ﻿using System.Xml.Serialization;
 
-namespace Masterarbeit.Classes.MasterData.Xml
+namespace Masterarbeit.Classes.DistributionData.Xml
 {
     public class DistributionDataFabXml
     {

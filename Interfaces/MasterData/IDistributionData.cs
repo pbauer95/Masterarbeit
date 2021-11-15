@@ -2,8 +2,8 @@
 
 namespace Masterarbeit.Interfaces.MasterData
 {
-    public interface IMasterData
+    public interface IDistributionData
     {
-        IEnumerable<IMasterDataService> Services { get; }
+        IEnumerable<IDistributionDataService> Services { get; }
     }
 }

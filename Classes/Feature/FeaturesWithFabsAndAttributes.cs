@@ -2,10 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Masterarbeit.Interfaces.Attribute;
-using Masterarbeit.Interfaces.Fab;
 using Masterarbeit.Interfaces.Feature;
-using Masterarbeit.Interfaces.MasterData;
-using Masterarbeit.Interfaces.Service;
 
 namespace Masterarbeit.Classes.Feature
 {

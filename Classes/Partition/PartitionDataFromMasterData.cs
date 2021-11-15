@@ -8,13 +8,13 @@ namespace Masterarbeit.Classes.Partition
 {
     public class PartitionDataFromMasterData : IPartitionData
     {
-        private readonly IMasterData _masterData;
+        private readonly IDistributionData _distributionData;
         private readonly int _partitionCount;
         private IPartitionData _partitionData;
 
-        public PartitionDataFromMasterData(IMasterData masterData, int partitionCount)
+        public PartitionDataFromMasterData(IDistributionData distributionData, int partitionCount)
         {
-            _masterData = masterData;
+            _distributionData = distributionData;
             _partitionCount = partitionCount;
         }
 
@@ -28,6 +28,6 @@ namespace Masterarbeit.Classes.Partition
             PartitionData().SelectFeaturesFromPartitions(partitionIds, maxSelected, global);
 
         private IPartitionData PartitionData() =>
-            _partitionData ??= new PartitionDataFromHospitalData(new HospitalDataFromMasterData(_masterData), _masterData, _partitionCount);
+            _partitionData ??= new PartitionDataFromHospitalData(new HospitalDataFromMasterData(_distributionData), _distributionData, _partitionCount);
     }
 }

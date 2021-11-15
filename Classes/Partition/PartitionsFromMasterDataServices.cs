@@ -9,12 +9,12 @@ namespace Masterarbeit.Classes.Partition
 {
     public class PartitionsFromMasterDataServices : IEnumerable<IPartition>
     {
-        private readonly IEnumerable<IMasterDataService> _masterDataServices;
+        private readonly IEnumerable<IDistributionDataService> _masterDataServices;
         private readonly int _count;
         private readonly bool _global;
         private IEnumerable<IPartition> _partitions;
 
-        public PartitionsFromMasterDataServices(IEnumerable<IMasterDataService> masterDataServices, int count,
+        public PartitionsFromMasterDataServices(IEnumerable<IDistributionDataService> masterDataServices, int count,
             bool global)
         {
             _masterDataServices = masterDataServices;

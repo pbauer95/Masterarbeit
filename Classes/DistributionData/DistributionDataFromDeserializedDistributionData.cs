@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Masterarbeit.Classes.MasterData.Xml;
+using Masterarbeit.Classes.DistributionData.Xml;
 using Masterarbeit.Interfaces.MasterData;
 
-namespace Masterarbeit.Classes.MasterData
+namespace Masterarbeit.Classes.DistributionData
 {
     public class DistributionDataFromDeserializedDistributionData : IDistributionData
     {

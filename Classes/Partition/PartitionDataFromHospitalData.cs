@@ -13,7 +13,7 @@ namespace Masterarbeit.Classes.Partition
     public class PartitionDataFromHospitalData : IPartitionData
     {
         private readonly IHospitalData _hospitalData;
-        private readonly IMasterData _masterData;
+        private readonly IDistributionData _distributionData;
         private readonly int _partitionCount;
         private IEnumerable<IPartition> _opsPartitions;
         private IEnumerable<IPartition> _drgPartitions;
@@ -21,10 +21,10 @@ namespace Masterarbeit.Classes.Partition
         private IEnumerable<IPartition> _mdcPartitions;
         private IEnumerable<IPartition> _globalPartitions;
 
-        public PartitionDataFromHospitalData(IHospitalData hospitalData, IMasterData masterData, int partitionCount)
+        public PartitionDataFromHospitalData(IHospitalData hospitalData, IDistributionData distributionData, int partitionCount)
         {
             _hospitalData = hospitalData;
-            _masterData = masterData;
+            _distributionData = distributionData;
             _partitionCount = partitionCount;
         }
 
@@ -43,22 +43,22 @@ namespace Masterarbeit.Classes.Partition
         }
 
         private IEnumerable<IPartition> CalculatedGlobalPartitions() =>
-            _globalPartitions ??= new PartitionsFromServices(_hospitalData.Services, _masterData.Services, _partitionCount, true);
+            _globalPartitions ??= new PartitionsFromServices(_hospitalData.Services, _distributionData.Services, _partitionCount, true);
 
         private IEnumerable<IPartition> CalculatedOpsPartitions() =>
-            _opsPartitions ??= new PartitionsFromServices(_hospitalData.Services.Where(x => x.Type == IService.ServiceType.Ops), _masterData.Services,
+            _opsPartitions ??= new PartitionsFromServices(_hospitalData.Services.Where(x => x.Type == IService.ServiceType.Ops), _distributionData.Services,
                 _partitionCount, false);
 
         private IEnumerable<IPartition> CalculatedDrgPartitions() =>
-            _drgPartitions ??= new PartitionsFromServices(_hospitalData.Services.Where(x => x.Type == IService.ServiceType.Drg), _masterData.Services,
+            _drgPartitions ??= new PartitionsFromServices(_hospitalData.Services.Where(x => x.Type == IService.ServiceType.Drg), _distributionData.Services,
                 _partitionCount, false);
 
         private IEnumerable<IPartition> CalculatedMlgPartitions() =>
-            _mlgPartitions ??= new PartitionsFromServices(_hospitalData.Services.Where(x => x.Type == IService.ServiceType.Mlg), _masterData.Services,
+            _mlgPartitions ??= new PartitionsFromServices(_hospitalData.Services.Where(x => x.Type == IService.ServiceType.Mlg), _distributionData.Services,
                 _partitionCount, false);
 
         private IEnumerable<IPartition> CalculatedMdcPartitions() =>
-            _mdcPartitions ??= new PartitionsFromServices(_hospitalData.Services.Where(x => x.Type == IService.ServiceType.Mdc), _masterData.Services,
+            _mdcPartitions ??= new PartitionsFromServices(_hospitalData.Services.Where(x => x.Type == IService.ServiceType.Mdc), _distributionData.Services,
                 _partitionCount, false);
 
         private IEnumerable<IFeature> SelectedFeaturesFromGlobalPartitions(IList<int> partitionIds,
