@@ -6,18 +6,16 @@ using Masterarbeit.Interfaces.Service;
 
 namespace Masterarbeit.Classes.DistributionService
 {
-    public static class DistributionService
+    public class DistributionService
     {
-        public static IEnumerable<IPartition> AssignServicesToPartitions(IList<IService> services, IList<IDistributionDataService> distributionData,
-            int count, bool global)
+        public IEnumerable<IPartition> AssignServicesToPartitions(IList<IService> services, IList<IDistributionDataService> distributionData,
+            int count)
         {
             var existingServices = services.Count != distributionData.Count
                 ? distributionData.Where(x => services.Any(y => y.Type == x.Type && y.Code == x.Code)).ToList()
                 : distributionData.ToList();
 
-            existingServices = global
-                ? existingServices.OrderBy(x => x.ShareGlobal).ToList()
-                : existingServices.OrderBy(x => x.ShareInType).ToList();
+            existingServices = existingServices.OrderBy(x => x.ShareInType).ToList();
 
             if (count > existingServices.Count)
                 count = existingServices.Count;

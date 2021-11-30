@@ -5,11 +5,11 @@ using Masterarbeit.Interfaces.Service;
 
 namespace Masterarbeit.Classes.HospitalData
 {
-    public class HospitalDataFromMasterData : IHospitalData
+    public class HospitalDataFromDistributionData : IHospitalData
     {
         private readonly IDistributionData _distributionData;
 
-        public HospitalDataFromMasterData(IDistributionData distributionData)
+        public HospitalDataFromDistributionData(IDistributionData distributionData)
         {
             _distributionData = distributionData;
         }

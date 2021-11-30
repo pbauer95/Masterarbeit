@@ -67,3 +67,9 @@ Number of added Features: 4665
 Number of Attribute Features: 37359
 Total Number of Features: 45880
 Duration generating partial Feature Selection: 36282 ms
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 999999

@@ -9,6 +9,7 @@ using CommandLine;
 using Masterarbeit.Classes.Attribute;
 using Masterarbeit.Classes.CommandLineOptions;
 using Masterarbeit.Classes.DistributionData;
+using Masterarbeit.Classes.DistributionService;
 using Masterarbeit.Classes.Feature;
 using Masterarbeit.Classes.FeatureModel;
 using Masterarbeit.Classes.HospitalData;
@@ -38,17 +39,18 @@ namespace Masterarbeit
                         Logger.StartLogEntry();
                         Logger.LogParameterValue(options.PartitionCount, options.CombinedPartition, options.MaxSelectedFeatures);
 
-                        var masterData = new DistributionDataFromXml(options.DistributionDataPath);
+                        var distributionData = new DistributionDataFromXml(options.DistributionDataPath);
 
-                        Logger.LogInitialFeatureCount(masterData.Services.Sum(x => x.MasterDataFabs.Count()));
+                        Logger.LogInitialFeatureCount(distributionData.Services.Sum(x => x.MasterDataFabs.Count()));
 
                         IPartitionData partitionData = options.HospitalData == "-1"
-                            ? new PartitionDataFromMasterData(masterData, options.PartitionCount)
-                            : new PartitionDataFromHospitalData(new HospitalDataFromXml(options.HospitalData), masterData, options.PartitionCount);
+                            ? new PartitionDataFromDistributionData(distributionData, options.PartitionCount,
+                                new DistributionService().AssignServicesToPartitions)
+                            : new PartitionDataFromHospitalData(new HospitalDataFromXml(options.HospitalData), distributionData,
+                                options.PartitionCount, new DistributionService().AssignServicesToPartitions);
 
                         var selectedFeatures =
-                            partitionData.SelectFeaturesFromPartitions(options.CombinedPartition, options.MaxSelectedFeatures,
-                                options.Global).ToList();
+                            partitionData.SelectFeaturesFromPartitions(options.CombinedPartition, options.MaxSelectedFeatures).ToList();
 
                         var selectedFeatureCount = selectedFeatures.Sum(x => x.Service.Fabs.Count());
                         Logger.LogSelectedFeaturesCount(selectedFeatureCount);

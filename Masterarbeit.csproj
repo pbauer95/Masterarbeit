@@ -9,6 +9,7 @@
       <Compile Remove="Interfaces\IValuesSchemes.cs" />
       <Compile Remove="Classes\Partition\GlobalPartitionsFromMasterDataServices.cs" />
       <Compile Remove="Interfaces\BaseData\IBaseDataService.cs" />
+      <Compile Remove="Classes\Partition\PartitionsFromMasterDataServices.cs" />
     </ItemGroup>
 
     <ItemGroup>

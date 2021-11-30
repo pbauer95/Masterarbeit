@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "DqHv2DJJuMI5b6Fo+r8vWcQCuDu6co3FXpivFsamFYYu9m85De6Z4GrLRusqrbJtdKR9S0zYN+mHYdv00NgNXQ==",
+  "dgSpecHash": "HtBvI5VId35ERZi0J519D/rXrJ423VdIreYtrd6ehdNJyzIfSC/WIACmRktp/TEpxMCreFJBv3b0+UabyidqwQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\peter\\RiderProjects\\Masterarbeit\\Masterarbeit\\Masterarbeit.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\peter\\.nuget\\packages\\commandlineparser\\2.8.0\\commandlineparser.2.8.0.nupkg.sha512"
+    "C:\\Users\\peter\\.nuget\\packages\\commandlineparser\\2.8.0\\commandlineparser.2.8.0.nupkg.sha512",
+    "C:\\Users\\peter\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
   ],
   "logs": []
 }

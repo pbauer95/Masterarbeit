@@ -15,90 +15,47 @@ namespace Masterarbeit.Classes.Partition
         private readonly IHospitalData _hospitalData;
         private readonly IDistributionData _distributionData;
         private readonly int _partitionCount;
+
         private IEnumerable<IPartition> _opsPartitions;
         private IEnumerable<IPartition> _drgPartitions;
         private IEnumerable<IPartition> _mlgPartitions;
         private IEnumerable<IPartition> _mdcPartitions;
-        private IEnumerable<IPartition> _globalPartitions;
 
-        public PartitionDataFromHospitalData(IHospitalData hospitalData, IDistributionData distributionData, int partitionCount)
+        public PartitionDataFromHospitalData(IHospitalData hospitalData, IDistributionData distributionData, int partitionCount,
+            Func<IList<IService>, IList<IDistributionDataService>, int, IEnumerable<IPartition>> partitionFunction)
         {
             _hospitalData = hospitalData;
             _distributionData = distributionData;
             _partitionCount = partitionCount;
+            PartitionFunction = partitionFunction;
         }
 
-        public IEnumerable<IPartition> GlobalPartitions => CalculatedGlobalPartitions();
         public IEnumerable<IPartition> OpsPartitions => CalculatedOpsPartitions();
         public IEnumerable<IPartition> DrgPartitions => CalculatedDrgPartitions();
         public IEnumerable<IPartition> MlgPartitions => CalculatedMlgPartitions();
         public IEnumerable<IPartition> MdcPartitions => CalculatedMdcPartitions();
+        public Func<IList<IService>, IList<IDistributionDataService>, int, IEnumerable<IPartition>> PartitionFunction { get; }
 
-        public IEnumerable<IFeature> SelectFeaturesFromPartitions(IEnumerable<int> partitionIds, int maxSelected,
-            bool global)
+        public IEnumerable<IFeature> SelectFeaturesFromPartitions(IEnumerable<int> partitionIds, int maxSelected)
         {
-            return global
-                ? SelectedFeaturesFromGlobalPartitions(partitionIds.ToList(), maxSelected)
-                : SelectedFeaturesFromTypePartitions(partitionIds.ToList(), maxSelected);
+            return SelectedFeaturesFromTypePartitions(partitionIds.ToList(), maxSelected);
         }
-
-        private IEnumerable<IPartition> CalculatedGlobalPartitions() =>
-            _globalPartitions ??= new PartitionsFromServices(_hospitalData.Services, _distributionData.Services, _partitionCount, true);
 
         private IEnumerable<IPartition> CalculatedOpsPartitions() =>
-            _opsPartitions ??= new PartitionsFromServices(_hospitalData.Services.Where(x => x.Type == IService.ServiceType.Ops), _distributionData.Services,
-                _partitionCount, false);
+            _opsPartitions ??= new PartitionsFromServices(_hospitalData.Services.Where(x => x.Type == IService.ServiceType.Ops),
+                _distributionData.Services, _partitionCount, PartitionFunction);
 
         private IEnumerable<IPartition> CalculatedDrgPartitions() =>
-            _drgPartitions ??= new PartitionsFromServices(_hospitalData.Services.Where(x => x.Type == IService.ServiceType.Drg), _distributionData.Services,
-                _partitionCount, false);
+            _drgPartitions ??= new PartitionsFromServices(_hospitalData.Services.Where(x => x.Type == IService.ServiceType.Drg),
+                _distributionData.Services, _partitionCount, PartitionFunction);
 
         private IEnumerable<IPartition> CalculatedMlgPartitions() =>
-            _mlgPartitions ??= new PartitionsFromServices(_hospitalData.Services.Where(x => x.Type == IService.ServiceType.Mlg), _distributionData.Services,
-                _partitionCount, false);
+            _mlgPartitions ??= new PartitionsFromServices(_hospitalData.Services.Where(x => x.Type == IService.ServiceType.Mlg),
+                _distributionData.Services, _partitionCount, PartitionFunction);
 
         private IEnumerable<IPartition> CalculatedMdcPartitions() =>
-            _mdcPartitions ??= new PartitionsFromServices(_hospitalData.Services.Where(x => x.Type == IService.ServiceType.Mdc), _distributionData.Services,
-                _partitionCount, false);
-
-        private IEnumerable<IFeature> SelectedFeaturesFromGlobalPartitions(IList<int> partitionIds,
-            int maxSelected)
-        {
-            if (partitionIds.Any(x => x >= _partitionCount))
-                throw new ArgumentOutOfRangeException("Partition nicht vorhanden");
-
-            var selectedFeatures = new List<IFeature>();
-
-            var index = 0;
-            var selectionCount = 0;
-
-            while (selectionCount < maxSelected && partitionIds.Any())
-            {
-                var partition = GlobalPartitions.ElementAt(partitionIds[index]);
-
-                if (!partition.Services.Any())
-                {
-                    partitionIds.RemoveAt(index);
-                    continue;
-                }
-
-                var service = RandomSelectedService(partition);
-                if (selectionCount + service.Fabs.Count() < maxSelected)
-                {
-                    selectedFeatures.Add(new FeatureFromService(service));
-                    selectionCount += service.Fabs.Count();
-                }
-
-                partition.Services.Remove(service);
-
-                index++;
-
-                if (index >= partitionIds.Count)
-                    index = 0;
-            }
-
-            return selectedFeatures;
-        }
+            _mdcPartitions ??= new PartitionsFromServices(_hospitalData.Services.Where(x => x.Type == IService.ServiceType.Mdc),
+                _distributionData.Services, _partitionCount, PartitionFunction);
 
         private IEnumerable<IFeature> SelectedFeaturesFromTypePartitions(IList<int> partitionIds, int maxSelected)
         {
@@ -206,7 +163,7 @@ namespace Masterarbeit.Classes.Partition
 
             var transformedIndex = (int)Math.Round(ratio * index, 0);
 
-            return transformedIndex >= MdcPartitions.Count() ? MdcPartitions.Count()-1 : transformedIndex;
+            return transformedIndex >= MdcPartitions.Count() ? MdcPartitions.Count() - 1 : transformedIndex;
         }
     }
 }

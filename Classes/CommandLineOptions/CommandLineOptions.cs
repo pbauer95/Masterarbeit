@@ -23,9 +23,6 @@ namespace Masterarbeit.Classes.CommandLineOptions
         [Option(shortName: 'm', longName: "MaxSelectedFeatures", Required = false, HelpText = "Maximum Number of Features selected for the Feature Model", Default = 999999)]
         public int MaxSelectedFeatures { get; set; }
 
-        [Option(shortName: 'g', longName: "Global", Required = false, HelpText = "True = Create Global Partitions; False = Create Partitions for each Type", Default = false)]
-        public bool Global { get; set; }
-        
         [Option(shortName: 't', longName: "t-wise-interactions", Required = false, HelpText = "Strength of the generated sample", Default = 2)]
         public int Interactions { get; set; }
     }
