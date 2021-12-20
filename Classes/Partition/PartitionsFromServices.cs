@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Masterarbeit.Interfaces.MasterData;
+using Masterarbeit.Interfaces.DistributionData;
 using Masterarbeit.Interfaces.Partition;
 using Masterarbeit.Interfaces.Service;
 

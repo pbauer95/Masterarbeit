@@ -20,7 +20,7 @@ namespace Masterarbeit.Classes.CommandLineOptions
         [Option(shortName: 'c', longName: "CombinedPartitions", Required = false, HelpText = "Ids of Partitions to be Combined", Default = new[] {0, 24, 49, 74, 99})]
         public IEnumerable<int> CombinedPartition { get; set; }
 
-        [Option(shortName: 'm', longName: "MaxSelectedFeatures", Required = false, HelpText = "Maximum Number of Features selected for the Feature Model", Default = 999999)]
+        [Option(shortName: 'm', longName: "MaxSelectedFeatures", Required = false, HelpText = "Maximum Number of Features selected for the Feature Model", Default = 150)]
         public int MaxSelectedFeatures { get; set; }
 
         [Option(shortName: 't', longName: "t-wise-interactions", Required = false, HelpText = "Strength of the generated sample", Default = 2)]

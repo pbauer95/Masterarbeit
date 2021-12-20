@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Masterarbeit.Classes.DistributionData.Xml;
-using Masterarbeit.Interfaces.MasterData;
+using Masterarbeit.Interfaces.DistributionData;
 
 namespace Masterarbeit.Classes.DistributionData
 {

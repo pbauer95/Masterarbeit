@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using Masterarbeit.Classes.DistributionData.Xml;
+using Masterarbeit.Interfaces.DistributionData;
 using Masterarbeit.Interfaces.Fab;
-using Masterarbeit.Interfaces.MasterData;
 using Masterarbeit.Interfaces.Service;
 
 namespace Masterarbeit.Classes.DistributionData
@@ -28,11 +28,11 @@ namespace Masterarbeit.Classes.DistributionData
         };
 
         public string Code => _distributionDataServiceXml.Code.Replace(" ", String.Empty).Replace("-", String.Empty).Replace(",", String.Empty);
-        public IEnumerable<IFab> Fabs => MasterDataFabs;
+        public IEnumerable<IFab> Fabs => DistributionDataFabs;
         public decimal ShareGlobal => _distributionDataServiceXml.ShareGlobal;
         public decimal ShareInType => _distributionDataServiceXml.ShareInType;
 
-        public IEnumerable<IDistributionDataFab> MasterDataFabs => _fabs ??= _distributionDataServiceXml.MasterDataFabs
+        public IEnumerable<IDistributionDataFab> DistributionDataFabs => _fabs ??= _distributionDataServiceXml.MasterDataFabs
             .Select(x => new DistributionDataFabFromDeserializedDistributionDataService(x));
     }
 }

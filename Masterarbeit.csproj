@@ -10,6 +10,11 @@
       <Compile Remove="Classes\Partition\GlobalPartitionsFromMasterDataServices.cs" />
       <Compile Remove="Interfaces\BaseData\IBaseDataService.cs" />
       <Compile Remove="Classes\Partition\PartitionsFromMasterDataServices.cs" />
+      <Compile Remove="Classes\Feature\FeaturesWithFabsAndAttributes.cs" />
+      <Compile Remove="Classes\Feature\FeatureFromService.cs" />
+      <Compile Remove="Classes\Partition\PartitionDataFromDistributionData.cs" />
+      <Compile Remove="Classes\Partition\PartitionDataFromHospitalData.cs" />
+      <Compile Remove="Classes\Feature\FeatureWithAttributes.cs" />
     </ItemGroup>
 
     <ItemGroup>

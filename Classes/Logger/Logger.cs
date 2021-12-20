@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using Masterarbeit.Interfaces.Feature;
 
 namespace Masterarbeit.Classes.Logger
 {
@@ -9,60 +10,63 @@ namespace Masterarbeit.Classes.Logger
     {
         public static void StartLogEntry()
         {
-            using StreamWriter w = File.AppendText("log.txt");
+            using var w = File.AppendText("log.txt");
             w.WriteLine("=============================================");
             w.WriteLine("Log Entry Start");
         }
 
-        public static void LogParameterValue(int partitionCount, IEnumerable<int> combinedPartitions, int maxSelectedFeatures)
+        public static void LogParameterValue(CommandLineOptions.CommandLineOptions options)
         {
-            var partitions = combinedPartitions as int[] ?? combinedPartitions.ToArray();
-            using StreamWriter w = File.AppendText("log.txt");
-            w.WriteLine($"Number of Partitions: {partitionCount}");
-            w.WriteLine($"Number of combined Partitions: {partitions.Count()}");
+            var partitions = options.CombinedPartition as int[] ?? options.CombinedPartition.ToArray();
+            using var w = File.AppendText("log.txt");
+            w.WriteLine($"Number of Partitions: {options.PartitionCount}");
+            w.WriteLine($"Number of combined Partitions: {partitions.Length}");
             w.WriteLine($"Combined Partitions: {string.Join(",", partitions)}");
-            w.WriteLine($"Max. Number of selected Features: {maxSelectedFeatures}");
+            w.WriteLine($"Max. Number of selected Features: {options.MaxSelectedFeatures}");
         }
 
         public static void LogInitialFeatureCount(int initialFeatureCount)
         {
-            using StreamWriter w = File.AppendText("log.txt");
+            using var w = File.AppendText("log.txt");
             w.WriteLine($"Number of Initial Features: {initialFeatureCount}");
         }
 
         public static void LogSelectedFeaturesCount(int selectedFeaturesCount)
         {
-            using StreamWriter w = File.AppendText("log.txt");
+            using var w = File.AppendText("log.txt");
             w.WriteLine($"Number of selected Features: {selectedFeaturesCount}");
         }
 
         public static void LogFilledUpFeatures(int featureCount)
         {
-            using StreamWriter w = File.AppendText("log.txt");
+            using var w = File.AppendText("log.txt");
             w.WriteLine($"Number of added Features: {featureCount}");
         }
 
-        public static void LogAttributeFeatures(int attributeFeaturesCount)
+        public static void LogAttributeFeatures(IEnumerable<IFeature> features)
         {
-            using StreamWriter w = File.AppendText("log.txt");
-            w.WriteLine($"Number of Attribute Features: {attributeFeaturesCount}");
+            var attributeFeaturesCount = features.Count(x => x.Attributes != null);
+
+            using var w = File.AppendText("log.txt");
+            w.WriteLine($"Number of Attribute Features: {(attributeFeaturesCount - 90) * 9}");
         }
 
-        public static void LogTotalCountFeatures(int totalCount)
+        public static void LogTotalCountFeatures(IEnumerable<IFeature> features)
         {
-            using StreamWriter w = File.AppendText("log.txt");
-            w.WriteLine($"Total Number of Features: {totalCount}");
+            using var w = File.AppendText("log.txt");
+            w.WriteLine($"Total Number of Features: {features.Count()}");
         }
 
         public static void LogDurationPartialFeatureSelection(TimeSpan timeSpan)
         {
-            using StreamWriter w = File.AppendText("log.txt");
-            w.WriteLine($"Duration generating partial Feature Selection: {Convert.ToInt32(timeSpan.TotalMilliseconds)} ms");
+            using var w = File.AppendText("log.txt");
+            w.WriteLine(
+                $"Duration generating partial Feature Selection: {Convert.ToInt32(timeSpan.TotalMilliseconds)} ms");
         }
 
         public static void LogDurationSampleGeneration(TimeSpan timeSpan)
         {
-            using StreamWriter w = File.AppendText("log.txt");
+            using var w = File.AppendText("log.txt");
             w.WriteLine($"Duration generating 2-wise Samples: {Convert.ToInt32(timeSpan.TotalMilliseconds)} ms");
         }
     }

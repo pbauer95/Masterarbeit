@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
@@ -9,22 +8,18 @@ using CommandLine;
 using Masterarbeit.Classes.Attribute;
 using Masterarbeit.Classes.CommandLineOptions;
 using Masterarbeit.Classes.DistributionData;
-using Masterarbeit.Classes.DistributionService;
 using Masterarbeit.Classes.Feature;
 using Masterarbeit.Classes.FeatureModel;
 using Masterarbeit.Classes.HospitalData;
 using Masterarbeit.Classes.Logger;
 using Masterarbeit.Classes.Partition;
-using Masterarbeit.Interfaces.Fab;
-using Masterarbeit.Interfaces.Feature;
+using Masterarbeit.Interfaces.FeatureModel;
 using Masterarbeit.Interfaces.Partition;
 
 namespace Masterarbeit
 {
     class Program
     {
-        private const int CoreFeatures = 9;
-
         private static DateTime _startTime;
 
         static int Main(string[] args)
@@ -37,38 +32,42 @@ namespace Masterarbeit
                         _startTime = DateTime.UtcNow;
 
                         Logger.StartLogEntry();
-                        Logger.LogParameterValue(options.PartitionCount, options.CombinedPartition, options.MaxSelectedFeatures);
+                        Logger.LogParameterValue(options);
 
                         var distributionData = new DistributionDataFromXml(options.DistributionDataPath);
 
-                        Logger.LogInitialFeatureCount(distributionData.Services.Sum(x => x.MasterDataFabs.Count()));
+                        var attributes = new AttributesFromXml(options.AttributeDataPath);
 
-                        IPartitionData partitionData = options.HospitalData == "-1"
-                            ? new PartitionDataFromDistributionData(distributionData, options.PartitionCount,
-                                new DistributionService().AssignServicesToPartitions)
-                            : new PartitionDataFromHospitalData(new HospitalDataFromXml(options.HospitalData), distributionData,
-                                options.PartitionCount, new DistributionService().AssignServicesToPartitions);
+                        IFeatureModel unreducedFeatureModel = options.HospitalData == "-1"
+                            ? new FeatureModelFromDistributionData(distributionData, attributes)
+                            : new FeatureModelFromHospitalData(new HospitalDataFromXml(options.HospitalData),
+                                attributes);
+
+                        Logger.LogInitialFeatureCount(unreducedFeatureModel.Features.Count());
+
+                        var classifiedFeatures =
+                            new ClassifiedFeatures(unreducedFeatureModel.Features, distributionData);
+
+                        IPartitionData partitionData =
+                            new PartitionDataFromFeatures(classifiedFeatures, options.PartitionCount);
 
                         var selectedFeatures =
-                            partitionData.SelectFeaturesFromPartitions(options.CombinedPartition, options.MaxSelectedFeatures).ToList();
+                            partitionData.SelectFeaturesFromPartitions(options.CombinedPartition.ToList(), options
+                                .MaxSelectedFeatures).ToList();
 
-                        var selectedFeatureCount = selectedFeatures.Sum(x => x.Service.Fabs.Count());
-                        Logger.LogSelectedFeaturesCount(selectedFeatureCount);
+                        Logger.LogSelectedFeaturesCount(selectedFeatures.Count);
 
-                        var filledUpFeatureCount = CoreFeatures + selectedFeatures.Count * 3 +
-                                                   selectedFeatures.Sum(x => x.Service.Fabs.Count()) + FabsCount(selectedFeatures) * 2;
-                        Logger.LogFilledUpFeatures(filledUpFeatureCount);
+                        var missingRequiredFeatures =
+                            new MissingRequiredFeatures(selectedFeatures, unreducedFeatureModel).ToList();
 
-                        var featuresWithAttributes =
-                            new FeaturesWithFabsAndAttributes(selectedFeatures, new AttributesFromXml(options.AttributeDataPath));
+                        Logger.LogFilledUpFeatures(missingRequiredFeatures.Count);
 
-                        var attributeFeatureCount = selectedFeatures.Count * 9 + selectedFeatures.Sum(x => x.Service.Fabs.Count()) * 9 +
-                                                    FabsCount(selectedFeatures) * 9;
-                        Logger.LogAttributeFeatures(attributeFeatureCount);
+                        var combinedFeatures = selectedFeatures.Concat(missingRequiredFeatures).ToList();
 
-                        var featureModel = new FeatureModelFromFeatures(featuresWithAttributes);
+                        Logger.LogTotalCountFeatures(combinedFeatures);
+                        Logger.LogAttributeFeatures(combinedFeatures);
 
-                        Logger.LogTotalCountFeatures(selectedFeatureCount + filledUpFeatureCount + attributeFeatureCount);
+                        var featureModel = new FeatureModelFromFeatures(combinedFeatures);
 
                         GenerateSample(featureModel.ToXml(), options.Interactions);
 
@@ -77,9 +76,10 @@ namespace Masterarbeit
                     catch (Exception e)
                     {
                         Console.WriteLine(e.Message);
+                        Console.WriteLine(e.ToString());
                         return -3;
                     }
-                }, errs => -1);
+                }, _ => -1);
         }
 
         private static void GenerateSample(XDocument featureDiagram, int tWise)
@@ -108,21 +108,6 @@ namespace Masterarbeit
             myProcess.WaitForExit();
 
             Logger.LogDurationSampleGeneration(DateTime.UtcNow - startTimeSampleGeneration);
-        }
-
-        private static int FabsCount(IEnumerable<IFeature> features)
-        {
-            var fabs = new List<IFab>();
-            foreach (var feature in features)
-            {
-                foreach (var fab in feature.Service.Fabs)
-                {
-                    if (!fabs.Any(x => x.Name.Equals(fab.Name)))
-                        fabs.Add(fab);
-                }
-            }
-
-            return fabs.Count;
         }
     }
 }

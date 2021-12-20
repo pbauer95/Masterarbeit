@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using Masterarbeit.Interfaces.BaseData;
-using Masterarbeit.Interfaces.MasterData;
+using Masterarbeit.Interfaces.DistributionData;
 using Masterarbeit.Interfaces.Service;
 
 namespace Masterarbeit.Classes.HospitalData

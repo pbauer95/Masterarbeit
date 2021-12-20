@@ -1,6 +1,6 @@
 ﻿using System;
 using Masterarbeit.Classes.DistributionData.Xml;
-using Masterarbeit.Interfaces.MasterData;
+using Masterarbeit.Interfaces.DistributionData;
 
 namespace Masterarbeit.Classes.DistributionData
 {

@@ -73,3 +73,856 @@ Number of Partitions: 100
 Number of combined Partitions: 5
 Combined Partitions: 0,24,49,74,99
 Max. Number of selected Features: 999999
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 72205
+Number of selected Features: 99
+Number of added Features: 237
+Number of Attribute Features: 1404
+Total Number of Features: 1740
+Duration generating partial Feature Selection: 4859 ms
+Duration generating 2-wise Samples: 38 ms
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 72205
+Number of selected Features: 99
+Number of added Features: 236
+Number of Attribute Features: 1413
+Total Number of Features: 1748
+Duration generating partial Feature Selection: 4671 ms
+=============================================
+Log Entry Start
+Number of Partitions: 1
+Number of combined Partitions: 1
+Combined Partitions: 0
+Max. Number of selected Features: 999999
+Number of Initial Features: 72205
+Number of selected Features: 72205
+Number of added Features: 85220
+Number of Attribute Features: 689139
+Total Number of Features: 846564
+Duration generating partial Feature Selection: 5363 ms
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 72205
+Number of selected Features: 99
+Number of added Features: 232
+Number of Attribute Features: 1395
+Total Number of Features: 1726
+Duration generating partial Feature Selection: 5113 ms
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 305926
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 305926
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 305926
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 305926
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 305926
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 305926
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 305926
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 305926
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 305926
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 305926
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 305926
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 305926
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 305926
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 305926
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 305926
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 305926
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 305926
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 305926
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 305926
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 305926
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 305926
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 305926
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 305926
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 305926
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 305926
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 305926
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 305926
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 305926
+Number of selected Features: 100
+=============================================
+Log Entry Start
+Number of Partitions: 2000
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 305926
+Number of selected Features: 100
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+Number of added Features: 2174
+Total Number of Features: System.Collections.Generic.List`1[Masterarbeit.Interfaces.Feature.IFeature]
+Number of Attribute Features: 5002
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+Number of added Features: 2215
+Total Number of Features: System.Collections.Generic.List`1[Masterarbeit.Interfaces.Feature.IFeature]
+Number of Attribute Features: 5026
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+Number of added Features: 2172
+Total Number of Features: System.Collections.Generic.List`1[Masterarbeit.Interfaces.Feature.IFeature]
+Number of Attribute Features: 5000
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+Number of added Features: 2181
+Total Number of Features: System.Collections.Generic.List`1[Masterarbeit.Interfaces.Feature.IFeature]
+Number of Attribute Features: 4958
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+Number of added Features: 2227
+Total Number of Features: System.Collections.Generic.List`1[Masterarbeit.Interfaces.Feature.IFeature]
+Number of Attribute Features: 5048
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+Number of added Features: 2238
+Total Number of Features: System.Collections.Generic.List`1[Masterarbeit.Interfaces.Feature.IFeature]
+Number of Attribute Features: 4940
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+Number of added Features: 2375
+Total Number of Features: System.Collections.Generic.List`1[Masterarbeit.Interfaces.Feature.IFeature]
+Number of Attribute Features: 5006
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+Number of added Features: 2441
+Total Number of Features: System.Collections.Generic.List`1[Masterarbeit.Interfaces.Feature.IFeature]
+Number of Attribute Features: 4984
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+Number of added Features: 2501
+Total Number of Features: System.Collections.Generic.List`1[Masterarbeit.Interfaces.Feature.IFeature]
+Number of Attribute Features: 5104
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+Number of added Features: 2450
+Total Number of Features: System.Collections.Generic.List`1[Masterarbeit.Interfaces.Feature.IFeature]
+Number of Attribute Features: 5064
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+Number of added Features: 2442
+Total Number of Features: System.Collections.Generic.List`1[Masterarbeit.Interfaces.Feature.IFeature]
+Number of Attribute Features: 5088
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+Number of added Features: 2460
+Total Number of Features: System.Collections.Generic.List`1[Masterarbeit.Interfaces.Feature.IFeature]
+Number of Attribute Features: 5044
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+Number of added Features: 2489
+Total Number of Features: System.Collections.Generic.List`1[Masterarbeit.Interfaces.Feature.IFeature]
+Number of Attribute Features: 5050
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 420
+Number of added Features: 231
+Total Number of Features: System.Collections.Generic.List`1[Masterarbeit.Interfaces.Feature.IFeature]
+Number of Attribute Features: 430
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+Number of added Features: 2618
+Total Number of Features: System.Collections.Generic.List`1[Masterarbeit.Interfaces.Feature.IFeature]
+Number of Attribute Features: 5284
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+Number of added Features: 2636
+Total Number of Features: System.Collections.Generic.List`1[Masterarbeit.Interfaces.Feature.IFeature]
+Number of Attribute Features: 5294
+Duration generating partial Feature Selection: 24066 ms
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+Number of added Features: 2542
+Total Number of Features: System.Collections.Generic.List`1[Masterarbeit.Interfaces.Feature.IFeature]
+Number of Attribute Features: 5170
+Duration generating partial Feature Selection: 5302 ms
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+Number of added Features: 2612
+Total Number of Features: 4612
+Number of Attribute Features: 5260
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+Number of added Features: 2601
+Total Number of Features: 4601
+Number of Attribute Features: 5272
+Duration generating partial Feature Selection: 5444 ms
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+Number of added Features: 2857
+Total Number of Features: 4857
+Number of Attribute Features: 5748
+Duration generating partial Feature Selection: 6003 ms
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+Number of added Features: 2819
+Total Number of Features: 4819
+Number of Attribute Features: 5732
+Duration generating partial Feature Selection: 5654 ms
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305926
+Number of selected Features: 2000
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305924
+Number of selected Features: 2000
+Number of added Features: 2818
+Total Number of Features: 4818
+Number of Attribute Features: 5674
+Duration generating partial Feature Selection: 5759 ms
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305924
+Number of selected Features: 2000
+Number of added Features: 2908
+Total Number of Features: 4908
+Number of Attribute Features: 5698
+Duration generating partial Feature Selection: 5377 ms
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 2000
+Number of Initial Features: 305924
+Number of selected Features: 2000
+Number of added Features: 2834
+Total Number of Features: 4834
+Number of Attribute Features: 5744
+Duration generating partial Feature Selection: 5231 ms
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 305924
+Number of selected Features: 100
+Number of added Features: 481
+Total Number of Features: 581
+Number of Attribute Features: 776
+Duration generating partial Feature Selection: 1239 ms
+Duration generating 2-wise Samples: 61129 ms
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 305924
+Number of selected Features: 100
+Number of added Features: 491
+Total Number of Features: 591
+Number of Attribute Features: 1560
+Duration generating partial Feature Selection: 1206 ms
+Duration generating 2-wise Samples: 70653 ms
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 305924
+Number of selected Features: 100
+Number of added Features: 481
+Total Number of Features: 581
+Number of Attribute Features: 3501
+Duration generating partial Feature Selection: 1211 ms
+Duration generating 2-wise Samples: 65311 ms
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 305924
+Number of selected Features: 100
+Number of added Features: 505
+Total Number of Features: 605
+Number of Attribute Features: 3555
+Duration generating partial Feature Selection: 1224 ms
+Duration generating 2-wise Samples: 1886 ms
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 305924
+Number of selected Features: 100
+Number of added Features: 481
+Total Number of Features: 581
+Number of Attribute Features: 3537
+Duration generating partial Feature Selection: 1190 ms
+Duration generating 2-wise Samples: 67753 ms
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 100
+Number of Initial Features: 305924
+Number of selected Features: 100
+Number of added Features: 488
+Total Number of Features: 588
+Number of Attribute Features: 3528
+Duration generating partial Feature Selection: 1194 ms
+Duration generating 2-wise Samples: 66717 ms
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 200
+Number of Initial Features: 305924
+Number of selected Features: 200
+Number of added Features: 721
+Total Number of Features: 921
+Number of Attribute Features: 5076
+Duration generating partial Feature Selection: 1338 ms
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 150
+Number of Initial Features: 305924
+Number of selected Features: 150
+Number of added Features: 581
+Total Number of Features: 731
+Number of Attribute Features: 3510
+Duration generating partial Feature Selection: 1246 ms

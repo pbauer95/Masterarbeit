@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using Masterarbeit.Interfaces.DistributionData;
 using Masterarbeit.Interfaces.Feature;
-using Masterarbeit.Interfaces.MasterData;
 using Masterarbeit.Interfaces.Service;
 
 namespace Masterarbeit.Interfaces.Partition
@@ -12,9 +12,7 @@ namespace Masterarbeit.Interfaces.Partition
         IEnumerable<IPartition> DrgPartitions { get; }
         IEnumerable<IPartition> MlgPartitions { get; }
         IEnumerable<IPartition> MdcPartitions { get; }
-        
-        Func<IList<IService>, IList<IDistributionDataService>, int, IEnumerable<IPartition>> PartitionFunction { get; }
 
-        IEnumerable<IFeature> SelectFeaturesFromPartitions(IEnumerable<int> partitionIds, int maxSelected);
+        IEnumerable<IFeature> SelectFeaturesFromPartitions(IList<int> partitionIds, int maxSelected);
     }
 }

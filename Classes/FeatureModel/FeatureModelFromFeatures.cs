@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
+using System.IO;
 using System.Linq;
 using System.Xml.Linq;
 using Masterarbeit.Interfaces.Attribute;
-using Masterarbeit.Interfaces.Fab;
 using Masterarbeit.Interfaces.Feature;
 using Masterarbeit.Interfaces.FeatureModel;
 using Masterarbeit.Interfaces.Service;
 
 namespace Masterarbeit.Classes.FeatureModel
 {
-    public class FeatureModelFromFeatures : IFeatureModel
+    public class FeatureModelFromFeatures : IFeatureModelXml
     {
         private XDocument _xml;
 
@@ -27,96 +27,183 @@ namespace Masterarbeit.Classes.FeatureModel
             if (_xml != null)
                 return _xml;
 
-            var constraints = FeaturesToConstraints(Features);
+            //var constraints = FeaturesToConstraints(Features);
 
-            var opsLeistungen = FeaturesToXml(Features.Where(x => x.Service.Type == IService.ServiceType.Ops).ToList(), constraints);
-            var drgLeistungen = FeaturesToXml(Features.Where(x => x.Service.Type == IService.ServiceType.Drg).ToList(), constraints);
-            var mlgLeistungen = FeaturesToXml(Features.Where(x => x.Service.Type == IService.ServiceType.Mlg).ToList(), constraints);
-            var mdcLeistungen = FeaturesToXml(Features.Where(x => x.Service.Type == IService.ServiceType.Mdc).ToList(), constraints);
-            var fabLeistungen = FabFeaturesToXml(Features.ToList(), constraints);
+            var opsLeistungen =
+                FeaturesToXml(Features.Where(x => x.Service?.Type == IService.ServiceType.Ops).ToList());
+            var drgLeistungen =
+                FeaturesToXml(Features.Where(x => x.Service?.Type == IService.ServiceType.Drg).ToList());
+            var mlgLeistungen =
+                FeaturesToXml(Features.Where(x => x.Service?.Type == IService.ServiceType.Mlg).ToList());
+            var mdcLeistungen =
+                FeaturesToXml(Features.Where(x => x.Service?.Type == IService.ServiceType.Mdc).ToList());
+            var fabLeistungen =
+                FeaturesToXml(Features.Where(x => x.Service?.Type == IService.ServiceType.Fab).ToList());
 
-            var hospitalModifications = RandomXmlHospitalModifications();
+            //var hospitalModifications = RandomXmlHospitalModifications();
 
             _xml = new XDocument(
                 new XDeclaration("1.0", "UTF-8", "no"),
                 new XElement("featureModel",
                     new XElement("struct",
-                        new XElement("and", new XAttribute("abstract", true), new XAttribute("mandatory", true), new XAttribute("name", "PLATO"),
+                        new XElement("and", new XAttribute("abstract", true), new XAttribute("mandatory", true),
+                            new XAttribute("name", "PLATO"),
                             new XElement("and", new XAttribute("abstract", true), new XAttribute("mandatory", true),
                                 new XAttribute("name", "Jahresplanung"),
                                 new XElement("and", new XAttribute("abstract", true), new XAttribute("mandatory", true),
                                     new XAttribute("name", "Leistungen"),
-                                    new XElement("or", new XAttribute("abstract", true), new XAttribute("mandatory", true),
+                                    new XElement("or", new XAttribute("abstract", true),
+                                        new XAttribute("mandatory", true),
                                         new XAttribute("name", "LeistungenOps"),
                                         opsLeistungen),
-                                    new XElement("or", new XAttribute("abstract", true), new XAttribute("mandatory", true),
+                                    new XElement("or", new XAttribute("abstract", true),
+                                        new XAttribute("mandatory", true),
                                         new XAttribute("name", "LeistungenDrg"),
                                         drgLeistungen),
-                                    new XElement("or", new XAttribute("abstract", true), new XAttribute("mandatory", true),
+                                    new XElement("or", new XAttribute("abstract", true),
+                                        new XAttribute("mandatory", true),
                                         new XAttribute("name", "LeistungenMlg"),
                                         mlgLeistungen),
-                                    new XElement("or", new XAttribute("abstract", true), new XAttribute("mandatory", true),
+                                    new XElement("or", new XAttribute("abstract", true),
+                                        new XAttribute("mandatory", true),
                                         new XAttribute("name", "LeistungenMdc"),
                                         mdcLeistungen),
-                                    new XElement("or", new XAttribute("abstract", true), new XAttribute("mandatory", true),
+                                    new XElement("or", new XAttribute("abstract", true),
+                                        new XAttribute("mandatory", true),
                                         new XAttribute("name", "LeistungenFab"),
                                         fabLeistungen)
-                                ),
-                                new XElement("and", new XAttribute("name", "ModifikationKrankenhaus"), new XAttribute("abstract", true),
-                                    hospitalModifications)
+                                )
+                                // new XElement("and", new XAttribute("name", "ModifikationKrankenhaus"),
+                                //     new XAttribute("abstract", true),
+                                //     hospitalModifications)
                             )
                         )
-                    ),
-                    new XElement("constraints",
-                        constraints
                     )
+                    // new XElement("constraints",
+                    //     constraints
+                    // )
                 )
             );
 
             return _xml;
         }
 
-        private IEnumerable<XElement> FeaturesToXml(IList<IFeature> features, IList<XElement> constraints)
+        private IEnumerable<XElement> FeaturesToXml(IEnumerable<IFeature> features)
         {
-            return (from feature in features
-                let name = feature.Service.Type + feature.Service.Code
-                let actualServices = ActualServicesToXml(feature, constraints)
-                select new XElement("and", new XAttribute("name", name + "Global"),
-                    AttributesToXml(name + "Global", feature.Attributes.ToList(), constraints), actualServices,
-                    new XElement("feature", new XAttribute("name", name + "GlobalEinfrieren")))).ToList();
-        }
+            var groupedFeatures = features.GroupBy(x => x.Service.Code);
 
-        private IEnumerable<XElement> FabFeaturesToXml(IList<IFeature> features, IList<XElement> constraints)
-        {
-            var fabs = new List<IFab>();
-            foreach (var feature in features)
+            var xelements = new List<XElement>();
+
+            foreach (var group in groupedFeatures)
             {
-                foreach (var fab in feature.Service.Fabs)
-                {
-                    if (!fabs.Any(x => x.Name.Equals(fab.Name)))
-                        fabs.Add(fab);
-                }
+                xelements.Add(GroupedFeaturesToXml(group.ToList()));
             }
 
-            return (from fab in fabs
-                    let name = "FAB" + fab.Name
-                    select new XElement("and", new XAttribute("name", name),
-                        AttributesToXml(name, features.First().Attributes.ToList(), constraints), new XElement("feature",
-                            new XAttribute("name", name + "Einfrieren"))))
-                .ToList();
+            return xelements;
         }
 
-        private XElement ActualServicesToXml(IFeature feature, IList<XElement> constraints)
+        private XElement GroupedFeaturesToXml(IList<IFeature> features)
         {
-            var actualServicesXml = feature.Service.Fabs
-                .Select(fab => feature.Service.Type + feature.Service.Code + "Standort0" + "Fachabteilung" + fab.Name).Select(name =>
-                    new XElement("and", new XAttribute("name", name), AttributesToXml(name, feature.Attributes.ToList(), constraints),
-                        new XElement("feature", new XAttribute("name", name + "Einfrieren"))))
-                .ToList();
+            if (!features.Any(x => x.Global))
+                throw new InvalidDataException();
 
-            return new XElement("or", new XAttribute("abstract", true), new XAttribute("mandatory", true),
-                new XAttribute("name", feature.Service.Type + feature.Service.Code),
-                actualServicesXml);
+            var globalFreezeXElement = FreezeXElement(features.Where(x => x.Global));
+
+            var abstractionLevelXElement = AbstractionLevelXElement(features.Where(x => x.AbstractionLevel).ToList());
+            var serviceProvisionsXElement =
+                ServiceProvisionXElement(features.Where(x => !x.AbstractionLevel && !x.Global).ToList());
+
+            var globalFeature = features.Single(x => x.Global && !x.Freeze);
+
+            return new XElement("and", new XAttribute("name", globalFeature.Name), AttributesToXml(globalFeature),
+                globalFreezeXElement, abstractionLevelXElement, serviceProvisionsXElement);
+        }
+
+        private XElement ServiceProvisionXElement(IList<IFeature> features)
+        {
+            if (!features.Any())
+                return null;
+
+            var serviceProvisionXElements = ServiceProvisionXElements(features.Where(x => x.Fab != null).ToList());
+
+            try
+            {
+                var serviceProvisionsAbstractFeature = features.Single(x => x.Fab == null);
+                return new XElement("or", new XAttribute("abstract", true), new XAttribute("mandatory", true),
+                    new XAttribute("name", serviceProvisionsAbstractFeature.Name), serviceProvisionXElements);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
+        }
+
+        private IEnumerable<XElement> ServiceProvisionXElements(IList<IFeature> features)
+        {
+            if (!features.Any())
+                throw new InvalidDataException();
+
+            var fabGroupedServiceProvisionFeatures = features.GroupBy(x => x.Fab.Name);
+
+            var serviceProvisionXElements = new List<XElement>();
+
+            foreach (var fabGroup in fabGroupedServiceProvisionFeatures)
+            {
+                var freezeServiceProvisionXElement = FreezeXElement(fabGroup);
+
+                var serviceProvisionFeature = fabGroup.Single(x => !x.Freeze);
+
+                serviceProvisionXElements.Add(new XElement("and", new XAttribute("name", serviceProvisionFeature
+                    .Name), freezeServiceProvisionXElement, AttributesToXml(serviceProvisionFeature)));
+            }
+
+            return serviceProvisionXElements;
+        }
+
+        private XElement AbstractionLevelXElement(IList<IFeature> features)
+        {
+            if (!features.Any(x => x.AbstractionLevel))
+                return null;
+
+            var abstractionLevelXElements = AbstractionLevelXElements(features.Where(x => x.Fab != null).ToList());
+
+            var abstractionLevelAbstractFeature =
+                features.Single(x => !x.Global && x.AbstractionLevel && x.Fab == null);
+
+            return new XElement("or", new XAttribute("name", abstractionLevelAbstractFeature.Name), new XAttribute
+                ("abstract", true), abstractionLevelXElements);
+        }
+
+        private IEnumerable<XElement> AbstractionLevelXElements(IList<IFeature> features)
+        {
+            if (!features.Any())
+                throw new InvalidDataException();
+
+            var fabGroupedAbstractionLevelFeatures = features.GroupBy(x => x.Fab.Name);
+
+            var abstractionLevelXElements = new List<XElement>();
+
+            foreach (var fabGroup in fabGroupedAbstractionLevelFeatures)
+            {
+                var freezeAbstractionLevelXElement = FreezeXElement(fabGroup);
+
+                var abstractionLevelFeature = fabGroup.Single(x => !x.Freeze);
+
+                abstractionLevelXElements.Add(new XElement("and",
+                    new XAttribute("name", abstractionLevelFeature.Name), freezeAbstractionLevelXElement,
+                    AttributesToXml(abstractionLevelFeature)));
+            }
+
+            return abstractionLevelXElements;
+        }
+
+        private XElement FreezeXElement(IEnumerable<IFeature> features)
+        {
+            var freezeFeature = features.SingleOrDefault(x => x.Freeze);
+            return freezeFeature != null
+                ? new XElement("feature", new XAttribute("name", freezeFeature.Name))
+                : null;
         }
 
         // private XElement AbstractServicesToXml(IFeature feature, IList<XElement> constraints)
@@ -129,53 +216,34 @@ namespace Masterarbeit.Classes.FeatureModel
         //         new XAttribute("name", feature.Service.Type  + feature.Service.Code  + "Abstraktionsebenen"), abstractServicesXml);
         // }
 
-        private XElement AttributesToXml(string name, IList<IAttribute> attributes, IList<XElement> constraints)
+        private XElement AttributesToXml(IFeature feature)
         {
-            AddDefaultValueToAttributes(attributes);
+            if (feature.Attributes == null)
+                return null;
 
-            var attributesXml = attributes.Select(attribute => AttributeToXml(name, attribute, constraints)).ToList();
+            var attributesXml = feature.Attributes.Select(attribute => AttributeToXml(feature.Name, attribute))
+                .ToList();
 
             return new XElement("alt", new XAttribute("abstract", true), new XAttribute("mandatory", true),
-                new XAttribute("name", name + "Attributes"), attributesXml);
+                new XAttribute("name", feature.Name + "Attributes"), attributesXml);
         }
 
-        private void AddDefaultValueToAttributes(IList<IAttribute> attributes)
+        private XElement AttributeToXml(string name, IAttribute attribute)
         {
-            if (!attributes.Any(x => x.ValueScheme.Values.Contains(0))) return;
-
-            var valueSchemesWithoutDefault = attributes.Where(x => !x.ValueScheme.Values.Contains(0)).Select(x => x.ValueScheme);
-            foreach (var valueScheme in valueSchemesWithoutDefault)
-            {
-                valueScheme.Values.Add(0);
-            }
-        }
-
-        private XElement AttributeToXml(string name, IAttribute attribute, IList<XElement> constraints)
-        {
-            var valueSchemeXml = ValueSchemeToXml(name, attribute, constraints);
+            var valueSchemeXml = ValueSchemeToXml(name, attribute);
 
             return new XElement("alt", new XAttribute("abstract", true),
                 new XAttribute("name", name + attribute.Name), valueSchemeXml);
         }
 
-        private IEnumerable<XElement> ValueSchemeToXml(string name, IAttribute attribute, IList<XElement> constraints)
+        private IEnumerable<XElement> ValueSchemeToXml(string name, IAttribute attribute)
         {
-            foreach (var value in attribute.ValueScheme.Values)
-            {
-                if (value != 0)
-                    constraints.Add(new XElement("rule",
-                        new XElement("imp",
-                            new XElement("var",
-                                name + attribute.Name +
-                                (value < 0 ? "Neg" + value.ToString(CultureInfo.InvariantCulture).Replace("-", String.Empty) : value)),
-                            new XElement("not",
-                                new XElement("var", name + "Einfrieren")))));
-            }
-
             return attribute.ValueScheme.Values.Select(value => new XElement("feature",
                     new XAttribute("name",
                         name + attribute.Name +
-                        (value < 0 ? "Neg" + value.ToString(CultureInfo.InvariantCulture).Replace("-", String.Empty) : value))))
+                        (value < 0
+                            ? "Neg" + value.ToString(CultureInfo.InvariantCulture).Replace("-", String.Empty)
+                            : value))))
                 .ToList();
         }
 
@@ -189,11 +257,12 @@ namespace Masterarbeit.Classes.FeatureModel
             {
                 var name = $"HospitalModification{i + 1}";
                 hospitalModifications.Add(new XElement("alt", new XAttribute("mandatory", true),
+                    new XAttribute("abstract", true),
                     new XAttribute("name", name),
-                    new XElement("alt", new XAttribute("name", name + "ModAbsolut"),
+                    new XElement("alt", new XAttribute("name", name + "ModAbsolut"), new XAttribute("abstract", true),
                         new XElement("feature", new XAttribute("name", name + "ModAbsolut" + "50")),
                         new XElement("feature", new XAttribute("name", name + "ModAbsolut" + "Neg50"))),
-                    new XElement("alt", new XAttribute("name", name + "ModPercent"),
+                    new XElement("alt", new XAttribute("name", name + "ModPercent"), new XAttribute("abstract", true),
                         new XElement("feature", new XAttribute("name", name + "ModPercent" + "50")),
                         new XElement("feature", new XAttribute("name", name + "ModPercent" + "Neg50")))));
             }
