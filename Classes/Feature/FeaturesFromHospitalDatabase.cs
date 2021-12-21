@@ -1,20 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using Masterarbeit.Interfaces.Attribute;
-using Masterarbeit.Interfaces.BaseData;
 using Masterarbeit.Interfaces.Feature;
+using Masterarbeit.Interfaces.HospitalData;
 
 namespace Masterarbeit.Classes.Feature
 {
-    public class FeaturesFromHospitalData : IEnumerable<IFeature>
+    public class FeaturesFromHospitalDatabase : IEnumerable<IFeature>
     {
-        private readonly IHospitalData _hospitalData;
+        private readonly IHospitalDatabase _hospitalDatabase;
         private readonly IEnumerable<IAttribute> _attributes;
         private IEnumerable<IFeature> _features;
 
-        public FeaturesFromHospitalData(IHospitalData hospitalData, IEnumerable<IAttribute> attributes)
+        public FeaturesFromHospitalDatabase(IHospitalDatabase hospitalDatabase, IEnumerable<IAttribute> attributes)
         {
-            _hospitalData = hospitalData;
+            _hospitalDatabase = hospitalDatabase;
             _attributes = attributes;
         }
 
@@ -39,7 +39,7 @@ namespace Masterarbeit.Classes.Feature
                 new MandatoryFeature("PLATO"),
             };
 
-            foreach (var service in _hospitalData.Services)
+            foreach (var service in _hospitalDatabase.Services)
             {
                 convertedFeatures.AddRange(new FeaturesFromService(service, _attributes));
             }

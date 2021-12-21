@@ -11,13 +11,13 @@ namespace Masterarbeit.Classes.Partition
     public class PartitionsFromServices : IEnumerable<IPartition>
     {
         private readonly IEnumerable<IService> _baseDataServices;
-        private readonly IEnumerable<IDistributionDataService> _masterDataServices;
+        private readonly IEnumerable<IStatisticService> _masterDataServices;
         private readonly int _count;
-        private readonly Func<IList<IService>, IList<IDistributionDataService>, int, IEnumerable<IPartition>> _partitionFunction;
+        private readonly Func<IList<IService>, IList<IStatisticService>, int, IEnumerable<IPartition>> _partitionFunction;
         private IEnumerable<IPartition> _partitions;
 
-        public PartitionsFromServices(IEnumerable<IService> baseDataServices, IEnumerable<IDistributionDataService> masterDataServices,
-            int count, Func<IList<IService>, IList<IDistributionDataService>, int, IEnumerable<IPartition>> partitionFunction)
+        public PartitionsFromServices(IEnumerable<IService> baseDataServices, IEnumerable<IStatisticService> masterDataServices,
+            int count, Func<IList<IService>, IList<IStatisticService>, int, IEnumerable<IPartition>> partitionFunction)
         {
             _baseDataServices = baseDataServices;
             _masterDataServices = masterDataServices;

@@ -2,7 +2,7 @@
 
 namespace Masterarbeit.Interfaces.DistributionData
 {
-    public interface IDistributionDataFab : IFab
+    public interface IStatisticFab : IFab
     {
         decimal Share { get; }
     }

@@ -424,3 +424,29 @@ Total Number of Features: 1185
 Number of Attribute Features: 4446
 Duration generating partial Feature Selection: 747 ms
 Duration generating 2-wise Samples: 134780 ms
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 7500
+Number of Initial Features: 21996
+Number of selected Features: 910
+Number of added Features: 275
+Total Number of Features: 1185
+Number of Attribute Features: 4446
+Duration generating partial Feature Selection: 792 ms
+Duration generating 2-wise Samples: 142287 ms
+=============================================
+Log Entry Start
+Number of Partitions: 100
+Number of combined Partitions: 5
+Combined Partitions: 0,24,49,74,99
+Max. Number of selected Features: 7500
+Number of Initial Features: 21996
+Number of selected Features: 910
+Number of added Features: 275
+Total Number of Features: 1185
+Number of Attribute Features: 4446
+Duration generating partial Feature Selection: 752 ms
+Duration generating 2-wise Samples: 143964 ms

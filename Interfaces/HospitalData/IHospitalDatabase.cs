@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using Masterarbeit.Interfaces.Service;
 
-namespace Masterarbeit.Interfaces.BaseData
+namespace Masterarbeit.Interfaces.HospitalData
 {
-    public interface IHospitalData
+    public interface IHospitalDatabase
     {
         IEnumerable<IService> Services { get; }
     }

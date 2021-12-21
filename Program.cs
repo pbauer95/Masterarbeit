@@ -34,19 +34,19 @@ namespace Masterarbeit
                         Logger.StartLogEntry();
                         Logger.LogParameterValue(options);
 
-                        var distributionData = new DistributionDataFromXml(options.DistributionDataPath);
+                        var statistic = new StatisticFromXml(options.DistributionDataPath);
 
                         var attributes = new AttributesFromXml(options.AttributeDataPath);
 
                         IFeatureModel unreducedFeatureModel = options.HospitalData == "-1"
-                            ? new FeatureModelFromDistributionData(distributionData, attributes)
-                            : new FeatureModelFromHospitalData(new HospitalDataFromXml(options.HospitalData),
+                            ? new FeatureModelFromStatistic(statistic, attributes)
+                            : new FeatureModelFromHospitalDatabase(new HospitalDatabaseFromXml(options.HospitalData),
                                 attributes);
 
                         Logger.LogInitialFeatureCount(unreducedFeatureModel.Features.Count());
 
                         var classifiedFeatures =
-                            new ClassifiedFeatures(unreducedFeatureModel.Features, distributionData);
+                            new ClassifiedFeatures(unreducedFeatureModel.Features, statistic);
 
                         IPartitionData partitionData =
                             new PartitionDataFromFeatures(classifiedFeatures, options.PartitionCount);

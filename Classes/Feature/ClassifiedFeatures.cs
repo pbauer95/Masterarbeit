@@ -9,13 +9,13 @@ namespace Masterarbeit.Classes.Feature
     public class ClassifiedFeatures : IEnumerable<IFeatureClassified>
     {
         private readonly IEnumerable<IFeature> _features;
-        private readonly IDistributionData _distributionData;
+        private readonly IStatistic _statistic;
         private IEnumerable<IFeatureClassified> _classifiedFeatures;
 
-        public ClassifiedFeatures(IEnumerable<IFeature> features, IDistributionData distributionData)
+        public ClassifiedFeatures(IEnumerable<IFeature> features, IStatistic statistic)
         {
             _features = features;
-            _distributionData = distributionData;
+            _statistic = statistic;
         }
 
         public IEnumerator<IFeatureClassified> GetEnumerator() => FeaturesWithClassification().GetEnumerator();
@@ -27,7 +27,7 @@ namespace Masterarbeit.Classes.Feature
             if (_classifiedFeatures != null)
                 return _classifiedFeatures;
 
-            var distributionDictionary = _distributionData.Services.ToDictionary(x => new { x.Type, x.Code });
+            var distributionDictionary = _statistic.Services.ToDictionary(x => new { x.Type, x.Code });
 
             var classifiedFeatures = (from feature in _features
                 where feature.Service != null && !(!feature.Global && feature.Fab == null)

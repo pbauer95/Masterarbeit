@@ -8,12 +8,12 @@ using Masterarbeit.Interfaces.Service;
 
 namespace Masterarbeit.Classes.DistributionData
 {
-    public class DistributionDataServiceFromDeserializedDistributionData : IDistributionDataService
+    public class StatisticServiceFromDeserializedStatistic : IStatisticService
     {
         private readonly DistributionDataServiceXml _distributionDataServiceXml;
-        private IEnumerable<IDistributionDataFab> _fabs;
+        private IEnumerable<IStatisticFab> _fabs;
 
-        public DistributionDataServiceFromDeserializedDistributionData(
+        public StatisticServiceFromDeserializedStatistic(
             DistributionDataServiceXml distributionDataServiceXml)
         {
             _distributionDataServiceXml = distributionDataServiceXml;
@@ -36,8 +36,8 @@ namespace Masterarbeit.Classes.DistributionData
         public decimal ShareGlobal => _distributionDataServiceXml.ShareGlobal;
         public decimal ShareInType => _distributionDataServiceXml.ShareInType;
 
-        public IEnumerable<IDistributionDataFab> DistributionDataFabs => _fabs ??= _distributionDataServiceXml
+        public IEnumerable<IStatisticFab> DistributionDataFabs => _fabs ??= _distributionDataServiceXml
             .MasterDataFabs
-            .Select(x => new DistributionDataFabFromDeserializedDistributionDataService(x));
+            .Select(x => new StatisticFabFromDeserializedStatisticService(x));
     }
 }

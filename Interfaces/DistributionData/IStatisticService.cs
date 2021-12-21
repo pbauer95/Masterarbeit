@@ -3,10 +3,10 @@ using Masterarbeit.Interfaces.Service;
 
 namespace Masterarbeit.Interfaces.DistributionData
 {
-    public interface IDistributionDataService : IService
+    public interface IStatisticService : IService
     {
         decimal ShareGlobal { get; }
         decimal ShareInType { get; }
-        IEnumerable<IDistributionDataFab> DistributionDataFabs { get; }
+        IEnumerable<IStatisticFab> DistributionDataFabs { get; }
     }
 }

@@ -7,21 +7,21 @@ using Masterarbeit.Interfaces.FeatureModel;
 
 namespace Masterarbeit.Classes.FeatureModel
 {
-    public class FeatureModelFromDistributionData : IFeatureModel
+    public class FeatureModelFromStatistic : IFeatureModel
     {
-        private readonly IDistributionData _distributionData;
+        private readonly IStatistic _statistic;
         private readonly IEnumerable<IAttribute> _attributes;
         private IFeatureModel _featureModel;
 
-        public FeatureModelFromDistributionData(IDistributionData distributionData, IEnumerable<IAttribute> attributes)
+        public FeatureModelFromStatistic(IStatistic statistic, IEnumerable<IAttribute> attributes)
         {
-            _distributionData = distributionData;
+            _statistic = statistic;
             _attributes = attributes;
         }
 
         public IEnumerable<IFeature> Features => ConvertedFeatureModel().Features;
 
         private IFeatureModel ConvertedFeatureModel() =>
-            _featureModel ??= new FeatureModelFromHospitalData(new HospitalDataFromDistributionData(_distributionData), _attributes);
+            _featureModel ??= new FeatureModelFromHospitalDatabase(new HospitalDatabaseFromStatistic(_statistic), _attributes);
     }
 }

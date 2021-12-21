@@ -2,17 +2,17 @@
 using System.Linq;
 using Masterarbeit.Classes.HospitalData.Xml;
 using Masterarbeit.Classes.Service;
-using Masterarbeit.Interfaces.BaseData;
+using Masterarbeit.Interfaces.HospitalData;
 using Masterarbeit.Interfaces.Service;
 
 namespace Masterarbeit.Classes.HospitalData
 {
-    public class HospitalDataFromDeserializedHospitalData : IHospitalData
+    public class HospitalDatabaseFromDeserializedHospitalDatabase : IHospitalDatabase
     {
         private readonly HospitalDataXml _hospitalDataXml;
         private IEnumerable<IService> _services;
 
-        public HospitalDataFromDeserializedHospitalData(HospitalDataXml hospitalDataXml)
+        public HospitalDatabaseFromDeserializedHospitalDatabase(HospitalDataXml hospitalDataXml)
         {
             _hospitalDataXml = hospitalDataXml;
         }
