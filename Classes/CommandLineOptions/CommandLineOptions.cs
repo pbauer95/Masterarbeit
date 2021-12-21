@@ -8,7 +8,7 @@ namespace Masterarbeit.Classes.CommandLineOptions
         [Option(shortName: 'd', longName: "DistributionData", Required = false, HelpText = "Distribution File Path", Default = "./DistributionData.xml")]
         public string DistributionDataPath { get; set; }
         
-        [Option(shortName: 'h', longName: "HospitalData", Required = false, HelpText = "HospitalData File Path", Default = "-1")]
+        [Option(shortName: 'h', longName: "HospitalData", Required = false, HelpText = "HospitalData File Path", Default = "./HospitalData.xml")]
         public string HospitalData { get; set; }
 
         [Option(shortName: 'a', longName: "AttributeData", Required = false, HelpText = "Attribute File Path", Default = "./Attributes.xml")]
@@ -20,7 +20,7 @@ namespace Masterarbeit.Classes.CommandLineOptions
         [Option(shortName: 'c', longName: "CombinedPartitions", Required = false, HelpText = "Ids of Partitions to be Combined", Default = new[] {0, 24, 49, 74, 99})]
         public IEnumerable<int> CombinedPartition { get; set; }
 
-        [Option(shortName: 'm', longName: "MaxSelectedFeatures", Required = false, HelpText = "Maximum Number of Features selected for the Feature Model", Default = 150)]
+        [Option(shortName: 'm', longName: "MaxSelectedFeatures", Required = false, HelpText = "Maximum Number of Features selected for the Feature Model", Default = 7500)]
         public int MaxSelectedFeatures { get; set; }
 
         [Option(shortName: 't', longName: "t-wise-interactions", Required = false, HelpText = "Strength of the generated sample", Default = 2)]

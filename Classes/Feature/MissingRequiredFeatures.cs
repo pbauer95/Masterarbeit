@@ -318,7 +318,6 @@ namespace Masterarbeit.Classes.Feature
                 {
                     Service = fabService,
                     Fab = fab,
-                    Attributes = attributes,
                     Global = true,
                     CaseMix = fab.CaseMix,
                     Freeze = true
@@ -330,21 +329,18 @@ namespace Masterarbeit.Classes.Feature
         {
             var features = filledUpFeatures.Concat(_selectedFeatures).ToList();
 
-            var fabs = new Dictionary<string, decimal>();
-            foreach (var feature in features.Where(x => x.Service != null))
+            var missingFabs = new Dictionary<string, decimal>();
+            foreach (var feature in features.Where(x => x.Service != null && x.Fab != null))
             {
-                foreach (var fab in feature.Service.Fabs)
+                if (missingFabs.ContainsKey(feature.Fab.Name))
+                    missingFabs[feature.Fab.Name] += feature.Fab.CaseMix;
+                else
                 {
-                    if (fabs.ContainsKey(fab.Name))
-                        fabs[fab.Name] += fab.CaseMix;
-                    else
-                    {
-                        fabs.Add(fab.Name, fab.CaseMix);
-                    }
+                    missingFabs.Add(feature.Fab.Name, feature.Fab.CaseMix);
                 }
             }
 
-            return fabs;
+            return missingFabs;
         }
     }
 }

@@ -13,7 +13,8 @@ namespace Masterarbeit.Classes.DistributionData
         private readonly DistributionDataServiceXml _distributionDataServiceXml;
         private IEnumerable<IDistributionDataFab> _fabs;
 
-        public DistributionDataServiceFromDeserializedDistributionData(DistributionDataServiceXml distributionDataServiceXml)
+        public DistributionDataServiceFromDeserializedDistributionData(
+            DistributionDataServiceXml distributionDataServiceXml)
         {
             _distributionDataServiceXml = distributionDataServiceXml;
         }
@@ -27,12 +28,16 @@ namespace Masterarbeit.Classes.DistributionData
             _ => throw new ArgumentOutOfRangeException()
         };
 
-        public string Code => _distributionDataServiceXml.Code.Replace(" ", String.Empty).Replace("-", String.Empty).Replace(",", String.Empty);
+        public string Code => _distributionDataServiceXml.Code.TrimStart('0').Replace(" ", String.Empty)
+            .Replace("-", String.Empty).Replace(",", String.Empty).Replace(".", String.Empty).Replace("(", String.Empty)
+            .Replace(")", String.Empty).Replace("ö", "oe").Replace("ä", "ae").Replace("ü", "ue");
+
         public IEnumerable<IFab> Fabs => DistributionDataFabs;
         public decimal ShareGlobal => _distributionDataServiceXml.ShareGlobal;
         public decimal ShareInType => _distributionDataServiceXml.ShareInType;
 
-        public IEnumerable<IDistributionDataFab> DistributionDataFabs => _fabs ??= _distributionDataServiceXml.MasterDataFabs
+        public IEnumerable<IDistributionDataFab> DistributionDataFabs => _fabs ??= _distributionDataServiceXml
+            .MasterDataFabs
             .Select(x => new DistributionDataFabFromDeserializedDistributionDataService(x));
     }
 }

@@ -27,7 +27,11 @@ namespace Masterarbeit.Classes.Service
             _ => throw new ArgumentOutOfRangeException()
         };
 
-        public string Code => _hospitalDataServiceXml.Code.Replace(" ", String.Empty).Replace("-", String.Empty).Replace(",", String.Empty);
-        public IEnumerable<IFab> Fabs => _fabs ??= _hospitalDataServiceXml.Fabs.Select(x => new FabFromDeserializedBaseDataService(x));
+        public string Code => _hospitalDataServiceXml.Code.TrimStart('0').Replace(" ", String.Empty)
+            .Replace("-", String.Empty).Replace(",", String.Empty).Replace(".", String.Empty).Replace("(", String.Empty)
+            .Replace(")", String.Empty).Replace("ö", "oe").Replace("ä", "ae").Replace("ü", "ue");
+
+        public IEnumerable<IFab> Fabs =>
+            _fabs ??= _hospitalDataServiceXml.Fabs.Select(x => new FabFromDeserializedBaseDataService(x));
     }
 }

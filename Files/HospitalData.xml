@@ -14166,7 +14166,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Abnorme Befunde ohne Vorliegen einer Diagnose bei bildgebender Diagnostik und Funktionspr�fungen</Code>
+    <Code>Abnorme Befunde ohne Vorliegen einer Diagnose bei bildgebender Diagnostik und Funktionsprüfungen</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.456</CaseMix>
@@ -14242,7 +14242,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Akute Blutungsan�mie ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Akute Blutungsanämie ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0200 Geri</Name>
       <CaseMix>1.486</CaseMix>
@@ -14262,7 +14262,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Akute Infektion der unteren Atemwege, nicht n�her bezeichnet</Code>
+    <Code>Akute Infektion der unteren Atemwege, nicht näher bezeichnet</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>16.002</CaseMix>
@@ -14278,7 +14278,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Akute Infektionen an mehreren oder nicht n�her bezeichneten Lokalisationen der oberen Atemwege</Code>
+    <Code>Akute Infektionen an mehreren oder nicht näher bezeichneten Lokalisationen der oberen Atemwege</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>1.364</CaseMix>
@@ -14370,7 +14370,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Akute vor�bergehende psychotische St�rungen</Code>
+    <Code>Akute vorübergehende psychotische Störungen</Code>
     <Fab>
       <Name>HA2800 Neuro</Name>
       <CaseMix>0.77</CaseMix>
@@ -14498,7 +14498,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Andere psychische St�rungen aufgrund einer Sch�digung oder Funktionsst�rung des Gehirns oder einer k�rperlichen Krankheit</Code>
+    <Code>Andere psychische Störungen aufgrund einer Schädigung oder Funktionsstörung des Gehirns oder einer körperlichen Krankheit</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.638</CaseMix>
@@ -14514,7 +14514,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Angeborene Deformit�ten der F��e ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Angeborene Deformitäten der Füße ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>0.171</CaseMix>
@@ -14522,7 +14522,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Angeborene Fehlbildungen der m�nnlichen Genitalorgane ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Angeborene Fehlbildungen der männlichen Genitalorgane ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>0.171</CaseMix>
@@ -14554,7 +14554,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Angstst�rungen</Code>
+    <Code>Angststörungen</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>1.213</CaseMix>
@@ -14566,7 +14566,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Anhaltende wahnhafte St�rungen</Code>
+    <Code>Anhaltende wahnhafte Störungen</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.517</CaseMix>
@@ -14590,7 +14590,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Aplastische An�mien mit relevanter Prozedur</Code>
+    <Code>Aplastische Anämien mit relevanter Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>1.644</CaseMix>
@@ -14598,7 +14598,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Aplastische An�mien ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Aplastische Anämien ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.822</CaseMix>
@@ -14622,7 +14622,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>�rztliche Beobachtung und Beurteilung von Verdachtsf�llen, Verdacht ausgeschlossen</Code>
+    <Code>Ärztliche Beobachtung und Beurteilung von Verdachtsfällen, Verdacht ausgeschlossen</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>2.506</CaseMix>
@@ -14670,7 +14670,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Bestimmte Fr�hkomplikationen eines Traumas, anderenorts nicht klassifiziert mit Op</Code>
+    <Code>Bestimmte Frühkomplikationen eines Traumas, anderenorts nicht klassifiziert mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>1.706</CaseMix>
@@ -14682,7 +14682,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Bestimmte Fr�hkomplikationen eines Traumas, anderenorts nicht klassifiziert ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Bestimmte Frühkomplikationen eines Traumas, anderenorts nicht klassifiziert ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA2800 Neuro</Name>
       <CaseMix>0.5</CaseMix>
@@ -14690,7 +14690,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Betreuung der Mutter bei festgestelltem oder vermutetem Missverh�ltnis zwischen Fetus und Becken</Code>
+    <Code>Betreuung der Mutter bei festgestelltem oder vermutetem Missverhältnis zwischen Fetus und Becken</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>1.538</CaseMix>
@@ -14722,7 +14722,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Binnensch�digung des Kniegelenkes [internal derangement] mit Op</Code>
+    <Code>Binnenschädigung des Kniegelenkes [internal derangement] mit Op</Code>
     <Fab>
       <Name>HA1600 UCH</Name>
       <CaseMix>3.073</CaseMix>
@@ -14734,7 +14734,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Blutung in der Fr�hschwangerschaft</Code>
+    <Code>Blutung in der Frühschwangerschaft</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>7.407</CaseMix>
@@ -14742,7 +14742,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige immunproliferative Krankheiten und sonstige b�sartige Erkrankungen des lyphatischen, blutbildenen und verandten Gewebes</Code>
+    <Code>Bösartige immunproliferative Krankheiten und sonstige bösartige Erkrankungen des lyphatischen, blutbildenen und verandten Gewebes</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>0.571</CaseMix>
@@ -14754,7 +14754,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildung der Brustdr�se [Mamma] mit Op</Code>
+    <Code>Bösartige Neubildung der Brustdrüse [Mamma] mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>49.097</CaseMix>
@@ -14766,7 +14766,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildung der Brustdr�se [Mamma] ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Bösartige Neubildung der Brustdrüse [Mamma] ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>4.38</CaseMix>
@@ -14786,7 +14786,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildung der Harnblase mit Op</Code>
+    <Code>Bösartige Neubildung der Harnblase mit Op</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>1.481</CaseMix>
@@ -14794,7 +14794,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildung der Harnblase ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Bösartige Neubildung der Harnblase ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.484</CaseMix>
@@ -14802,7 +14802,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildung der Leber und der intrahepatischen Galleng�nge mit relevanter Prozedur</Code>
+    <Code>Bösartige Neubildung der Leber und der intrahepatischen Gallengänge mit relevanter Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>6.321</CaseMix>
@@ -14810,7 +14810,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildung der Leber und der intrahepatischen Galleng�nge ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Bösartige Neubildung der Leber und der intrahepatischen Gallengänge ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>2.543</CaseMix>
@@ -14818,7 +14818,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildung der Niere, ausgenommen Nierenbecken ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Bösartige Neubildung der Niere, ausgenommen Nierenbecken ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>1.481</CaseMix>
@@ -14826,7 +14826,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildung der Prostata ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Bösartige Neubildung der Prostata ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>3.584</CaseMix>
@@ -14838,7 +14838,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildung der Schilddr�se mit Op</Code>
+    <Code>Bösartige Neubildung der Schilddrüse mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>13.417</CaseMix>
@@ -14846,7 +14846,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildung der Schilddr�se ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Bösartige Neubildung der Schilddrüse ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>1.114</CaseMix>
@@ -14854,7 +14854,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildung der Trachea, Bronchien und der Lunge mit Op</Code>
+    <Code>Bösartige Neubildung der Trachea, Bronchien und der Lunge mit Op</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>6.753</CaseMix>
@@ -14862,7 +14862,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildung der Trachea, Bronchien und der Lunge mit relevanter Prozedur</Code>
+    <Code>Bösartige Neubildung der Trachea, Bronchien und der Lunge mit relevanter Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>25.787</CaseMix>
@@ -14878,7 +14878,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildung der Trachea, Bronchien und der Lunge ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Bösartige Neubildung der Trachea, Bronchien und der Lunge ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>11.13</CaseMix>
@@ -14898,7 +14898,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildung des Anus und des Analkanals mit Op</Code>
+    <Code>Bösartige Neubildung des Anus und des Analkanals mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>2.146</CaseMix>
@@ -14906,7 +14906,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildung des D�nndarmes mit Op</Code>
+    <Code>Bösartige Neubildung des Dünndarmes mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>2.914</CaseMix>
@@ -14914,7 +14914,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildung des Gehirns ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Bösartige Neubildung des Gehirns ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.631</CaseMix>
@@ -14926,7 +14926,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildung des Knochens und des Gelenkknorpels sonstiger und nicht n�her bezeichneter Lokalisationen</Code>
+    <Code>Bösartige Neubildung des Knochens und des Gelenkknorpels sonstiger und nicht näher bezeichneter Lokalisationen</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>0.273</CaseMix>
@@ -14934,7 +14934,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildung des Kolons mit Op</Code>
+    <Code>Bösartige Neubildung des Kolons mit Op</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>5.08</CaseMix>
@@ -14950,7 +14950,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildung des Kolons mit relevanter Prozedur</Code>
+    <Code>Bösartige Neubildung des Kolons mit relevanter Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>1.239</CaseMix>
@@ -14958,7 +14958,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildung des Kolons ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Bösartige Neubildung des Kolons ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>2.019</CaseMix>
@@ -14974,7 +14974,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildung des Larynx ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Bösartige Neubildung des Larynx ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0200 Geri</Name>
       <CaseMix>1.195</CaseMix>
@@ -14982,7 +14982,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildung des Magens mit Op</Code>
+    <Code>Bösartige Neubildung des Magens mit Op</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>3.799</CaseMix>
@@ -14994,7 +14994,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildung des Magens mit relevanter Prozedur</Code>
+    <Code>Bösartige Neubildung des Magens mit relevanter Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>7.083</CaseMix>
@@ -15006,7 +15006,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildung des Magens ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Bösartige Neubildung des Magens ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>1.451</CaseMix>
@@ -15018,7 +15018,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildung des �sophagus mit Op</Code>
+    <Code>Bösartige Neubildung des Ösophagus mit Op</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>1.611</CaseMix>
@@ -15026,7 +15026,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildung des �sophagus mit relevanter Prozedur</Code>
+    <Code>Bösartige Neubildung des Ösophagus mit relevanter Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>2.295</CaseMix>
@@ -15034,7 +15034,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildung des Ovars mit Op</Code>
+    <Code>Bösartige Neubildung des Ovars mit Op</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>0.522</CaseMix>
@@ -15042,7 +15042,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildung des Ovars ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Bösartige Neubildung des Ovars ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.55</CaseMix>
@@ -15054,7 +15054,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildung des Pankreas mit Op</Code>
+    <Code>Bösartige Neubildung des Pankreas mit Op</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>5.321</CaseMix>
@@ -15062,7 +15062,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildung des Pankreas mit relevanter Prozedur</Code>
+    <Code>Bösartige Neubildung des Pankreas mit relevanter Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>1.782</CaseMix>
@@ -15070,7 +15070,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildung des Pankreas ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Bösartige Neubildung des Pankreas ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>2.29</CaseMix>
@@ -15078,7 +15078,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildung des Rektums mit Op</Code>
+    <Code>Bösartige Neubildung des Rektums mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>0.679</CaseMix>
@@ -15086,7 +15086,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildung des Rektums mit relevanter Prozedur</Code>
+    <Code>Bösartige Neubildung des Rektums mit relevanter Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.867</CaseMix>
@@ -15094,7 +15094,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildung des Rektums ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Bösartige Neubildung des Rektums ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.947</CaseMix>
@@ -15106,7 +15106,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>b�sartige Neubildung des Uterus mit Op</Code>
+    <Code>bösartige Neubildung des Uterus mit Op</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>1.204</CaseMix>
@@ -15114,7 +15114,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildung sonstiger und nicht n�her bezeichneter Teile der Gallenwege mit Op</Code>
+    <Code>Bösartige Neubildung sonstiger und nicht näher bezeichneter Teile der Gallenwege mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>0.984</CaseMix>
@@ -15122,7 +15122,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildung sonstiger und nicht n�her bezeichneter Teile der Gallenwege mit relevanter Prozedur</Code>
+    <Code>Bösartige Neubildung sonstiger und nicht näher bezeichneter Teile der Gallenwege mit relevanter Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.313</CaseMix>
@@ -15134,7 +15134,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>b�sartige Neubildungen der Lippe und der Mundh�hle mit Op</Code>
+    <Code>bösartige Neubildungen der Lippe und der Mundhöhle mit Op</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.781</CaseMix>
@@ -15142,7 +15142,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>b�sartige Neubildungen der Vulva und Vagina mit Op</Code>
+    <Code>bösartige Neubildungen der Vulva und Vagina mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>0.727</CaseMix>
@@ -15150,7 +15150,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartige Neubildungen ungenau bezeichneter, sekund�rer und nicht n�her bezeichneter Lokalisationen</Code>
+    <Code>Bösartige Neubildungen ungenau bezeichneter, sekundärer und nicht näher bezeichneter Lokalisationen</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>6.499</CaseMix>
@@ -15174,7 +15174,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartiges Melanom der Haut mit Op</Code>
+    <Code>Bösartiges Melanom der Haut mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>2.066</CaseMix>
@@ -15182,7 +15182,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>B�sartiges Melanom der Haut ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Bösartiges Melanom der Haut ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>0.78</CaseMix>
@@ -15406,7 +15406,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Dekubitalgeschw�r und Druckzone mit Op</Code>
+    <Code>Dekubitalgeschwür und Druckzone mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>46.004</CaseMix>
@@ -15414,7 +15414,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Dekubitalgeschw�r und Druckzone ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Dekubitalgeschwür und Druckzone ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>0.181</CaseMix>
@@ -15446,7 +15446,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Depressive St�rungen auch rezidivierend</Code>
+    <Code>Depressive Störungen auch rezidivierend</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>1.633</CaseMix>
@@ -15522,7 +15522,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Dissoziative St�rungen [Konversionsst�rungen]</Code>
+    <Code>Dissoziative Störungen [Konversionsstörungen]</Code>
     <Fab>
       <Name>HA2800 Neuro</Name>
       <CaseMix>8.273</CaseMix>
@@ -15574,7 +15574,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Durch Arthropoden �bertragene Viruskrankheiten und virale h�morrhagische Fieber</Code>
+    <Code>Durch Arthropoden übertragene Viruskrankheiten und virale hämorrhagische Fieber</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.531</CaseMix>
@@ -15590,7 +15590,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Eisenmangelan�mie mit relevanter Prozedur</Code>
+    <Code>Eisenmangelanämie mit relevanter Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>14.086</CaseMix>
@@ -15602,7 +15602,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Eisenmangelan�mie ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Eisenmangelanämie ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>3.239</CaseMix>
@@ -15682,7 +15682,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Entz�ndliche Krankheit des Uterus, ausgenommen der Zervix mit Op</Code>
+    <Code>Entzündliche Krankheit des Uterus, ausgenommen der Zervix mit Op</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>0.885</CaseMix>
@@ -15690,7 +15690,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Entz�ndliche Krankheit des Uterus, ausgenommen der Zervix ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Entzündliche Krankheit des Uterus, ausgenommen der Zervix ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>0.248</CaseMix>
@@ -15698,7 +15698,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Entz�ndliche Krankheiten der Mamma [Brustdr�se] mit Op</Code>
+    <Code>Entzündliche Krankheiten der Mamma [Brustdrüse] mit Op</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>0.662</CaseMix>
@@ -15706,7 +15706,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Entz�ndliche Krankheiten der m�nnlichen Genitalorgane, anderenorts nicht klassifiziert mit Op</Code>
+    <Code>Entzündliche Krankheiten der männlichen Genitalorgane, anderenorts nicht klassifiziert mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>0.393</CaseMix>
@@ -15714,7 +15714,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Entz�ndliche Krankheiten der Prostata mit Op</Code>
+    <Code>Entzündliche Krankheiten der Prostata mit Op</Code>
     <Fab>
       <Name>HA0200 Geri</Name>
       <CaseMix>0.998</CaseMix>
@@ -15722,7 +15722,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Entz�ndliche Krankheiten der Prostata ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Entzündliche Krankheiten der Prostata ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>1.114</CaseMix>
@@ -15802,7 +15802,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Erregungsleitungsst�rungen mit Op</Code>
+    <Code>Erregungsleitungsstörungen mit Op</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.38</CaseMix>
@@ -15810,7 +15810,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Erregungsleitungsst�rungen ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Erregungsleitungsstörungen ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.267</CaseMix>
@@ -15822,7 +15822,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Erworbene Deformit�ten der Finger und Zehen mit Op</Code>
+    <Code>Erworbene Deformitäten der Finger und Zehen mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>18.88</CaseMix>
@@ -15842,7 +15842,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Essentielle (prim�re) Hypertonie ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Essentielle (primäre) Hypertonie ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>51.964</CaseMix>
@@ -15858,7 +15858,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Essst�rungen</Code>
+    <Code>Essstörungen</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>1.022</CaseMix>
@@ -15866,7 +15866,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>extra pyramidale Krankheiten und Bewegungsst�rungen</Code>
+    <Code>extra pyramidale Krankheiten und Bewegungsstörungen</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.407</CaseMix>
@@ -15882,7 +15882,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Extrauteringravidit�t mit Op</Code>
+    <Code>Extrauteringravidität mit Op</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>5.858</CaseMix>
@@ -15890,7 +15890,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Extrauteringravidit�t ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Extrauteringravidität ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>0.154</CaseMix>
@@ -15970,7 +15970,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Follikul�re Zysten der Haut und der Unterhaut mit Op</Code>
+    <Code>Follikuläre Zysten der Haut und der Unterhaut mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>4.08</CaseMix>
@@ -15978,7 +15978,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Fols�ure-Mangelan�mie mit relevanter Prozedur</Code>
+    <Code>Folsäure-Mangelanämie mit relevanter Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.6</CaseMix>
@@ -15986,7 +15986,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Fraktur der Lendenwirbels�ule und des Beckens mit Op</Code>
+    <Code>Fraktur der Lendenwirbelsäule und des Beckens mit Op</Code>
     <Fab>
       <Name>HA0200 Geri</Name>
       <CaseMix>27.291</CaseMix>
@@ -16002,7 +16002,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Fraktur der Lendenwirbels�ule und des Beckens ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Fraktur der Lendenwirbelsäule und des Beckens ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>4.882</CaseMix>
@@ -16022,7 +16022,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Fraktur der Rippe(n), des Sternums und der Brustwirbels�ule mit Op</Code>
+    <Code>Fraktur der Rippe(n), des Sternums und der Brustwirbelsäule mit Op</Code>
     <Fab>
       <Name>HA0200 Geri</Name>
       <CaseMix>2.647</CaseMix>
@@ -16038,7 +16038,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Fraktur der Rippe(n), des Sternums und der Brustwirbels�ule ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Fraktur der Rippe(n), des Sternums und der Brustwirbelsäule ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>2.974</CaseMix>
@@ -16098,7 +16098,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Fraktur des Fu�es [ausgenommen oberes Sprunggelenk] mit Op</Code>
+    <Code>Fraktur des Fußes [ausgenommen oberes Sprunggelenk] mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>0.949</CaseMix>
@@ -16110,7 +16110,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Fraktur des Fu�es [ausgenommen oberes Sprunggelenk] ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Fraktur des Fußes [ausgenommen oberes Sprunggelenk] ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA1600 UCH</Name>
       <CaseMix>3.355</CaseMix>
@@ -16118,7 +16118,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Fraktur des Sch�dels und der Gesichtssch�delknochen mit Op</Code>
+    <Code>Fraktur des Schädels und der Gesichtsschädelknochen mit Op</Code>
     <Fab>
       <Name>HA1600 UCH</Name>
       <CaseMix>3.168</CaseMix>
@@ -16126,7 +16126,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Fraktur des Sch�dels und der Gesichtssch�delknochen ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Fraktur des Schädels und der Gesichtsschädelknochen ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0200 Geri</Name>
       <CaseMix>1.468</CaseMix>
@@ -16158,7 +16158,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Fraktur des Unterschenkels, einschlie�lich des oberen Sprunggelenkes mit Op</Code>
+    <Code>Fraktur des Unterschenkels, einschließlich des oberen Sprunggelenkes mit Op</Code>
     <Fab>
       <Name>HA0200 Geri</Name>
       <CaseMix>4.042</CaseMix>
@@ -16178,7 +16178,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Fraktur des Unterschenkels, einschlie�lich des oberen Sprunggelenkes ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Fraktur des Unterschenkels, einschließlich des oberen Sprunggelenkes ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0200 Geri</Name>
       <CaseMix>5.252</CaseMix>
@@ -16258,7 +16258,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Fremdk�rper im Verdauungstrakt mit relevanter Prozedur</Code>
+    <Code>Fremdkörper im Verdauungstrakt mit relevanter Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.994</CaseMix>
@@ -16270,7 +16270,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Fremdk�rper in den Atemwegen mit relevanter Prozedur</Code>
+    <Code>Fremdkörper in den Atemwegen mit relevanter Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>2.622</CaseMix>
@@ -16278,7 +16278,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Frustrane Kontraktionen [Unn�tze Wehen]</Code>
+    <Code>Frustrane Kontraktionen [Unnütze Wehen]</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>1.521</CaseMix>
@@ -16330,7 +16330,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Gastro�sophageale Refluxkrankheit mit relevanter Prozedur</Code>
+    <Code>Gastroösophageale Refluxkrankheit mit relevanter Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>19.999</CaseMix>
@@ -16346,7 +16346,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Gastro�sophageale Refluxkrankheit ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Gastroösophageale Refluxkrankheit ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>1.58</CaseMix>
@@ -16366,7 +16366,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Gef��krankheiten des Darmes mit relevanter Prozedur</Code>
+    <Code>Gefäßkrankheiten des Darmes mit relevanter Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>6.803</CaseMix>
@@ -16382,7 +16382,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Gef��krankheiten des Darmes ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Gefäßkrankheiten des Darmes ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>1.969</CaseMix>
@@ -16482,7 +16482,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Granulomat�se Krankheiten der Haut und der Unterhaut</Code>
+    <Code>Granulomatöse Krankheiten der Haut und der Unterhaut</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.462</CaseMix>
@@ -16566,7 +16566,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>gutartige Neubildung Schilddr�se und anderer endokriner Dr�sen mit Op</Code>
+    <Code>gutartige Neubildung Schilddrüse und anderer endokriner Drüsen mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>6.105</CaseMix>
@@ -16574,7 +16574,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>gutartige Neubildung Schilddr�se und anderer endokriner Dr�sen ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>gutartige Neubildung Schilddrüse und anderer endokriner Drüsen ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA2800 Neuro</Name>
       <CaseMix>0.743</CaseMix>
@@ -16606,7 +16606,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>H�morrhoiden und Perianalvenenthrombose mit Op</Code>
+    <Code>Hämorrhoiden und Perianalvenenthrombose mit Op</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>3.127</CaseMix>
@@ -16618,7 +16618,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>H�morrhoiden und Perianalvenenthrombose ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Hämorrhoiden und Perianalvenenthrombose ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>3.798</CaseMix>
@@ -16678,7 +16678,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Heredit�re und idiopathische Neuropathie</Code>
+    <Code>Hereditäre und idiopathische Neuropathie</Code>
     <Fab>
       <Name>HA2800 Neuro</Name>
       <CaseMix>1.56</CaseMix>
@@ -16874,7 +16874,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Hypertonie ggf mit aufgepfropfter Pr�eklampsie ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Hypertonie ggf mit aufgepfropfter Präeklampsie ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>0.169</CaseMix>
@@ -16890,7 +16890,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Hypertrophie der Mamma [Brustdr�se] mit Op</Code>
+    <Code>Hypertrophie der Mamma [Brustdrüse] mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>2.374</CaseMix>
@@ -17050,7 +17050,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Intrauterine Mangelentwicklung und fetale Mangelern�hrung</Code>
+    <Code>Intrauterine Mangelentwicklung und fetale Mangelernährung</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>0.212</CaseMix>
@@ -17058,7 +17058,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>isch�mische Herzkrankheit ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>ischämische Herzkrankheit ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.601</CaseMix>
@@ -17114,7 +17114,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Klimakterische St�rungen mit Op</Code>
+    <Code>Klimakterische Störungen mit Op</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>0.522</CaseMix>
@@ -17122,7 +17122,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Klimakterische St�rungen ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Klimakterische Störungen ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>0.195</CaseMix>
@@ -17142,7 +17142,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Komplikationen bei An�sthesie im Wochenbett</Code>
+    <Code>Komplikationen bei Anästhesie im Wochenbett</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>0.471</CaseMix>
@@ -17178,7 +17178,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Komplikationen durch orthop�dische Endoprothesen, Implantate oder Transplantate mit Op</Code>
+    <Code>Komplikationen durch orthopädische Endoprothesen, Implantate oder Transplantate mit Op</Code>
     <Fab>
       <Name>HA0200 Geri</Name>
       <CaseMix>8.242</CaseMix>
@@ -17198,7 +17198,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Komplikationen durch orthop�dische Endoprothesen, Implantate oder Transplantate ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Komplikationen durch orthopädische Endoprothesen, Implantate oder Transplantate ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0200 Geri</Name>
       <CaseMix>7.282</CaseMix>
@@ -17210,7 +17210,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Komplikationen durch Prothesen, Implantate oder Transplantate im Herzen und in den Gef��en mit Op</Code>
+    <Code>Komplikationen durch Prothesen, Implantate oder Transplantate im Herzen und in den Gefäßen mit Op</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>1.28</CaseMix>
@@ -17222,7 +17222,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Komplikationen durch Prothesen, Implantate oder Transplantate im Herzen und in den Gef��en ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Komplikationen durch Prothesen, Implantate oder Transplantate im Herzen und in den Gefäßen ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.731</CaseMix>
@@ -17266,7 +17266,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Komplikationen im Zusammenhang mit k�nstlicher Befruchtung ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Komplikationen im Zusammenhang mit künstlicher Befruchtung ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>0.427</CaseMix>
@@ -17282,7 +17282,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Komplikationen, die f�r Replantation und Amputation bezeichnend sind mit Op</Code>
+    <Code>Komplikationen, die für Replantation und Amputation bezeichnend sind mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>2.12</CaseMix>
@@ -17290,7 +17290,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Koxarthrose [Arthrose des H�ftgelenkes] mit Op</Code>
+    <Code>Koxarthrose [Arthrose des Hüftgelenkes] mit Op</Code>
     <Fab>
       <Name>HA0200 Geri</Name>
       <CaseMix>14.363</CaseMix>
@@ -17302,7 +17302,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Koxarthrose [Arthrose des H�ftgelenkes] ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Koxarthrose [Arthrose des Hüftgelenkes] ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0200 Geri</Name>
       <CaseMix>3.789</CaseMix>
@@ -17318,7 +17318,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Kr�mpfe, anderenorts nicht klassifiziert</Code>
+    <Code>Krämpfe, anderenorts nicht klassifiziert</Code>
     <Fab>
       <Name>HA2800 Neuro</Name>
       <CaseMix>2.807</CaseMix>
@@ -17326,7 +17326,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Krankheiten der Atemwege nach medizinischen Ma�nahmen, anderenorts nicht klassifiziert mit relevanter Prozedur</Code>
+    <Code>Krankheiten der Atemwege nach medizinischen Maßnahmen, anderenorts nicht klassifiziert mit relevanter Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>2.392</CaseMix>
@@ -17342,7 +17342,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Krankheiten der Bartholin-Dr�sen mit Op</Code>
+    <Code>Krankheiten der Bartholin-Drüsen mit Op</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>0.888</CaseMix>
@@ -17350,7 +17350,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Krankheiten der Brustdr�se im Wochenbett</Code>
+    <Code>Krankheiten der Brustdrüse im Wochenbett</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>3.075</CaseMix>
@@ -17366,7 +17366,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Krankheiten der N�gel mit Op</Code>
+    <Code>Krankheiten der Nägel mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>0.925</CaseMix>
@@ -17374,7 +17374,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Krankheiten der Speicheldr�sen ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Krankheiten der Speicheldrüsen ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.405</CaseMix>
@@ -17390,7 +17390,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Krankheiten des Muskel-Skelett-Systems nach medizinischen Ma�nahmen, anderenorts nicht klassifiziert mit Op</Code>
+    <Code>Krankheiten des Muskel-Skelett-Systems nach medizinischen Maßnahmen, anderenorts nicht klassifiziert mit Op</Code>
     <Fab>
       <Name>HA1600 UCH</Name>
       <CaseMix>0.694</CaseMix>
@@ -17402,7 +17402,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Krankheiten des Muskel-Skelett-Systems nach medizinischen Ma�nahmen, anderenorts nicht klassifiziert ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Krankheiten des Muskel-Skelett-Systems nach medizinischen Maßnahmen, anderenorts nicht klassifiziert ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0200 Geri</Name>
       <CaseMix>5.316</CaseMix>
@@ -17422,7 +17422,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Krankheiten des Urogenitalsystems nach medizinischen Ma�nahmen, anderenorts nicht klassifiziert mit Op</Code>
+    <Code>Krankheiten des Urogenitalsystems nach medizinischen Maßnahmen, anderenorts nicht klassifiziert mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>1.748</CaseMix>
@@ -17434,7 +17434,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Krankheiten des Verdauungssystems nach medizinischen Ma�nahmen, anderenorts nicht klassifiziert mit Op</Code>
+    <Code>Krankheiten des Verdauungssystems nach medizinischen Maßnahmen, anderenorts nicht klassifiziert mit Op</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>1.248</CaseMix>
@@ -17454,7 +17454,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Laktoseintoleranz und weitere Kohlenhydratstoffwechselst�rungen</Code>
+    <Code>Laktoseintoleranz und weitere Kohlenhydratstoffwechselstörungen</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>1.437</CaseMix>
@@ -17494,7 +17494,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Leuk�mien</Code>
+    <Code>Leukämien</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>3.504</CaseMix>
@@ -17538,7 +17538,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Lungen�dem ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Lungenödem ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.657</CaseMix>
@@ -17546,7 +17546,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Luxation, Verstauchung und Zerrung der Gelenke und B�nder in H�he des oberen Sprunggelenkes und des Fu�es mit Op</Code>
+    <Code>Luxation, Verstauchung und Zerrung der Gelenke und Bänder in Höhe des oberen Sprunggelenkes und des Fußes mit Op</Code>
     <Fab>
       <Name>HA2300 Ortho</Name>
       <CaseMix>1.452</CaseMix>
@@ -17558,7 +17558,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Luxation, Verstauchung und Zerrung der Gelenke und B�nder in H�he des oberen Sprunggelenkes und des Fu�es ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Luxation, Verstauchung und Zerrung der Gelenke und Bänder in Höhe des oberen Sprunggelenkes und des Fußes ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA1600 UCH</Name>
       <CaseMix>0.425</CaseMix>
@@ -17566,7 +17566,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Luxation, Verstauchung und Zerrung des Ellenbogengelenkes und von B�ndern des Ellenbogens mit Op</Code>
+    <Code>Luxation, Verstauchung und Zerrung des Ellenbogengelenkes und von Bändern des Ellenbogens mit Op</Code>
     <Fab>
       <Name>HA1600 UCH</Name>
       <CaseMix>1.79</CaseMix>
@@ -17574,7 +17574,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Luxation, Verstauchung und Zerrung des Ellenbogengelenkes und von B�ndern des Ellenbogens ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Luxation, Verstauchung und Zerrung des Ellenbogengelenkes und von Bändern des Ellenbogens ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA1600 UCH</Name>
       <CaseMix>0.221</CaseMix>
@@ -17582,7 +17582,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Luxation, Verstauchung und Zerrung des H�ftgelenkes und von B�ndern der H�fte ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Luxation, Verstauchung und Zerrung des Hüftgelenkes und von Bändern der Hüfte ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>1.507</CaseMix>
@@ -17594,7 +17594,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Luxation, Verstauchung und Zerrung des Kniegelenkes und von B�ndern des Kniegelenkes mit Op</Code>
+    <Code>Luxation, Verstauchung und Zerrung des Kniegelenkes und von Bändern des Kniegelenkes mit Op</Code>
     <Fab>
       <Name>HA1600 UCH</Name>
       <CaseMix>15.652</CaseMix>
@@ -17606,7 +17606,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Luxation, Verstauchung und Zerrung des Kniegelenkes und von B�ndern des Kniegelenkes ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Luxation, Verstauchung und Zerrung des Kniegelenkes und von Bändern des Kniegelenkes ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA1600 UCH</Name>
       <CaseMix>2.391</CaseMix>
@@ -17614,7 +17614,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Luxation, Verstauchung und Zerrung von Gelenken und B�ndern des Schulterg�rtels mit Op</Code>
+    <Code>Luxation, Verstauchung und Zerrung von Gelenken und Bändern des Schultergürtels mit Op</Code>
     <Fab>
       <Name>HA1600 UCH</Name>
       <CaseMix>13.252</CaseMix>
@@ -17626,7 +17626,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Luxation, Verstauchung und Zerrung von Gelenken und B�ndern des Schulterg�rtels ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Luxation, Verstauchung und Zerrung von Gelenken und Bändern des Schultergürtels ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA1600 UCH</Name>
       <CaseMix>3.43</CaseMix>
@@ -17634,7 +17634,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Luxation, Verstauchung und Zerrung von Gelenken und B�ndern in Halsh�he</Code>
+    <Code>Luxation, Verstauchung und Zerrung von Gelenken und Bändern in Halshöhe</Code>
     <Fab>
       <Name>HA1600 UCH</Name>
       <CaseMix>3.35</CaseMix>
@@ -17646,7 +17646,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Luxation, Verstauchung und Zerrung von Gelenken und B�ndern in H�he des Handgelenkes und der Hand mit Op</Code>
+    <Code>Luxation, Verstauchung und Zerrung von Gelenken und Bändern in Höhe des Handgelenkes und der Hand mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>3.959</CaseMix>
@@ -17654,7 +17654,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Lymphknotenvergr��erung</Code>
+    <Code>Lymphknotenvergrößerung</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>1.373</CaseMix>
@@ -17686,7 +17686,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Mangelern�hrung</Code>
+    <Code>Mangelernährung</Code>
     <Fab>
       <Name>HA0200 Geri</Name>
       <CaseMix>2.984</CaseMix>
@@ -17714,7 +17714,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Migr�ne und Kopfschmerzen</Code>
+    <Code>Migräne und Kopfschmerzen</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>1.353</CaseMix>
@@ -17734,7 +17734,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Myasthenia gravis und sonstige neuromuskul�re Krankheiten</Code>
+    <Code>Myasthenia gravis und sonstige neuromuskuläre Krankheiten</Code>
     <Fab>
       <Name>HA2800 Neuro</Name>
       <CaseMix>16.324</CaseMix>
@@ -17814,7 +17814,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Netzhautgef��verschluss ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Netzhautgefäßverschluss ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA2800 Neuro</Name>
       <CaseMix>2.56</CaseMix>
@@ -17822,7 +17822,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Neubildung unsicheren oder unbekannten Verhaltens an sonstigen und nicht n�her bezeichneten Lokalisationen ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Neubildung unsicheren oder unbekannten Verhaltens an sonstigen und nicht näher bezeichneten Lokalisationen ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.579</CaseMix>
@@ -17838,7 +17838,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Neubildung unsicheren oder unbekannten Verhaltens der endokrinen Dr�sen mit Op</Code>
+    <Code>Neubildung unsicheren oder unbekannten Verhaltens der endokrinen Drüsen mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>7.614</CaseMix>
@@ -17846,7 +17846,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Neubildung unsicheren oder unbekannten Verhaltens der endokrinen Dr�sen ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Neubildung unsicheren oder unbekannten Verhaltens der endokrinen Drüsen ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.838</CaseMix>
@@ -17854,7 +17854,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Neubildung unsicheren oder unbekannten Verhaltens der m�nnlichen Genitalorgane ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Neubildung unsicheren oder unbekannten Verhaltens der männlichen Genitalorgane ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.574</CaseMix>
@@ -17862,7 +17862,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Neubildung unsicheren oder unbekannten Verhaltens der Mundh�hle und der Verdauungsorgane mit Op</Code>
+    <Code>Neubildung unsicheren oder unbekannten Verhaltens der Mundhöhle und der Verdauungsorgane mit Op</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>2.954</CaseMix>
@@ -17870,7 +17870,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Neubildung unsicheren oder unbekannten Verhaltens der Mundh�hle und der Verdauungsorgane mit relevanter Prozedur</Code>
+    <Code>Neubildung unsicheren oder unbekannten Verhaltens der Mundhöhle und der Verdauungsorgane mit relevanter Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>1.618</CaseMix>
@@ -17878,7 +17878,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Neubildung unsicheren oder unbekannten Verhaltens der Mundh�hle und der Verdauungsorgane ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Neubildung unsicheren oder unbekannten Verhaltens der Mundhöhle und der Verdauungsorgane ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.171</CaseMix>
@@ -17934,7 +17934,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Nicht n�her bezeichnete abdominale Hernie mit Op</Code>
+    <Code>Nicht näher bezeichnete abdominale Hernie mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>1.969</CaseMix>
@@ -17942,7 +17942,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Nicht n�her bezeichnete chronische Bronchitis mit relevanter Prozedur</Code>
+    <Code>Nicht näher bezeichnete chronische Bronchitis mit relevanter Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.548</CaseMix>
@@ -17950,7 +17950,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Nicht n�her bezeichnete Demenz mit relevanter Prozedur</Code>
+    <Code>Nicht näher bezeichnete Demenz mit relevanter Prozedur</Code>
     <Fab>
       <Name>HA0200 Geri</Name>
       <CaseMix>1.312</CaseMix>
@@ -17958,7 +17958,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Nicht n�her bezeichnete Demenz ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Nicht näher bezeichnete Demenz ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.602</CaseMix>
@@ -17974,7 +17974,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Nicht n�her bezeichnete Kontaktdermatitis</Code>
+    <Code>Nicht näher bezeichnete Kontaktdermatitis</Code>
     <Fab>
       <Name>HA1600 UCH</Name>
       <CaseMix>0.331</CaseMix>
@@ -17982,7 +17982,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Nicht n�her bezeichnete Niereninsuffizienz</Code>
+    <Code>Nicht näher bezeichnete Niereninsuffizienz</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>1.226</CaseMix>
@@ -17990,7 +17990,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Nicht n�her bezeichnete Nierenkolik ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Nicht näher bezeichnete Nierenkolik ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0200 Geri</Name>
       <CaseMix>0.363</CaseMix>
@@ -17998,7 +17998,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Nichtentz�ndliche Krankheiten des Ovars, der Tuba uterina und des Lig. latum uteri mit Op</Code>
+    <Code>Nichtentzündliche Krankheiten des Ovars, der Tuba uterina und des Lig. latum uteri mit Op</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>7.814</CaseMix>
@@ -18006,7 +18006,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>nichtinfekti�se Krankheiten der Lymphgef��e und Lymphknoten inkl. unspez. Lymphadenits ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>nichtinfektiöse Krankheiten der Lymphgefäße und Lymphknoten inkl. unspez. Lymphadenits ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.927</CaseMix>
@@ -18050,7 +18050,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Oberfl�chliche Verletzung des Kopfes und Offene Wunden des Kopfes   mit Op</Code>
+    <Code>Oberflächliche Verletzung des Kopfes und Offene Wunden des Kopfes   mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>3.697</CaseMix>
@@ -18062,7 +18062,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Oberfl�chliche Verletzung des Kopfes und Offene Wunden des Kopfes   ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Oberflächliche Verletzung des Kopfes und Offene Wunden des Kopfes   ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA1600 UCH</Name>
       <CaseMix>3.297</CaseMix>
@@ -18070,7 +18070,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Oberfl�chliche Verletzung und offene Wunde der H�fte und des Oberschenkels mit Op</Code>
+    <Code>Oberflächliche Verletzung und offene Wunde der Hüfte und des Oberschenkels mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>7.395</CaseMix>
@@ -18082,7 +18082,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Oberfl�chliche Verletzung und offene Wunde der H�fte und des Oberschenkels ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Oberflächliche Verletzung und offene Wunde der Hüfte und des Oberschenkels ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0200 Geri</Name>
       <CaseMix>1.806</CaseMix>
@@ -18094,7 +18094,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Oberfl�chliche Verletzung und offene Wunde der Schulter und des Oberarmes mit Op</Code>
+    <Code>Oberflächliche Verletzung und offene Wunde der Schulter und des Oberarmes mit Op</Code>
     <Fab>
       <Name>HA1600 UCH</Name>
       <CaseMix>1.302</CaseMix>
@@ -18102,7 +18102,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Oberfl�chliche Verletzung und offene Wunde der Schulter und des Oberarmes ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Oberflächliche Verletzung und offene Wunde der Schulter und des Oberarmes ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA1600 UCH</Name>
       <CaseMix>1.494</CaseMix>
@@ -18110,7 +18110,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Oberfl�chliche Verletzung und offene Wunde des Unterarmes mit Op</Code>
+    <Code>Oberflächliche Verletzung und offene Wunde des Unterarmes mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>1.716</CaseMix>
@@ -18122,7 +18122,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Oberfl�chliche Verletzung und offene Wunde des Unterarmes ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Oberflächliche Verletzung und offene Wunde des Unterarmes ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA1600 UCH</Name>
       <CaseMix>0.333</CaseMix>
@@ -18130,7 +18130,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Oberfl�chliche Verletzung und offene Wunden der Kn�chelregion und des Fu�es mit Op</Code>
+    <Code>Oberflächliche Verletzung und offene Wunden der Knöchelregion und des Fußes mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>15.386</CaseMix>
@@ -18138,7 +18138,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Oberfl�chliche Verletzung und offene Wunden der Kn�chelregion und des Fu�es ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Oberflächliche Verletzung und offene Wunden der Knöchelregion und des Fußes ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.197</CaseMix>
@@ -18150,7 +18150,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Oberfl�chliche Verletzung und offene Wunden des Abdomens, der Lumbosakralgegend und des Beckens mit Op</Code>
+    <Code>Oberflächliche Verletzung und offene Wunden des Abdomens, der Lumbosakralgegend und des Beckens mit Op</Code>
     <Fab>
       <Name>HA0200 Geri</Name>
       <CaseMix>1.728</CaseMix>
@@ -18166,7 +18166,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Oberfl�chliche Verletzung und offene Wunden des Abdomens, der Lumbosakralgegend und des Beckens ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Oberflächliche Verletzung und offene Wunden des Abdomens, der Lumbosakralgegend und des Beckens ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0200 Geri</Name>
       <CaseMix>1.801</CaseMix>
@@ -18182,7 +18182,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Oberfl�chliche Verletzung und offene Wunden des Halses ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Oberflächliche Verletzung und offene Wunden des Halses ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA1600 UCH</Name>
       <CaseMix>0.571</CaseMix>
@@ -18190,7 +18190,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Oberfl�chliche Verletzung und offene Wunden des Handgelenkes und der Hand mit Op</Code>
+    <Code>Oberflächliche Verletzung und offene Wunden des Handgelenkes und der Hand mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>1.163</CaseMix>
@@ -18198,7 +18198,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Oberfl�chliche Verletzung und offene Wunden des Handgelenkes und der Hand ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Oberflächliche Verletzung und offene Wunden des Handgelenkes und der Hand ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA1600 UCH</Name>
       <CaseMix>0.747</CaseMix>
@@ -18206,7 +18206,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Oberfl�chliche Verletzung und offene Wunden des Thorax mit Op</Code>
+    <Code>Oberflächliche Verletzung und offene Wunden des Thorax mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>3.432</CaseMix>
@@ -18214,7 +18214,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Oberfl�chliche Verletzung und offene Wunden des Thorax ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Oberflächliche Verletzung und offene Wunden des Thorax ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.353</CaseMix>
@@ -18226,7 +18226,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Oberfl�chliche Verletzung und offene Wunden des Unterschenkels mit Op</Code>
+    <Code>Oberflächliche Verletzung und offene Wunden des Unterschenkels mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>24.027</CaseMix>
@@ -18238,7 +18238,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Oberfl�chliche Verletzung und offene Wunden des Unterschenkels ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Oberflächliche Verletzung und offene Wunden des Unterschenkels ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0200 Geri</Name>
       <CaseMix>1.458</CaseMix>
@@ -18254,7 +18254,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Oberfl�chliche Verletzungen mit Beteiligung mehrerer K�rperregionen ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Oberflächliche Verletzungen mit Beteiligung mehrerer Körperregionen ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA1600 UCH</Name>
       <CaseMix>0.197</CaseMix>
@@ -18274,7 +18274,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>�dem, anderenorts nicht klassifiziert</Code>
+    <Code>Ödem, anderenorts nicht klassifiziert</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>1.824</CaseMix>
@@ -18282,7 +18282,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>�sophagitis mit relevanter Prozedur</Code>
+    <Code>Ösophagitis mit relevanter Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.972</CaseMix>
@@ -18290,7 +18290,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Osteochondrose der Wirbels�ule ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Osteochondrose der Wirbelsäule ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.411</CaseMix>
@@ -18430,7 +18430,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Pathologische Zust�nde der Plazenta</Code>
+    <Code>Pathologische Zustände der Plazenta</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>0.402</CaseMix>
@@ -18470,7 +18470,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Pers�nlichkeits- und Verhaltensst�rung aufgrund einer Krankheit, Sch�digung oder Funktionsst�rung des Gehirns</Code>
+    <Code>Persönlichkeits- und Verhaltensstörung aufgrund einer Krankheit, Schädigung oder Funktionsstörung des Gehirns</Code>
     <Fab>
       <Name>HA2800 Neuro</Name>
       <CaseMix>0.638</CaseMix>
@@ -18510,7 +18510,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Plasmozytom und b�sartige Plasmazellen-Neubildungen</Code>
+    <Code>Plasmozytom und bösartige Plasmazellen-Neubildungen</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>2.23</CaseMix>
@@ -18542,7 +18542,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Pneumonie durch feste und fl�ssige Substanzen mit relevanter Prozedur</Code>
+    <Code>Pneumonie durch feste und flüssige Substanzen mit relevanter Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>8.538</CaseMix>
@@ -18550,7 +18550,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Pneumonie durch feste und fl�ssige Substanzen ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Pneumonie durch feste und flüssige Substanzen ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>5</CaseMix>
@@ -18590,7 +18590,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Pneumonie, Erreger nicht n�her bezeichnet</Code>
+    <Code>Pneumonie, Erreger nicht näher bezeichnet</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>135.317</CaseMix>
@@ -18674,7 +18674,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Pr�eklampsie mit Op</Code>
+    <Code>Präeklampsie mit Op</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>2.298</CaseMix>
@@ -18682,7 +18682,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Pr�eklampsie ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Präeklampsie ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>0.789</CaseMix>
@@ -18690,7 +18690,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>prim�re und sonstige Myopathien</Code>
+    <Code>primäre und sonstige Myopathien</Code>
     <Fab>
       <Name>HA2800 Neuro</Name>
       <CaseMix>7.207</CaseMix>
@@ -18706,7 +18706,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Psychische und Verhaltensst�rungen durch Alkohol ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Psychische und Verhaltensstörungen durch Alkohol ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>28.117</CaseMix>
@@ -18722,7 +18722,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Psychische und Verhaltensst�rungen durch Cannabinoide ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Psychische und Verhaltensstörungen durch Cannabinoide ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.599</CaseMix>
@@ -18734,7 +18734,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Psychische und Verhaltensst�rungen durch multiplen Substanzgebrauch und Konsum anderer psychotroper Substanzen</Code>
+    <Code>Psychische und Verhaltensstörungen durch multiplen Substanzgebrauch und Konsum anderer psychotroper Substanzen</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.353</CaseMix>
@@ -18742,7 +18742,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Psychische und Verhaltensst�rungen durch Opioide ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Psychische und Verhaltensstörungen durch Opioide ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>1.094</CaseMix>
@@ -18754,7 +18754,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Psychische und Verhaltensst�rungen durch weitere psychotrope Substanzen ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Psychische und Verhaltensstörungen durch weitere psychotrope Substanzen ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.192</CaseMix>
@@ -18778,7 +18778,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Reaktionen auf schwere Belastungen und Anpassungsst�rungen</Code>
+    <Code>Reaktionen auf schwere Belastungen und Anpassungsstörungen</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>1.533</CaseMix>
@@ -18822,7 +18822,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Retention der Plazenta und der Eih�ute ohne Blutung</Code>
+    <Code>Retention der Plazenta und der Eihäute ohne Blutung</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>0.631</CaseMix>
@@ -18838,7 +18838,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>R�ckenschmerzen ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Rückenschmerzen ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>7.432</CaseMix>
@@ -18926,7 +18926,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Schizoaffektive St�rungen</Code>
+    <Code>Schizoaffektive Störungen</Code>
     <Fab>
       <Name>HA2800 Neuro</Name>
       <CaseMix>0.517</CaseMix>
@@ -18946,7 +18946,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Schlafst�rungen ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Schlafstörungen ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.28</CaseMix>
@@ -18962,7 +18962,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Schmerz und andere Zust�nde im Zusammenhang mit den weiblichen Genitalorganen und dem Menstruationszyklus ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Schmerz und andere Zustände im Zusammenhang mit den weiblichen Genitalorganen und dem Menstruationszyklus ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>0.669</CaseMix>
@@ -18970,7 +18970,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Schmerzzust�nde</Code>
+    <Code>Schmerzzustände</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>1.553</CaseMix>
@@ -18998,7 +18998,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Schulterl�sionen mit Op</Code>
+    <Code>Schulterläsionen mit Op</Code>
     <Fab>
       <Name>HA1600 UCH</Name>
       <CaseMix>1.68</CaseMix>
@@ -19010,7 +19010,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Schulterl�sionen ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Schulterläsionen ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.459</CaseMix>
@@ -19030,7 +19030,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sehst�rungen</Code>
+    <Code>Sehstörungen</Code>
     <Fab>
       <Name>HA2800 Neuro</Name>
       <CaseMix>4.636</CaseMix>
@@ -19078,7 +19078,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Somatoforme St�rungen ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Somatoforme Störungen ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>1.245</CaseMix>
@@ -19090,7 +19090,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>sonstige /weitere b�sartige Neubildungen der weiblichen Genitalorgane  mit Op</Code>
+    <Code>sonstige /weitere bösartige Neubildungen der weiblichen Genitalorgane  mit Op</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>1.64</CaseMix>
@@ -19138,7 +19138,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige aliment�re Mangelzust�nde</Code>
+    <Code>Sonstige alimentäre Mangelzustände</Code>
     <Fab>
       <Name>HA2800 Neuro</Name>
       <CaseMix>8.251</CaseMix>
@@ -19146,7 +19146,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige An�mien mit relevanter Prozedur</Code>
+    <Code>Sonstige Anämien mit relevanter Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>5.497</CaseMix>
@@ -19158,7 +19158,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige An�mien ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Sonstige Anämien ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>1.078</CaseMix>
@@ -19206,7 +19206,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige Bandscheibensch�den mit Op</Code>
+    <Code>Sonstige Bandscheibenschäden mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>32.902</CaseMix>
@@ -19218,7 +19218,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige Bandscheibensch�den ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Sonstige Bandscheibenschäden ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0200 Geri</Name>
       <CaseMix>9.024</CaseMix>
@@ -19234,7 +19234,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige b�sartige Neubildungen der Haut mit Op</Code>
+    <Code>Sonstige bösartige Neubildungen der Haut mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>30.579</CaseMix>
@@ -19242,7 +19242,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige b�sartige Neubildungen der Haut ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Sonstige bösartige Neubildungen der Haut ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>1.56</CaseMix>
@@ -19250,7 +19250,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige Deformit�ten der Wirbels�ule und des R�ckens mit Op</Code>
+    <Code>Sonstige Deformitäten der Wirbelsäule und des Rückens mit Op</Code>
     <Fab>
       <Name>HA2300 Ortho</Name>
       <CaseMix>6.032</CaseMix>
@@ -19274,7 +19274,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige entz�ndliche Krankheit der Vagina und Vulva mit Op</Code>
+    <Code>Sonstige entzündliche Krankheit der Vagina und Vulva mit Op</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>1.951</CaseMix>
@@ -19282,7 +19282,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige entz�ndliche Krankheit der Vagina und Vulva ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Sonstige entzündliche Krankheit der Vagina und Vulva ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>0.363</CaseMix>
@@ -19290,7 +19290,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige entz�ndliche Krankheiten im weiblichen Becken mit Op</Code>
+    <Code>Sonstige entzündliche Krankheiten im weiblichen Becken mit Op</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>0.862</CaseMix>
@@ -19298,7 +19298,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige entz�ndliche Krankheiten im weiblichen Becken ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Sonstige entzündliche Krankheiten im weiblichen Becken ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.723</CaseMix>
@@ -19306,7 +19306,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige entz�ndliche Leberkrankheiten ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Sonstige entzündliche Leberkrankheiten ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>2.156</CaseMix>
@@ -19314,7 +19314,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige erworbene Deformit�ten der Extremit�ten mit Op</Code>
+    <Code>Sonstige erworbene Deformitäten der Extremitäten mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>1.43</CaseMix>
@@ -19326,7 +19326,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige erworbene Deformit�ten des Muskel-Skelett-Systems und des Bindegewebes mit Op</Code>
+    <Code>Sonstige erworbene Deformitäten des Muskel-Skelett-Systems und des Bindegewebes mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>0.252</CaseMix>
@@ -19334,7 +19334,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige funktionelle Darmst�rungen mit relevanter Prozedur</Code>
+    <Code>Sonstige funktionelle Darmstörungen mit relevanter Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>2.225</CaseMix>
@@ -19346,7 +19346,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige funktionelle Darmst�rungen ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Sonstige funktionelle Darmstörungen ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>4.561</CaseMix>
@@ -19386,7 +19386,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>sonstige Gr�nde das Gesundheitswesen f�r spezifische Ma�nahmen /Betreuung in Anspruch zu nehmen</Code>
+    <Code>sonstige Gründe das Gesundheitswesen für spezifische Maßnahmen /Betreuung in Anspruch zu nehmen</Code>
     <Fab>
       <Name>HA3700 sonst.</Name>
       <CaseMix>0.715</CaseMix>
@@ -19394,7 +19394,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige Infektionen, die f�r die Perinatalperiode spezifisch sind</Code>
+    <Code>Sonstige Infektionen, die für die Perinatalperiode spezifisch sind</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>1.782</CaseMix>
@@ -19470,7 +19470,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige Komplikationen bei Wehent�tigkeit und Entbindung, anderenorts nicht klassifiziert</Code>
+    <Code>Sonstige Komplikationen bei Wehentätigkeit und Entbindung, anderenorts nicht klassifiziert</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>3.467</CaseMix>
@@ -19578,7 +19578,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige Krankheiten der Mamma [Brustdr�se] mit Op</Code>
+    <Code>Sonstige Krankheiten der Mamma [Brustdrüse] mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>2.522</CaseMix>
@@ -19590,7 +19590,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige Krankheiten der Nase und der Nasennebenh�hlen ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Sonstige Krankheiten der Nase und der Nasennebenhöhlen ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>0.405</CaseMix>
@@ -19618,7 +19618,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige Krankheiten der Wirbels�ule und des R�ckens, anderenorts nicht klassifiziert mit Op</Code>
+    <Code>Sonstige Krankheiten der Wirbelsäule und des Rückens, anderenorts nicht klassifiziert mit Op</Code>
     <Fab>
       <Name>HA2300 Ortho</Name>
       <CaseMix>5.23</CaseMix>
@@ -19626,7 +19626,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige Krankheiten der Wirbels�ule und des R�ckens, anderenorts nicht klassifiziert ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Sonstige Krankheiten der Wirbelsäule und des Rückens, anderenorts nicht klassifiziert ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>0.411</CaseMix>
@@ -19662,7 +19662,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige Krankheiten des �u�eren Ohres ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Sonstige Krankheiten des äußeren Ohres ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>0.405</CaseMix>
@@ -19766,7 +19766,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige Krankheiten des �sophagus mit relevanter Prozedur</Code>
+    <Code>Sonstige Krankheiten des Ösophagus mit relevanter Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>7.334</CaseMix>
@@ -19878,7 +19878,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige Krankheitszust�nde der Pleura ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Sonstige Krankheitszustände der Pleura ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.579</CaseMix>
@@ -19886,7 +19886,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige L�hmungssyndrome</Code>
+    <Code>Sonstige Lähmungssyndrome</Code>
     <Fab>
       <Name>HA2800 Neuro</Name>
       <CaseMix>4.409</CaseMix>
@@ -19910,7 +19910,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige n�her bezeichnete Gelenksch�digungen mit Op</Code>
+    <Code>Sonstige näher bezeichnete Gelenkschädigungen mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>2.169</CaseMix>
@@ -19926,7 +19926,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige n�her bezeichnete Gelenksch�digungen ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Sonstige näher bezeichnete Gelenkschädigungen ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0200 Geri</Name>
       <CaseMix>0.999</CaseMix>
@@ -19938,7 +19938,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>sonstige n�her bezeichnete organische oder symptomatische psychische St�rung</Code>
+    <Code>sonstige näher bezeichnete organische oder symptomatische psychische Störung</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.432</CaseMix>
@@ -19966,7 +19966,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige nichtentz�ndliche Krankheiten des Uterus, ausgenommen der Zervix mit Op</Code>
+    <Code>Sonstige nichtentzündliche Krankheiten des Uterus, ausgenommen der Zervix mit Op</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>1.972</CaseMix>
@@ -19974,7 +19974,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige nichtentz�ndliche Krankheiten des Uterus, ausgenommen der Zervix mit relevanter Prozedur</Code>
+    <Code>Sonstige nichtentzündliche Krankheiten des Uterus, ausgenommen der Zervix mit relevanter Prozedur</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>1.098</CaseMix>
@@ -19982,7 +19982,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige nichtinfekti�se Gastroenteritis und Kolitis mit relevanter Prozedur</Code>
+    <Code>Sonstige nichtinfektiöse Gastroenteritis und Kolitis mit relevanter Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>7.294</CaseMix>
@@ -19994,7 +19994,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige nichtinfekti�se Gastroenteritis und Kolitis ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Sonstige nichtinfektiöse Gastroenteritis und Kolitis ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>6.005</CaseMix>
@@ -20030,7 +20030,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige St�rungen der Blickbewegungen</Code>
+    <Code>Sonstige Störungen der Blickbewegungen</Code>
     <Fab>
       <Name>HA2800 Neuro</Name>
       <CaseMix>0.512</CaseMix>
@@ -20038,7 +20038,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige St�rungen des Wasser- und Elektrolythaushaltes sowie des S�ure-Basen-Gleichgewichts</Code>
+    <Code>Sonstige Störungen des Wasser- und Elektrolythaushaltes sowie des Säure-Basen-Gleichgewichts</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>17.578</CaseMix>
@@ -20054,7 +20054,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige und nicht n�her bezeichnete Gastroenteritis und Kolitis infekti�sen und nicht n�her bezeichneten Ursprungs mit relevanter Prozedur</Code>
+    <Code>Sonstige und nicht näher bezeichnete Gastroenteritis und Kolitis infektiösen und nicht näher bezeichneten Ursprungs mit relevanter Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>6.994</CaseMix>
@@ -20062,7 +20062,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige und nicht n�her bezeichnete Gastroenteritis und Kolitis infekti�sen und nicht n�her bezeichneten Ursprungs ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Sonstige und nicht näher bezeichnete Gastroenteritis und Kolitis infektiösen und nicht näher bezeichneten Ursprungs ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>26.401</CaseMix>
@@ -20082,7 +20082,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige und nicht n�her bezeichnete Krankheiten des Kreislaufsystems</Code>
+    <Code>Sonstige und nicht näher bezeichnete Krankheiten des Kreislaufsystems</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>12.25</CaseMix>
@@ -20098,7 +20098,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige und nicht n�her bezeichnete Sch�den durch �u�ere Ursachen</Code>
+    <Code>Sonstige und nicht näher bezeichnete Schäden durch äußere Ursachen</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.472</CaseMix>
@@ -20106,7 +20106,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sonstige Ver�nderungen des Fruchtwassers und der Eih�ute</Code>
+    <Code>Sonstige Veränderungen des Fruchtwassers und der Eihäute</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>6.723</CaseMix>
@@ -20158,7 +20158,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Spezifische Pers�nlichkeitsst�rungen</Code>
+    <Code>Spezifische Persönlichkeitsstörungen</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.191</CaseMix>
@@ -20238,7 +20238,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Sterilit�t der Frau mit Op</Code>
+    <Code>Sterilität der Frau mit Op</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>0.552</CaseMix>
@@ -20246,7 +20246,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>St�rungen der Geschlechtsidentit�t mit Op</Code>
+    <Code>Störungen der Geschlechtsidentität mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>0</CaseMix>
@@ -20254,7 +20254,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>St�rungen der Geschlechtsidentit�t ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Störungen der Geschlechtsidentität ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>0.511</CaseMix>
@@ -20262,7 +20262,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>St�rungen der Vestibularfunktion</Code>
+    <Code>Störungen der Vestibularfunktion</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>2.622</CaseMix>
@@ -20286,7 +20286,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>St�rungen Hypophyse und Glandulae parathyroideae mit Op</Code>
+    <Code>Störungen Hypophyse und Glandulae parathyroideae mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>2.058</CaseMix>
@@ -20294,7 +20294,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>St�rungen im Zusammenhang mit kurzer Schwangerschaftsdauer und niedrigem Geburtsgewicht, anderenorts nicht klassifiziert</Code>
+    <Code>Störungen im Zusammenhang mit kurzer Schwangerschaftsdauer und niedrigem Geburtsgewicht, anderenorts nicht klassifiziert</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>1.414</CaseMix>
@@ -20302,7 +20302,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>St�rungen im Zusammenhang mit langer Schwangerschaftsdauer und hohem Geburtsgewicht</Code>
+    <Code>Störungen im Zusammenhang mit langer Schwangerschaftsdauer und hohem Geburtsgewicht</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>1.067</CaseMix>
@@ -20318,7 +20318,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Symptome, die das Erkennungs- und Wahrnehmungsverm�gen, die Stimmung und das Verhalten betreffen</Code>
+    <Code>Symptome, die das Erkennungs- und Wahrnehmungsvermögen, die Stimmung und das Verhalten betreffen</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>12.085</CaseMix>
@@ -20426,7 +20426,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Symptome, die die Nahrungs- und Fl�ssigkeitsaufnahme betreffen</Code>
+    <Code>Symptome, die die Nahrungs- und Flüssigkeitsaufnahme betreffen</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>9.255</CaseMix>
@@ -20554,7 +20554,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>�berm��iges Erbrechen w�hrend der Schwangerschaft</Code>
+    <Code>Übermäßiges Erbrechen während der Schwangerschaft</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>11.978</CaseMix>
@@ -20562,7 +20562,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>�bertragene Schwangerschaft</Code>
+    <Code>Übertragene Schwangerschaft</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>25.757</CaseMix>
@@ -20630,7 +20630,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Unerw�nschte Nebenwirkungen, anderenorts nicht klassifiziert</Code>
+    <Code>Unerwünschte Nebenwirkungen, anderenorts nicht klassifiziert</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>3.563</CaseMix>
@@ -20638,7 +20638,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Unwohlsein und Erm�dung</Code>
+    <Code>Unwohlsein und Ermüdung</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>1.317</CaseMix>
@@ -20662,7 +20662,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Varizen der unteren Extremit�ten mit Op</Code>
+    <Code>Varizen der unteren Extremitäten mit Op</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.643</CaseMix>
@@ -20670,7 +20670,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Varizen der unteren Extremit�ten ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Varizen der unteren Extremitäten ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>5.315</CaseMix>
@@ -20686,7 +20686,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Vaskul�re Demenz mit relevanter Prozedur</Code>
+    <Code>Vaskuläre Demenz mit relevanter Prozedur</Code>
     <Fab>
       <Name>HA0200 Geri</Name>
       <CaseMix>5.248</CaseMix>
@@ -20694,7 +20694,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Vaskul�re Demenz ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Vaskuläre Demenz ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0200 Geri</Name>
       <CaseMix>2.727</CaseMix>
@@ -20706,7 +20706,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Ver�nderungen der Knochenkontinuit�t mit Op</Code>
+    <Code>Veränderungen der Knochenkontinuität mit Op</Code>
     <Fab>
       <Name>HA0200 Geri</Name>
       <CaseMix>0.832</CaseMix>
@@ -20726,7 +20726,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Ver�nderungen der Knochenkontinuit�t ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Veränderungen der Knochenkontinuität ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA1600 UCH</Name>
       <CaseMix>0.609</CaseMix>
@@ -20734,7 +20734,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Verbrennungen oder Ver�tzungen der �u�eren K�rperoberfl�che, Lokalisation bezeichnet mit Op</Code>
+    <Code>Verbrennungen oder Verätzungen der äußeren Körperoberfläche, Lokalisation bezeichnet mit Op</Code>
     <Fab>
       <Name>HA0200 Geri</Name>
       <CaseMix>5.826</CaseMix>
@@ -20746,7 +20746,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Verbrennungen oder Ver�tzungen der �u�eren K�rperoberfl�che, Lokalisation bezeichnet ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Verbrennungen oder Verätzungen der äußeren Körperoberfläche, Lokalisation bezeichnet ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>0.186</CaseMix>
@@ -20786,7 +20786,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Verletzung von Muskeln und Sehnen in H�he der H�fte und des Oberschenkels mit Op</Code>
+    <Code>Verletzung von Muskeln und Sehnen in Höhe der Hüfte und des Oberschenkels mit Op</Code>
     <Fab>
       <Name>HA1600 UCH</Name>
       <CaseMix>2.979</CaseMix>
@@ -20798,7 +20798,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Verletzung von Muskeln und Sehnen in H�he der H�fte und des Oberschenkels ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Verletzung von Muskeln und Sehnen in Höhe der Hüfte und des Oberschenkels ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA1600 UCH</Name>
       <CaseMix>1.936</CaseMix>
@@ -20806,7 +20806,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Verletzung von Muskeln und Sehnen in H�he der Schulter und des Oberarmes mit Op</Code>
+    <Code>Verletzung von Muskeln und Sehnen in Höhe der Schulter und des Oberarmes mit Op</Code>
     <Fab>
       <Name>HA1600 UCH</Name>
       <CaseMix>4.548</CaseMix>
@@ -20818,7 +20818,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Verletzung von Muskeln und Sehnen in H�he des Handgelenkes und der Hand mit Op</Code>
+    <Code>Verletzung von Muskeln und Sehnen in Höhe des Handgelenkes und der Hand mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>23.034</CaseMix>
@@ -20826,7 +20826,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Verletzung von Muskeln und Sehnen in H�he des Unterschenkels mit Op</Code>
+    <Code>Verletzung von Muskeln und Sehnen in Höhe des Unterschenkels mit Op</Code>
     <Fab>
       <Name>HA1600 UCH</Name>
       <CaseMix>6.034</CaseMix>
@@ -20838,7 +20838,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Verletzungen der Kn�chelregion und des Fu�es mit Op</Code>
+    <Code>Verletzungen der Knöchelregion und des Fußes mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>2.408</CaseMix>
@@ -20846,7 +20846,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Verletzungen von Nerven und Blutgef��en in H�he des Handgelenkes und der Hand mit Op</Code>
+    <Code>Verletzungen von Nerven und Blutgefäßen in Höhe des Handgelenkes und der Hand mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>18.704</CaseMix>
@@ -20854,7 +20854,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Verletzungen von Nerven, Gef��en oder Muskeln und Sehnen in H�he des Unterarmes mit Op</Code>
+    <Code>Verletzungen von Nerven, Gefäßen oder Muskeln und Sehnen in Höhe des Unterarmes mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>5.601</CaseMix>
@@ -20866,7 +20866,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Verschluss und Stenose pr�zerebraler Arterien ohne resultierenden Hirninfarkt ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Verschluss und Stenose präzerebraler Arterien ohne resultierenden Hirninfarkt ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA2800 Neuro</Name>
       <CaseMix>0.775</CaseMix>
@@ -20874,7 +20874,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Virusbedingte und sonstige n�her bezeichnete Darminfektionen mit relevanter Prozedur</Code>
+    <Code>Virusbedingte und sonstige näher bezeichnete Darminfektionen mit relevanter Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>4.805</CaseMix>
@@ -20882,7 +20882,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Virusbedingte und sonstige n�her bezeichnete Darminfektionen ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Virusbedingte und sonstige näher bezeichnete Darminfektionen ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>3.114</CaseMix>
@@ -20910,7 +20910,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Virusinfektionen, die durch Haut- und Schleimhautl�sionen gekennzeichnet sind</Code>
+    <Code>Virusinfektionen, die durch Haut- und Schleimhautläsionen gekennzeichnet sind</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>3.516</CaseMix>
@@ -20934,7 +20934,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Vitamin-B12-Mangelan�mie mit relevanter Prozedur</Code>
+    <Code>Vitamin-B12-Mangelanämie mit relevanter Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>1.644</CaseMix>
@@ -20998,7 +20998,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Weitere Angeborene Fehlbildungen, Deformit�ten und Chromosomenanomalien mit Op</Code>
+    <Code>Weitere Angeborene Fehlbildungen, Deformitäten und Chromosomenanomalien mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>1.104</CaseMix>
@@ -21022,7 +21022,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>weitere b�sartige Neubildungen des mesothelialen und Weichteilgewebes  mit Op</Code>
+    <Code>weitere bösartige Neubildungen des mesothelialen und Weichteilgewebes  mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>3.607</CaseMix>
@@ -21030,7 +21030,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>weitere b�sartige Neubildungen des mesothelialen und Weichteilgewebes  ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>weitere bösartige Neubildungen des mesothelialen und Weichteilgewebes  ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA2300 Ortho</Name>
       <CaseMix>0.327</CaseMix>
@@ -21038,7 +21038,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>weitere ent�ndliche Polyarthropathien</Code>
+    <Code>weitere entündliche Polyarthropathien</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>1.596</CaseMix>
@@ -21054,7 +21054,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>weitere Formen der Hypertonie (sekund�re, Nieren etc.) ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>weitere Formen der Hypertonie (sekundäre, Nieren etc.) ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0200 Geri</Name>
       <CaseMix>1.474</CaseMix>
@@ -21062,7 +21062,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>weitere Gr�nde das Gesundheitswesen in Anspruch zu nehmen</Code>
+    <Code>weitere Gründe das Gesundheitswesen in Anspruch zu nehmen</Code>
     <Fab>
       <Name>HA1600 UCH</Name>
       <CaseMix>1.094</CaseMix>
@@ -21090,7 +21090,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Weitere Krankheitszust�nde w�hrend der Gestationsperiode, die anderenorts nicht klassifiziert sind</Code>
+    <Code>Weitere Krankheitszustände während der Gestationsperiode, die anderenorts nicht klassifiziert sind</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>0.169</CaseMix>
@@ -21102,7 +21102,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>weitere nichtentz�ndliche Krankheiten des weiblichen Genitaltraktes mit Op</Code>
+    <Code>weitere nichtentzündliche Krankheiten des weiblichen Genitaltraktes mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>0.417</CaseMix>
@@ -21138,7 +21138,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>weitere spezifische infekti�se Darmerkrankungen mit relevanter Prozedur</Code>
+    <Code>weitere spezifische infektiöse Darmerkrankungen mit relevanter Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>3.616</CaseMix>
@@ -21146,7 +21146,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>weitere spezifische infekti�se Darmerkrankungen ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>weitere spezifische infektiöse Darmerkrankungen ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>15</CaseMix>
@@ -21154,7 +21154,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>weitere Stoffwechselst�rungen mit Op</Code>
+    <Code>weitere Stoffwechselstörungen mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>10.207</CaseMix>
@@ -21166,7 +21166,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>weitere Stoffwechselst�rungen ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>weitere Stoffwechselstörungen ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>1.552</CaseMix>
@@ -21206,7 +21206,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>weitere ven�se Embolien und Thrombosen inkl. Pfortaderthrombosen</Code>
+    <Code>weitere venöse Embolien und Thrombosen inkl. Pfortaderthrombosen</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>2.625</CaseMix>
@@ -21214,7 +21214,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>weitere Ver�nderungen der Knochendichte mit Op</Code>
+    <Code>weitere Veränderungen der Knochendichte mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>2.436</CaseMix>
@@ -21234,7 +21234,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Weitere Verletzungen des Abdomens, der Lumbosakralgegend, der Lendenwirbels�ule und des Beckens mit Op</Code>
+    <Code>Weitere Verletzungen des Abdomens, der Lumbosakralgegend, der Lendenwirbelsäule und des Beckens mit Op</Code>
     <Fab>
       <Name>HA1600 UCH</Name>
       <CaseMix>0.743</CaseMix>
@@ -21242,7 +21242,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Weitere Verletzungen des Abdomens, der Lumbosakralgegend, der Lendenwirbels�ule und des Beckens ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Weitere Verletzungen des Abdomens, der Lumbosakralgegend, der Lendenwirbelsäule und des Beckens ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA1600 UCH</Name>
       <CaseMix>0.333</CaseMix>
@@ -21294,7 +21294,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>weitere zerebrovaskul�re Krankheiten ohne resultierenden Hirninfarkt und deren Folgen</Code>
+    <Code>weitere zerebrovaskuläre Krankheiten ohne resultierenden Hirninfarkt und deren Folgen</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.744</CaseMix>
@@ -21310,7 +21310,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Zerebrale transitorische Isch�mie und verwandte Syndrome mit relevanter Prozedur</Code>
+    <Code>Zerebrale transitorische Ischämie und verwandte Syndrome mit relevanter Prozedur</Code>
     <Fab>
       <Name>HA0200 Geri</Name>
       <CaseMix>8.332</CaseMix>
@@ -21322,7 +21322,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Zerebrale transitorische Isch�mie und verwandte Syndrome ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Zerebrale transitorische Ischämie und verwandte Syndrome ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.587</CaseMix>
@@ -21334,7 +21334,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Zervikale Bandscheibensch�den mit Op</Code>
+    <Code>Zervikale Bandscheibenschäden mit Op</Code>
     <Fab>
       <Name>HA1500 ACH</Name>
       <CaseMix>29.73</CaseMix>
@@ -21346,7 +21346,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Zervikale Bandscheibensch�den ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Zervikale Bandscheibenschäden ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA2800 Neuro</Name>
       <CaseMix>2.058</CaseMix>
@@ -21354,7 +21354,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Zu starke, zu h�ufige oder unregelm��ige Menstruation mit Op</Code>
+    <Code>Zu starke, zu häufige oder unregelmäßige Menstruation mit Op</Code>
     <Fab>
       <Name>HA0100 Innere</Name>
       <CaseMix>0.727</CaseMix>
@@ -21366,7 +21366,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Zu starke, zu h�ufige oder unregelm��ige Menstruation mit relevanter Prozedur</Code>
+    <Code>Zu starke, zu häufige oder unregelmäßige Menstruation mit relevanter Prozedur</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>0.522</CaseMix>
@@ -21374,7 +21374,7 @@
   </HospitalDataService>
   <HospitalDataService>
     <Type>MLG</Type>
-    <Code>Zu starke, zu h�ufige oder unregelm��ige Menstruation ohne Op oder sonstige relevante Prozedur</Code>
+    <Code>Zu starke, zu häufige oder unregelmäßige Menstruation ohne Op oder sonstige relevante Prozedur</Code>
     <Fab>
       <Name>HA2400 GynGeb</Name>
       <CaseMix>0.158</CaseMix>

@@ -9,6 +9,6 @@ namespace Masterarbeit.Classes.DistributionData.Xml
         [XmlElement("Code")] public string Code { get; set; }
         [XmlElement("ShareGlobal")] public decimal ShareGlobal { get; set; }
         [XmlElement("ShareInType")] public decimal ShareInType { get; set; }
-        [XmlElement("MasterDataFab")] public List<DistributionDataFabXml> MasterDataFabs { get; set; }
+        [XmlElement("DistributionDataFab")] public List<DistributionDataFabXml> MasterDataFabs { get; set; }
     }
 }

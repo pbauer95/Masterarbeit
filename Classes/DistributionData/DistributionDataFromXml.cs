@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using System.Xml.Linq;
 using Masterarbeit.Classes.DistributionData.Xml;
 using Masterarbeit.Interfaces.DistributionData;
@@ -8,7 +7,7 @@ namespace Masterarbeit.Classes.DistributionData
 {
     public class DistributionDataFromXml : IDistributionData
     {
-        private string _path;
+        private readonly string _path;
         private IDistributionData _distributionData;
 
         public DistributionDataFromXml(string path)

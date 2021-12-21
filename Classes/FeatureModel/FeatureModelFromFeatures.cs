@@ -27,7 +27,7 @@ namespace Masterarbeit.Classes.FeatureModel
             if (_xml != null)
                 return _xml;
 
-            //var constraints = FeaturesToConstraints(Features);
+            var constraints = FeaturesToConstraints(Features);
 
             var opsLeistungen =
                 FeaturesToXml(Features.Where(x => x.Service?.Type == IService.ServiceType.Ops).ToList());
@@ -78,10 +78,10 @@ namespace Masterarbeit.Classes.FeatureModel
                                 //     hospitalModifications)
                             )
                         )
+                    ),
+                    new XElement("constraints",
+                        constraints
                     )
-                    // new XElement("constraints",
-                    //     constraints
-                    // )
                 )
             );
 
@@ -126,17 +126,9 @@ namespace Masterarbeit.Classes.FeatureModel
 
             var serviceProvisionXElements = ServiceProvisionXElements(features.Where(x => x.Fab != null).ToList());
 
-            try
-            {
-                var serviceProvisionsAbstractFeature = features.Single(x => x.Fab == null);
-                return new XElement("or", new XAttribute("abstract", true), new XAttribute("mandatory", true),
-                    new XAttribute("name", serviceProvisionsAbstractFeature.Name), serviceProvisionXElements);
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-                throw;
-            }
+            var serviceProvisionsAbstractFeature = features.Single(x => x.Fab == null);
+            return new XElement("or", new XAttribute("abstract", true), new XAttribute("mandatory", true),
+                new XAttribute("name", serviceProvisionsAbstractFeature.Name), serviceProvisionXElements);
         }
 
         private IEnumerable<XElement> ServiceProvisionXElements(IList<IFeature> features)
@@ -206,16 +198,6 @@ namespace Masterarbeit.Classes.FeatureModel
                 : null;
         }
 
-        // private XElement AbstractServicesToXml(IFeature feature, IList<XElement> constraints)
-        // {
-        //     var abstractServicesXml = new List<XElement>();
-        //
-        //     //TODO: Notwendig, wenn Standort berücksichtigt wird
-        //
-        //     return new XElement("or", new XAttribute("abstract", true), new XAttribute("mandatory", true),
-        //         new XAttribute("name", feature.Service.Type  + feature.Service.Code  + "Abstraktionsebenen"), abstractServicesXml);
-        // }
-
         private XElement AttributesToXml(IFeature feature)
         {
             if (feature.Attributes == null)
@@ -247,60 +229,221 @@ namespace Masterarbeit.Classes.FeatureModel
                 .ToList();
         }
 
-        private IEnumerable<XElement> RandomXmlHospitalModifications()
+        // private IEnumerable<XElement> RandomXmlHospitalModifications()
+        // {
+        //     var count = new Random().Next(1, 3);
+        //
+        //     var hospitalModifications = new List<XElement>();
+        //
+        //     for (var i = 0; i < count; i++)
+        //     {
+        //         var name = $"HospitalModification{i + 1}";
+        //         hospitalModifications.Add(new XElement("alt", new XAttribute("mandatory", true),
+        //             new XAttribute("abstract", true),
+        //             new XAttribute("name", name),
+        //             new XElement("alt", new XAttribute("name", name + "ModAbsolut"), new XAttribute("abstract", true),
+        //                 new XElement("feature", new XAttribute("name", name + "ModAbsolut" + "50")),
+        //                 new XElement("feature", new XAttribute("name", name + "ModAbsolut" + "Neg50"))),
+        //             new XElement("alt", new XAttribute("name", name + "ModPercent"), new XAttribute("abstract", true),
+        //                 new XElement("feature", new XAttribute("name", name + "ModPercent" + "50")),
+        //                 new XElement("feature", new XAttribute("name", name + "ModPercent" + "Neg50")))));
+        //     }
+        //
+        //     return hospitalModifications;
+        // }
+
+        private IEnumerable<XElement> FeaturesToConstraints(IEnumerable<IFeature> features)
         {
-            var count = new Random().Next(1, 3);
+            var featureList = features.ToList();
 
-            var hospitalModifications = new List<XElement>();
+            var featureDictionary = featureList.Where(x => x.Service != null).GroupBy(x => (x.Service
+                .Type, x.Service.Code)).ToDictionary(x => x.Key, x => x.ToList());
 
-            for (var i = 0; i < count; i++)
-            {
-                var name = $"HospitalModification{i + 1}";
-                hospitalModifications.Add(new XElement("alt", new XAttribute("mandatory", true),
-                    new XAttribute("abstract", true),
-                    new XAttribute("name", name),
-                    new XElement("alt", new XAttribute("name", name + "ModAbsolut"), new XAttribute("abstract", true),
-                        new XElement("feature", new XAttribute("name", name + "ModAbsolut" + "50")),
-                        new XElement("feature", new XAttribute("name", name + "ModAbsolut" + "Neg50"))),
-                    new XElement("alt", new XAttribute("name", name + "ModPercent"), new XAttribute("abstract", true),
-                        new XElement("feature", new XAttribute("name", name + "ModPercent" + "50")),
-                        new XElement("feature", new XAttribute("name", name + "ModPercent" + "Neg50")))));
-            }
-
-            return hospitalModifications;
-        }
-
-        private IList<XElement> FeaturesToConstraints(IEnumerable<IFeature> features)
-        {
             var constraints = new List<XElement>();
-            foreach (var feature in features)
+            foreach (var feature in featureList)
             {
-                var constraintsGlobalFreeze = new List<XElement>();
+                if (feature.Global && feature.Freeze && feature.Service?.Type != IService.ServiceType.Fab)
+                    AddGlobalFreezeConstraints(feature, constraints, featureDictionary);
 
-                var name = feature.Service.Type + feature.Service.Code;
-                foreach (var fab in feature.Service.Fabs)
-                {
-                    constraints.Add(new XElement("rule",
-                            new XElement("imp",
-                                new XElement("var", name + "Standort0" + "Fachabteilung" + fab.Name),
-                                new XElement("var", "FAB" + fab.Name)
-                            )
-                        )
-                    );
+                if (feature.AbstractionLevel && feature.Freeze)
+                    AddAbstractionLevelFreezeConstraints(feature, constraints, featureDictionary);
 
-                    constraintsGlobalFreeze.Add(new XElement("disj",
-                        new XElement("not",
-                            new XElement("var", name + "Standort0" + "Fachabteilung" + fab.Name)),
-                        new XElement("var", name + "Standort0" + "Fachabteilung" + fab.Name + "Einfrieren")));
-                }
+                if (feature.AbstractionLevel && !feature.Freeze && feature.Fab != null)
+                    AddAbstractionLevelProvideConstraints(feature, constraints, featureDictionary);
 
-                constraints.Add(new XElement("rule",
-                    new XElement("eq",
-                        new XElement("var", name + "GlobalEinfrieren"),
-                        new XElement("conj", constraintsGlobalFreeze))));
+                if (feature.Attributes != null)
+                    AddAttributeConstraints(feature, constraints, featureDictionary);
+
+                if (feature.Service?.Type == IService.ServiceType.Fab)
+                    AddFabConstraints(feature, constraints);
             }
 
             return constraints;
         }
+
+        private void AddGlobalFreezeConstraints(IFeature constrainedFeature, ICollection<XElement> constraints,
+            IDictionary<(IService.ServiceType, string), List<IFeature>> featureDictionary)
+        {
+            var featuresInConstraint =
+                featureDictionary[(constrainedFeature.Service.Type, constrainedFeature.Service.Code)]
+                    .Where(x => x.Freeze && x.AbstractionLevel);
+
+            var abstractionLevelsGlobalFreezeConstraint = AbstractionLevelsGlobalFreezeConstraint(featuresInConstraint);
+
+            constraints.Add(new XElement("rule", new XElement("eq", new XElement("var", constrainedFeature.Name),
+                new XElement("conj", abstractionLevelsGlobalFreezeConstraint))));
+        }
+
+        private IEnumerable<XElement> AbstractionLevelsGlobalFreezeConstraint(IEnumerable<IFeature> features)
+        {
+            return features.Select(feature => new XElement("disj",
+                new XElement("not", new XElement("var", feature.Name.Replace("Freeze", ""))),
+                new XElement("var", feature.Name))).ToList();
+        }
+
+        private void AddAbstractionLevelFreezeConstraints(IFeature constrainedFeature,
+            ICollection<XElement> constraints,
+            IDictionary<(IService.ServiceType, string), List<IFeature>> featureDictionary)
+        {
+            var featuresInConstraint =
+                featureDictionary[(constrainedFeature.Service.Type, constrainedFeature.Service.Code)]
+                    .Where(x => x.Fab == constrainedFeature.Fab && !x.AbstractionLevel && !x.Global);
+
+            var abstractionLevelsServiceProvisionFreezeConstraint =
+                AbstractionLevelsServiceProvisionFreezeConstraint(featuresInConstraint);
+
+            constraints.Add(new XElement("rule",
+                new XElement("eq", new XElement("var", constrainedFeature.Name),
+                    abstractionLevelsServiceProvisionFreezeConstraint)));
+        }
+
+        private void AddAbstractionLevelProvideConstraints(IFeature constrainedFeature,
+            ICollection<XElement> constraints,
+            IDictionary<(IService.ServiceType, string), List<IFeature>> featureDictionary)
+        {
+            var featureInConstraint = featureDictionary[(constrainedFeature.Service.Type, constrainedFeature.Service
+                .Code)].Single(x => x.Fab == constrainedFeature.Fab && !x.Freeze && !x.AbstractionLevel && x.Attributes
+                != null);
+
+            constraints.Add(new XElement("rule",
+                new XElement("eq", new XElement("var", constrainedFeature.Name),
+                    new XElement("var", featureInConstraint.Name))));
+        }
+
+        private XElement AbstractionLevelsServiceProvisionFreezeConstraint(IEnumerable<IFeature> features)
+        {
+            var featureList = features.ToList();
+            var frozenFeature = featureList.Single(x => x.Freeze);
+            var correspondingFeature = featureList.Single(x => !x.Freeze);
+
+            return new XElement("disj", new XElement("not", new XElement("var", correspondingFeature.Name)),
+                new XElement("var", frozenFeature.Name));
+        }
+
+        private void AddAttributeConstraints(IFeature constrainedFeature, ICollection<XElement> constraints,
+            IDictionary<(IService.ServiceType, string), List<IFeature>> featureDictionary)
+        {
+            var featureInConstraint =
+                featureDictionary[(constrainedFeature.Service.Type, constrainedFeature.Service.Code)]
+                    .SingleOrDefault(x =>
+                        x.Fab == constrainedFeature.Fab && x.AbstractionLevel == constrainedFeature.AbstractionLevel
+                                                        && x.Global == constrainedFeature.Global && x.Freeze);
+
+            if (featureInConstraint == null)
+                return;
+
+            var freezeAttributesConstraint =
+                FreezeAttributesConstraint(constrainedFeature, constrainedFeature.Attributes);
+
+            constraints.Add(new XElement("rule", new XElement("var", featureInConstraint.Name),
+                new XElement("conj", freezeAttributesConstraint)));
+        }
+
+        private IEnumerable<XElement> FreezeAttributesConstraint(IFeature feature, IEnumerable<IAttribute> attributes)
+        {
+            return (from attribute in attributes
+                from value in attribute.ValueScheme.Values
+                where value != 0
+                select new XElement("not", new XElement("var", feature.Name + attribute.Name + (value < 0
+                    ? "Neg" + value.ToString(CultureInfo.InvariantCulture).Replace("-", string.Empty)
+                    : value)))).ToList();
+        }
+
+        private void AddFabConstraints(IFeature constrainedFeature, ICollection<XElement> constraints)
+        {
+            if (constrainedFeature.Freeze)
+            {
+                AddFabFreezeConstraints(constrainedFeature, constraints);
+            }
+            else
+            {
+                AddFabProvideConstraints(constrainedFeature, constraints);
+            }
+        }
+
+        private void AddFabFreezeConstraints(IFeature constrainedFeature, ICollection<XElement> constraints)
+        {
+            var featuresInConstraint = Features.Where(x =>
+                    x.Fab?.Name == constrainedFeature.Fab?.Name && x.Freeze &&
+                    x.Service?.Type != IService.ServiceType.Fab)
+                .ToList();
+
+            if (!featuresInConstraint.Any())
+                return;
+
+            var fabFreezeConstraints = FabFreezeConstraints(featuresInConstraint);
+
+            constraints.Add(new XElement("rule",
+                new XElement("imp", new XElement("var", constrainedFeature.Name),
+                    new XElement("conj", fabFreezeConstraints))));
+        }
+
+        private IEnumerable<XElement> FabFreezeConstraints(IEnumerable<IFeature> features)
+        {
+            return features.Select(feature => new XElement("var", feature.Name)).ToList();
+        }
+
+        private void AddFabProvideConstraints(IFeature constrainedFeature, ICollection<XElement> constraints)
+        {
+            var featuresInConstraint = Features.Where(x =>
+                    x.Fab?.Name == constrainedFeature.Fab?.Name && !x.Freeze &&
+                    x.Service?.Type != IService.ServiceType.Fab)
+                .ToList();
+
+            var fabProvideConstraints = FabProvideConstraints(featuresInConstraint);
+
+            constraints.Add(new XElement("rule",
+                new XElement("imp", new XElement("not", new XElement("var", constrainedFeature.Name)),
+                    new XElement("conj", fabProvideConstraints))));
+        }
+
+        private IEnumerable<XElement> FabProvideConstraints(IEnumerable<IFeature> features)
+        {
+            return features.Select(feature => new XElement("not", new XElement("var", feature.Name))).ToList();
+        }
+
+        // var constraintsGlobalFreeze = new List<XElement>();
+        //
+        // var name = feature.Service.Type + feature.Service.Code;
+        // foreach (var fab in feature.Service.Fabs)
+        // {
+        //     constraints.Add(new XElement("rule",
+        //             ,
+        //                 new XElement("var", name + "Standort0" + "Fachabteilung" + fab.Name),
+        //                 new XElement("var", "FAB" + fab.Name)
+        //             )
+        //         )
+        //     );
+        //
+        //     constraintsGlobalFreeze.Add(new XElement("disj",
+        //         new XElement("not",
+        //             new XElement("var", name + "Standort0" + "Fachabteilung" + fab.Name)),
+        //         new XElement("var", name + "Standort0" + "Fachabteilung" + fab.Name + "Einfrieren")));
+        // }
+        //
+        // constraints.Add(new XElement("rule",
+        //     new XElement("eq",
+        //         new XElement("var", name + "GlobalEinfrieren"),
+        //         new XElement("conj", constraintsGlobalFreeze))));
     }
 }

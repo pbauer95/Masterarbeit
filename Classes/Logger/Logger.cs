@@ -48,7 +48,7 @@ namespace Masterarbeit.Classes.Logger
             var attributeFeaturesCount = features.Count(x => x.Attributes != null);
 
             using var w = File.AppendText("log.txt");
-            w.WriteLine($"Number of Attribute Features: {(attributeFeaturesCount - 90) * 9}");
+            w.WriteLine($"Number of Attribute Features: {attributeFeaturesCount * 9}");
         }
 
         public static void LogTotalCountFeatures(IEnumerable<IFeature> features)

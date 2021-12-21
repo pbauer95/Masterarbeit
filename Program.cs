@@ -18,7 +18,7 @@ using Masterarbeit.Interfaces.Partition;
 
 namespace Masterarbeit
 {
-    class Program
+    internal static class Program
     {
         private static DateTime _startTime;
 
