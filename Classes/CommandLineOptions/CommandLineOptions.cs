@@ -5,14 +5,14 @@ namespace Masterarbeit.Classes.CommandLineOptions
 {
     public class CommandLineOptions
     {
-        [Option(shortName: 'd', longName: "DistributionData", Required = false, HelpText = "Distribution File Path", Default = "./DistributionData.xml")]
-        public string DistributionDataPath { get; set; }
+        [Option(shortName: 's', longName: "Statistic", Required = false, HelpText = "Statistic File Path", Default = "./DistributionData.xml")]
+        public string StatisticPath { get; set; }
         
-        [Option(shortName: 'h', longName: "HospitalData", Required = false, HelpText = "HospitalData File Path", Default = "./HospitalData.xml")]
-        public string HospitalData { get; set; }
+        [Option(shortName: 'h', longName: "HospitalDatabase", Required = false, HelpText = "HospitalDatabase File Path", Default = "./HospitalData.xml")]
+        public string HospitalDatabasePath { get; set; }
 
-        [Option(shortName: 'a', longName: "AttributeData", Required = false, HelpText = "Attribute File Path", Default = "./Attributes.xml")]
-        public string AttributeDataPath { get; set; }
+        [Option(shortName: 'a', longName: "Attributes", Required = false, HelpText = "Attribute File Path", Default = "./Attributes.xml")]
+        public string AttributesPath { get; set; }
 
         [Option(shortName: 'p', longName: "PartitionCount", Required = false, HelpText = "Number of Partitions Created", Default = 100)]
         public int PartitionCount { get; set; }

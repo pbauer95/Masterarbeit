@@ -34,13 +34,13 @@ namespace Masterarbeit
                         Logger.StartLogEntry();
                         Logger.LogParameterValue(options);
 
-                        var statistic = new StatisticFromXml(options.DistributionDataPath);
+                        var statistic = new StatisticFromXml(options.StatisticPath);
 
-                        var attributes = new AttributesFromXml(options.AttributeDataPath);
+                        var attributes = new AttributesFromXml(options.AttributesPath);
 
-                        IFeatureModel unreducedFeatureModel = options.HospitalData == "-1"
+                        IFeatureModel unreducedFeatureModel = options.HospitalDatabasePath == "-1"
                             ? new FeatureModelFromStatistic(statistic, attributes)
-                            : new FeatureModelFromHospitalDatabase(new HospitalDatabaseFromXml(options.HospitalData),
+                            : new FeatureModelFromHospitalDatabase(new HospitalDatabaseFromXml(options.HospitalDatabasePath),
                                 attributes);
 
                         Logger.LogInitialFeatureCount(unreducedFeatureModel.Features.Count());
