@@ -16,3 +16,4 @@ C:\Users\peter\RiderProjects\Masterarbeit\Masterarbeit\obj\Debug\net5.0\Masterar
 C:\Users\peter\RiderProjects\Masterarbeit\Masterarbeit\obj\Debug\net5.0\ref\Masterarbeit.dll
 C:\Users\peter\RiderProjects\Masterarbeit\Masterarbeit\obj\Debug\net5.0\Masterarbeit.pdb
 C:\Users\peter\RiderProjects\Masterarbeit\Masterarbeit\obj\Debug\net5.0\Masterarbeit.genruntimeconfig.cache
+C:\Users\peter\RiderProjects\Masterarbeit\Masterarbeit\bin\Debug\net5.0\CsvHelper.dll

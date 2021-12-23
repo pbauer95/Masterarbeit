@@ -1,73 +1,172 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
+using CsvHelper;
+using CsvHelper.Configuration;
 using Masterarbeit.Interfaces.Feature;
 
 namespace Masterarbeit.Classes.Logger
 {
     public static class Logger
     {
-        public static void StartLogEntry()
+        private static LogEntry _logEntry;
+
+        public static void StartLogEntry(CommandLineOptions.CommandLineOptions options)
         {
-            using var w = File.AppendText("log.txt");
-            w.WriteLine("=============================================");
-            w.WriteLine("Log Entry Start");
+            _logEntry = new LogEntry();
+            _logEntry.SetTotalStart();
+            _logEntry.LogParameters(options);
         }
 
-        public static void LogParameterValue(CommandLineOptions.CommandLineOptions options)
+        public static void LogPartitionStart()
         {
-            var partitions = options.CombinedPartition as int[] ?? options.CombinedPartition.ToArray();
-            using var w = File.AppendText("log.txt");
-            w.WriteLine($"Number of Partitions: {options.PartitionCount}");
-            w.WriteLine($"Number of combined Partitions: {partitions.Length}");
-            w.WriteLine($"Combined Partitions: {string.Join(",", partitions)}");
-            w.WriteLine($"Max. Number of selected Features: {options.MaxSelectedFeatures}");
+            _logEntry.SetPartitionStart();
         }
 
-        public static void LogInitialFeatureCount(int initialFeatureCount)
+        public static void LogInitialFeatureCount(IEnumerable<IFeature> features)
         {
-            using var w = File.AppendText("log.txt");
-            w.WriteLine($"Number of Initial Features: {initialFeatureCount}");
+            var featureList = features.ToList();
+            _logEntry.InitialFeatureCount = featureList.Count + featureList.Count(x => x.Attributes != null) * 9;
+        }
+
+        public static void LogPartitionEnd()
+        {
+            _logEntry.SetPartitionEnd();
+        }
+
+        public static void LogSelectionStart()
+        {
+            _logEntry.SetSelectionStart();
+        }
+
+        public static void LogSelectionEnd()
+        {
+            _logEntry.SetSelectionEnd();
+        }
+
+        public static void LogMissingFeaturesStart()
+        {
+            _logEntry.SetMissingFeatureStart();
+        }
+
+        public static void LogMissingFeaturesEnd()
+        {
+            _logEntry.SetMissingFeatureEnd();
         }
 
         public static void LogSelectedFeaturesCount(int selectedFeaturesCount)
         {
-            using var w = File.AppendText("log.txt");
-            w.WriteLine($"Number of selected Features: {selectedFeaturesCount}");
+            _logEntry.SelectedFeatureCount = selectedFeaturesCount;
         }
 
-        public static void LogFilledUpFeatures(int featureCount)
+        public static void LogMissingFeatureCount(int missingFeatureCount)
         {
-            using var w = File.AppendText("log.txt");
-            w.WriteLine($"Number of added Features: {featureCount}");
+            _logEntry.MissingFeatureCount = missingFeatureCount;
         }
 
         public static void LogAttributeFeatures(IEnumerable<IFeature> features)
         {
-            var attributeFeaturesCount = features.Count(x => x.Attributes != null);
-
-            using var w = File.AppendText("log.txt");
-            w.WriteLine($"Number of Attribute Features: {attributeFeaturesCount * 9}");
+            _logEntry.AttributeFeatureCount = features.Count(x => x.Attributes != null) * 9;
         }
 
-        public static void LogTotalCountFeatures(IEnumerable<IFeature> features)
+        public static void LogSampleStart()
         {
-            using var w = File.AppendText("log.txt");
-            w.WriteLine($"Total Number of Features: {features.Count()}");
+            _logEntry.SetSampleStart();
         }
 
-        public static void LogDurationPartialFeatureSelection(TimeSpan timeSpan)
+        public static void LogSampleEnd()
         {
-            using var w = File.AppendText("log.txt");
-            w.WriteLine(
-                $"Duration generating partial Feature Selection: {Convert.ToInt32(timeSpan.TotalMilliseconds)} ms");
+            _logEntry.SetSampleEnd();
+            _logEntry.SetTotalEnd();
         }
 
-        public static void LogDurationSampleGeneration(TimeSpan timeSpan)
+        public static void LogSampleSize(int size)
         {
-            using var w = File.AppendText("log.txt");
-            w.WriteLine($"Duration generating 2-wise Samples: {Convert.ToInt32(timeSpan.TotalMilliseconds)} ms");
+            _logEntry.SampleSize = size;
+        }
+
+        public static void WriteLogEntry()
+        {
+            var records = new List<LogEntry>
+            {
+                _logEntry
+            };
+
+            if (!File.Exists(@"\log.csv"))
+            {
+                var config = new CsvConfiguration(CultureInfo.InvariantCulture)
+                {
+                    Delimiter = ";"
+                };
+
+                using var writer = new StreamWriter(@".\log.csv");
+                using var csv = new CsvWriter(writer, config);
+                csv.WriteRecords(records);
+            }
+            else
+            {
+                var config = new CsvConfiguration(CultureInfo.InvariantCulture)
+                {
+                    HasHeaderRecord = false,
+                    Delimiter = ";"
+                };
+                using var stream = File.Open(@".\log.csv", FileMode.Append);
+                using var writer = new StreamWriter(stream);
+                using var csv = new CsvWriter(writer, config);
+                csv.WriteRecords(records);
+            }
+        }
+
+        private class LogEntry
+        {
+            private DateTime _partitionStart;
+            private DateTime _partitionEnd;
+            private DateTime _selectionStart;
+            private DateTime _selectionEnd;
+            private DateTime _missingFeatureStart;
+            private DateTime _missingFeatureEnd;
+            private DateTime _sampleStart;
+            private DateTime _sampleEnd;
+            private DateTime _totalStart;
+            private DateTime _totalEnd;
+
+            public int PartitionCount { get; private set; }
+            public int[] CombinedPartitions { get; private set; }
+            public int MaxSelectedFeatures { get; private set; }
+            public int Interactions { get; private set; }
+
+            public double PartitionTime => (_partitionEnd - _partitionStart).TotalMilliseconds;
+            public double SelectionTime => (_selectionEnd - _selectionStart).TotalMilliseconds;
+            public double MissingFeatureTime => (_missingFeatureEnd - _missingFeatureStart).TotalMilliseconds;
+            public double SampleTime => (_sampleEnd - _sampleStart).TotalMilliseconds;
+            public double TotalTime => (_totalEnd - _totalStart).TotalMilliseconds;
+            public int InitialFeatureCount { get; set; }
+            public int SelectedFeatureCount { get; set; }
+            public int MissingFeatureCount { get; set; }
+            public int AttributeFeatureCount { get; set; }
+            public int ReducedFeatureCount => SelectedFeatureCount + MissingFeatureCount + AttributeFeatureCount;
+            public int SampleSize { get; set; }
+
+            public void SetPartitionStart() => _partitionStart = DateTime.Now;
+            public void SetPartitionEnd() => _partitionEnd = DateTime.Now;
+            public void SetSelectionStart() => _selectionStart = DateTime.Now;
+            public void SetSelectionEnd() => _selectionEnd = DateTime.Now;
+            public void SetMissingFeatureStart() => _missingFeatureStart = DateTime.Now;
+            public void SetMissingFeatureEnd() => _missingFeatureEnd = DateTime.Now;
+            public void SetSampleStart() => _sampleStart = DateTime.Now;
+            public void SetSampleEnd() => _sampleEnd = DateTime.Now;
+            public void SetTotalStart() => _totalStart = DateTime.Now;
+            public void SetTotalEnd() => _totalEnd = DateTime.Now;
+
+            public void LogParameters(CommandLineOptions.CommandLineOptions options)
+            {
+                PartitionCount = options.PartitionCount;
+                CombinedPartitions = options.CombinedPartition.ToArray();
+                MaxSelectedFeatures = options.MaxSelectedFeatures;
+                Interactions = options.Interactions;
+            }
         }
     }
 }

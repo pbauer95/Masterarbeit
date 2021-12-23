@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Xml;
@@ -20,19 +21,14 @@ namespace Masterarbeit
 {
     internal static class Program
     {
-        private static DateTime _startTime;
-
-        static int Main(string[] args)
+        private static int Main(string[] args)
         {
             return Parser.Default.ParseArguments<CommandLineOptions>(args)
                 .MapResult(options =>
                 {
                     try
                     {
-                        _startTime = DateTime.UtcNow;
-
-                        Logger.StartLogEntry();
-                        Logger.LogParameterValue(options);
+                        Logger.StartLogEntry(options);
 
                         var statistic = new StatisticFromXml(options.StatisticPath);
 
@@ -40,31 +36,37 @@ namespace Masterarbeit
 
                         IFeatureModel unreducedFeatureModel = options.HospitalDatabasePath == "-1"
                             ? new FeatureModelFromStatistic(statistic, attributes)
-                            : new FeatureModelFromHospitalDatabase(new HospitalDatabaseFromXml(options.HospitalDatabasePath),
+                            : new FeatureModelFromHospitalDatabase(
+                                new HospitalDatabaseFromXml(options.HospitalDatabasePath),
                                 attributes);
 
-                        Logger.LogInitialFeatureCount(unreducedFeatureModel.Features.Count());
+                        Logger.LogInitialFeatureCount(unreducedFeatureModel.Features);
 
                         var classifiedFeatures =
-                            new ClassifiedFeatures(unreducedFeatureModel.Features, statistic);
+                            new ClassifiedFeatures(unreducedFeatureModel.Features, statistic).ToList();
 
+                        Logger.LogPartitionStart();
                         IPartitionData partitionData =
                             new PartitionDataFromFeatures(classifiedFeatures, options.PartitionCount);
+                        Logger.LogPartitionEnd();
 
+                        Logger.LogSelectionStart();
                         var selectedFeatures =
                             partitionData.SelectFeaturesFromPartitions(options.CombinedPartition.ToList(), options
                                 .MaxSelectedFeatures).ToList();
+                        Logger.LogSelectionEnd();
 
                         Logger.LogSelectedFeaturesCount(selectedFeatures.Count);
 
+                        Logger.LogMissingFeaturesStart();
                         var missingRequiredFeatures =
                             new MissingRequiredFeatures(selectedFeatures, unreducedFeatureModel).ToList();
+                        Logger.LogMissingFeaturesEnd();
 
-                        Logger.LogFilledUpFeatures(missingRequiredFeatures.Count);
+                        Logger.LogMissingFeatureCount(missingRequiredFeatures.Count);
 
                         var combinedFeatures = selectedFeatures.Concat(missingRequiredFeatures).ToList();
 
-                        Logger.LogTotalCountFeatures(combinedFeatures);
                         Logger.LogAttributeFeatures(combinedFeatures);
 
                         var featureModel = new FeatureModelFromFeatures(combinedFeatures);
@@ -93,21 +95,21 @@ namespace Masterarbeit
                 featureDiagram.Save(writer);
             }
 
-            Logger.LogDurationPartialFeatureSelection(DateTime.UtcNow - _startTime);
-
             var myProcess = new Process();
             myProcess.StartInfo.UseShellExecute = false;
             myProcess.StartInfo.FileName = "java";
             myProcess.StartInfo.Arguments =
                 $"-jar {generatorPath} genconfig -a YASA -t {tWise} -fm {fmFileName} -o {outputPath}";
 
-            var startTimeSampleGeneration = DateTime.UtcNow;
-
+            Logger.LogSampleStart();
             myProcess.Start();
 
             myProcess.WaitForExit();
+            Logger.LogSampleEnd();
 
-            Logger.LogDurationSampleGeneration(DateTime.UtcNow - startTimeSampleGeneration);
+            var lines = File.ReadAllLines(@".\sample.csv");
+            Logger.LogSampleSize(lines.Length);
+            Logger.WriteLogEntry();
         }
     }
 }

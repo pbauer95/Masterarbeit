@@ -1,0 +1,2 @@
+PartitionCount;MaxSelectedFeatures;Interactions;PartitionTime;SelectionTime;MissingFeatureTime;SampleTime;TotalTime;InitialFeatureCount;SelectedFeatureCount;MissingFeatureCount;AttributeFeatureCount;ReducedFeatureCount;SampleSize
+100;10;2;0.1154;14.7884;44.9825;1400.4529;1880.914;49415;10;54;261;325;135
