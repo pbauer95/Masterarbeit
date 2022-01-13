@@ -13,6 +13,6 @@ namespace Masterarbeit.Interfaces.Partition
         IEnumerable<IPartition> MlgPartitions { get; }
         IEnumerable<IPartition> MdcPartitions { get; }
 
-        IEnumerable<IFeature> SelectFeaturesFromPartitions(IList<int> partitionIds, int maxSelected);
+        IEnumerable<IFeature> SelectFeaturesFromPartitions(IEnumerable<int> partitionIds, int maxSelected);
     }
 }

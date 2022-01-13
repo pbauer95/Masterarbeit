@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Masterarbeit.Interfaces.DistributionData;
 using Masterarbeit.Interfaces.Feature;
+using Masterarbeit.Interfaces.Service;
 
 namespace Masterarbeit.Classes.Feature
 {
@@ -30,7 +31,8 @@ namespace Masterarbeit.Classes.Feature
             var distributionDictionary = _statistic.Services.ToDictionary(x => new { x.Type, x.Code });
 
             var classifiedFeatures = (from feature in _features
-                where feature.Service != null && !(!feature.Global && feature.Fab == null)
+                where feature.Service != null && !(!feature.Global && feature.Fab == null) &&
+                      feature.Service.Type != IService.ServiceType.Fab
                 let distribution = distributionDictionary[new { feature.Service.Type, feature.Service.Code }]
                 let probability = (double)distribution.ShareInType * 10000000
                 select new ClassifiedFeature(feature, probability)).Cast<IFeatureClassified>().ToList();

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
@@ -14,6 +15,7 @@ using Masterarbeit.Classes.FeatureModel;
 using Masterarbeit.Classes.HospitalData;
 using Masterarbeit.Classes.Logger;
 using Masterarbeit.Classes.Partition;
+using Masterarbeit.Interfaces.DistributionData;
 using Masterarbeit.Interfaces.FeatureModel;
 using Masterarbeit.Interfaces.Partition;
 
@@ -28,50 +30,24 @@ namespace Masterarbeit
                 {
                     try
                     {
-                        Logger.StartLogEntry(options);
-
                         var statistic = new StatisticFromXml(options.StatisticPath);
 
-                        var attributes = new AttributesFromXml(options.AttributesPath);
+                        var featureModel = GenerateFeatureModel(options, statistic);
 
-                        IFeatureModel unreducedFeatureModel = options.HospitalDatabasePath == "-1"
-                            ? new FeatureModelFromStatistic(statistic, attributes)
-                            : new FeatureModelFromHospitalDatabase(
-                                new HospitalDatabaseFromXml(options.HospitalDatabasePath),
-                                attributes);
+                        Logger.StartLogEntry(featureModel, options);
 
-                        Logger.LogInitialFeatureCount(unreducedFeatureModel.Features);
+                        while (!IsSufficientlyReduced(featureModel, 10000))
+                        {
+                            featureModel = ReducedFeatureModel(featureModel, statistic, options.PartitionCount,
+                                options.CombinedPartition, options.MaxSelectedFeatures);
+                        }
 
-                        var classifiedFeatures =
-                            new ClassifiedFeatures(unreducedFeatureModel.Features, statistic).ToList();
+                        Logger.LogReducedFeatureModelStats(featureModel);
 
-                        Logger.LogPartitionStart();
-                        IPartitionData partitionData =
-                            new PartitionDataFromFeatures(classifiedFeatures, options.PartitionCount);
-                        Logger.LogPartitionEnd();
+                        if (options.GenerateSample)
+                            GenerateSample((featureModel as IFeatureModelXml)?.ToXml(), options.Interactions);
 
-                        Logger.LogSelectionStart();
-                        var selectedFeatures =
-                            partitionData.SelectFeaturesFromPartitions(options.CombinedPartition.ToList(), options
-                                .MaxSelectedFeatures).ToList();
-                        Logger.LogSelectionEnd();
-
-                        Logger.LogSelectedFeaturesCount(selectedFeatures.Count);
-
-                        Logger.LogMissingFeaturesStart();
-                        var missingRequiredFeatures =
-                            new MissingRequiredFeatures(selectedFeatures, unreducedFeatureModel).ToList();
-                        Logger.LogMissingFeaturesEnd();
-
-                        Logger.LogMissingFeatureCount(missingRequiredFeatures.Count);
-
-                        var combinedFeatures = selectedFeatures.Concat(missingRequiredFeatures).ToList();
-
-                        Logger.LogAttributeFeatures(combinedFeatures);
-
-                        var featureModel = new FeatureModelFromFeatures(combinedFeatures);
-
-                        GenerateSample(featureModel.ToXml(), options.Interactions);
+                        Logger.WriteLogEntry();
 
                         return 0;
                     }
@@ -82,6 +58,54 @@ namespace Masterarbeit
                         return -3;
                     }
                 }, _ => -1);
+        }
+
+        private static IFeatureModel ReducedFeatureModel(IFeatureModel featureModel, IStatistic statistic, int
+            partitionCount, IEnumerable<int> combinedPartitions, int maxSelectedFeatures)
+        {
+            var features = featureModel.Features.ToList();
+
+            var classifiedFeatures =
+                new ClassifiedFeatures(features, statistic).ToList();
+
+            Logger.LogPartitionStart();
+            IPartitionData partitionData =
+                new PartitionDataFromFeatures(classifiedFeatures, partitionCount);
+            Logger.LogPartitionEnd();
+
+            Logger.LogSelectionStart();
+            var selectedFeatures =
+                partitionData.SelectFeaturesFromPartitions(combinedPartitions, maxSelectedFeatures).ToList();
+            Logger.LogSelectionEnd();
+
+            Logger.LogMissingFeaturesStart();
+            var missingRequiredFeatures =
+                new MissingRequiredFeatures(selectedFeatures, featureModel).ToList();
+            Logger.LogMissingFeaturesEnd();
+
+            var combinedFeatures = selectedFeatures.Concat(missingRequiredFeatures).ToList();
+
+            return new FeatureModelFromFeatures(combinedFeatures);
+        }
+
+        private static IFeatureModel GenerateFeatureModel(CommandLineOptions options, StatisticFromXml statistic)
+        {
+            var attributes = new AttributesFromXml(options.AttributesPath);
+
+            IFeatureModel unreducedFeatureModel = options.HospitalDatabasePath == "-1"
+                ? new FeatureModelFromStatistic(statistic, attributes)
+                : new FeatureModelFromHospitalDatabase(
+                    new HospitalDatabaseFromXml(options.HospitalDatabasePath),
+                    attributes);
+
+            return unreducedFeatureModel;
+        }
+
+        private static bool IsSufficientlyReduced(IFeatureModel featureModel, int maxSize)
+        {
+            var featureList = featureModel.Features.ToList();
+            var totalCount = featureList.Count + featureList.Count(x => x.Attributes != null) * 9;
+            return totalCount <= maxSize;
         }
 
         private static void GenerateSample(XDocument featureDiagram, int tWise)
@@ -104,12 +128,16 @@ namespace Masterarbeit
             Logger.LogSampleStart();
             myProcess.Start();
 
-            myProcess.WaitForExit();
+            myProcess.WaitForExit(14400000);
             Logger.LogSampleEnd();
 
+            if (!File.Exists(@".\sample.csv")) 
+                return;
+            
             var lines = File.ReadAllLines(@".\sample.csv");
-            Logger.LogSampleSize(lines.Length);
-            Logger.WriteLogEntry();
+            Logger.LogSampleSize(lines.Length - 1);
+            
+            File.Delete(@".\sample.csv");
         }
     }
 }

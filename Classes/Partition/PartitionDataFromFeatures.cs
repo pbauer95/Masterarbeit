@@ -28,9 +28,10 @@ namespace Masterarbeit.Classes.Partition
         public IEnumerable<IPartition> MlgPartitions => CalculatedMlgPartitions();
         public IEnumerable<IPartition> MdcPartitions => CalculatedMdcPartitions();
 
-        public IEnumerable<IFeature> SelectFeaturesFromPartitions(IList<int> partitionIds, int maxSelected)
+        public IEnumerable<IFeature> SelectFeaturesFromPartitions(IEnumerable<int> partitionIds, int maxSelected)
         {
-            if (partitionIds.Any(x => x >= _partitionCount))
+            var partitionIdArray = partitionIds.ToList();
+            if (partitionIdArray.Any(x => x >= _partitionCount))
                 throw new ArgumentOutOfRangeException("Partition nicht vorhanden!");
 
             var selectedFeatures = new List<IFeature>();
@@ -38,18 +39,18 @@ namespace Masterarbeit.Classes.Partition
             var index = 0;
             var selectionCount = 0;
 
-            while (selectionCount < maxSelected && partitionIds.Any())
+            while (selectionCount < maxSelected && partitionIdArray.Any())
             {
-                var partitionOps = OpsPartitions.ElementAt(partitionIds[index]);
-                var partitionDrg = DrgPartitions.ElementAt(partitionIds[index]);
-                var partitionMlg = MlgPartitions.ElementAt(partitionIds[index]);
-                var partitionMdc = MdcPartitions.ElementAt(TransformIndexForMdc(partitionIds[index]));
+                var partitionOps = OpsPartitions.ElementAt(partitionIdArray[index]);
+                var partitionDrg = DrgPartitions.ElementAt(partitionIdArray[index]);
+                var partitionMlg = MlgPartitions.ElementAt(partitionIdArray[index]);
+                var partitionMdc = MdcPartitions.ElementAt(TransformIndexForMdc(partitionIdArray[index]));
 
 
                 if (!partitionOps.Features.Any() && !partitionDrg.Features.Any() && !partitionMlg.Features.Any() &&
                     !partitionMdc.Features.Any())
                 {
-                    partitionIds.RemoveAt(index);
+                    partitionIdArray.RemoveAt(index);
                     continue;
                 }
 
@@ -58,7 +59,7 @@ namespace Masterarbeit.Classes.Partition
 
                 index++;
 
-                if (index >= partitionIds.Count)
+                if (index >= partitionIdArray.Count)
                     index = 0;
             }
 

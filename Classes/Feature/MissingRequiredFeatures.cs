@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Masterarbeit.Classes.FeatureModel;
 using Masterarbeit.Classes.Service;
 using Masterarbeit.Interfaces.Fab;
 using Masterarbeit.Interfaces.Feature;
@@ -106,18 +107,17 @@ namespace Masterarbeit.Classes.Feature
             ICollection<IFeature> filledUpFeatures)
         {
             if (_selectedFeatures.Any(x =>
-                    x.Service.Type == feature.Service.Type && x.Service.Code == feature.Service.Code &&
-                    !x.AbstractionLevel && !x.Global && !x.Freeze && x.Fab == feature.Fab))
+                    IsSameMedicalService(x, feature) && !x.AbstractionLevel && !x.Global && !x.Freeze &&
+                    IsSameFab(x, feature)))
                 return;
 
             if (filledUpFeatures.Any(x =>
-                    x.Service.Type == feature.Service.Type && x.Service.Code == feature.Service.Code &&
-                    !x.AbstractionLevel && !x.Global && !x.Freeze && x.Fab == feature.Fab))
+                    IsSameMedicalService(x, feature) && !x.AbstractionLevel && !x.Global && !x.Freeze &&
+                    IsSameFab(x, feature)))
                 return;
 
-            var fillUpFeature = _unreducedFeatures[(feature.Service.Type, feature.Service.Code)].Single(x =>
-                !x.AbstractionLevel && !x.Global && !x.Freeze &&
-                x.Fab == feature.Fab);
+            var fillUpFeature = _unreducedFeatures[(feature.Service.Type, feature.Service.Code)]
+                .Single(x => !x.AbstractionLevel && !x.Global && !x.Freeze && x.Fab == feature.Fab);
 
             filledUpFeatures.Add(fillUpFeature);
             AddConcreteMissingFeatures(fillUpFeature, filledUpFeatures);
@@ -133,14 +133,10 @@ namespace Masterarbeit.Classes.Feature
         private void AddMissingGlobalFeatureForConcreteServiceProvision(IFeature feature,
             ICollection<IFeature> filledUpFeatures)
         {
-            if (_selectedFeatures.Any(x =>
-                    x.Service.Type == feature.Service.Type && x.Service.Code == feature.Service.Code && x.Global &&
-                    !x.Freeze))
+            if (_selectedFeatures.Any(x => IsSameMedicalService(x, feature) && x.Global && !x.Freeze))
                 return;
 
-            if (!filledUpFeatures.Any(x =>
-                    x.Service.Type == feature.Service.Type && x.Service.Code == feature.Service.Code && x.Global &&
-                    !x.Freeze))
+            if (!filledUpFeatures.Any(x => IsSameMedicalService(x, feature) && x.Global && !x.Freeze))
             {
                 filledUpFeatures.Add(_unreducedFeatures[(feature.Service.Type, feature.Service.Code)]
                     .Single(x => x.Global && !x.Freeze));
@@ -151,13 +147,11 @@ namespace Masterarbeit.Classes.Feature
             ICollection<IFeature> filledUpFeatures)
         {
             if (_selectedFeatures.Any(x =>
-                    x.Service.Type == feature.Service.Type && x.Service.Code == feature.Service.Code &&
-                    !x.AbstractionLevel && !x.Global && x.Fab == null))
+                    IsSameMedicalService(x, feature) && !x.AbstractionLevel && !x.Global && x.Fab == null))
                 return;
 
             if (!filledUpFeatures.Any(x =>
-                    x.Service.Type == feature.Service.Type && x.Service.Code == feature.Service.Code &&
-                    !x.AbstractionLevel && !x.Global && x.Fab == null))
+                    IsSameMedicalService(x, feature) && !x.AbstractionLevel && !x.Global && x.Fab == null))
             {
                 filledUpFeatures.Add(_unreducedFeatures[(feature.Service.Type, feature.Service.Code)]
                     .Single(x => !x.AbstractionLevel && !x.Global && x.Fab == null));
@@ -167,17 +161,15 @@ namespace Masterarbeit.Classes.Feature
         private void AddMissingFeaturesForGlobalFeature(IFeature feature, ICollection<IFeature> filledUpFeatures)
         {
             if (_selectedFeatures.Any(x =>
-                    x.Service.Type == feature.Service.Type && x.Service.Code == feature.Service.Code &&
-                    !x.AbstractionLevel && !x.Global && x.Fab != null))
+                    IsSameMedicalService(x, feature) && !x.AbstractionLevel && !x.Global && x.Fab != null))
                 return;
 
             if (filledUpFeatures.Any(x =>
-                    x.Service.Type == feature.Service.Type && x.Service.Code == feature.Service.Code &&
-                    !x.AbstractionLevel && !x.Global && x.Fab != null))
+                    IsSameMedicalService(x, feature) && !x.AbstractionLevel && !x.Global && x.Fab != null))
                 return;
 
             var unreducedFeatures = _unreducedFeatures[(feature.Service.Type, feature.Service.Code)]
-                .Where(x => !x.AbstractionLevel).ToList();
+                .Where(x => !x.AbstractionLevel && !x.Freeze).ToList();
 
             filledUpFeatures.Add(unreducedFeatures.Single(x => x.Fab == null && !x.Global));
             filledUpFeatures.Add(unreducedFeatures.First(x => x.Fab != null));
@@ -185,43 +177,55 @@ namespace Masterarbeit.Classes.Feature
 
         private void AddMissingFeaturesForGlobalFreezeFeature(IFeature feature, ICollection<IFeature> filledUpFeatures)
         {
-            if (_selectedFeatures.Any(x =>
-                    x.Service.Type == feature.Service.Type && x.Service.Code == feature.Service.Code &&
-                    x.AbstractionLevel && x.Freeze && !x.Global))
-                return;
+            if (!filledUpFeatures.Any(x => IsSameMedicalService(x, feature) && x.Global && !x.Freeze))
+            {
+                var globalFeature =
+                    _selectedFeatures.SingleOrDefault(x => IsSameMedicalService(x, feature) && x.Global && !x.Freeze);
 
-            if (filledUpFeatures.Any(x =>
-                    x.Service.Type == feature.Service.Type && x.Service.Code == feature.Service.Code &&
-                    x.AbstractionLevel && x.Freeze && !x.Global))
-                return;
+                if (globalFeature == null)
+                {
+                    globalFeature = _unreducedFeatures[(feature.Service.Type, feature.Service.Code)]
+                        .Single(x => IsSameMedicalService(x, feature) && x.Global && !x.Freeze);
 
-            var concreteServiceFeature = _selectedFeatures.FirstOrDefault(x =>
-                                             x.Service.Type == feature.Service.Type &&
-                                             x.Service.Code == feature.Service.Code && !x.AbstractionLevel &&
-                                             x.Fab != null) ??
-                                         filledUpFeatures.FirstOrDefault(x =>
-                                             x.Service.Type == feature.Service.Type &&
-                                             x.Service.Code == feature.Service.Code && !x.AbstractionLevel &&
-                                             x.Fab != null);
+                    filledUpFeatures.Add(globalFeature);
+                }
 
-            var fillUpFeature = _unreducedFeatures[(feature.Service.Type, feature.Service.Code)].First(x =>
-                x.AbstractionLevel && x.Freeze &&
-                (concreteServiceFeature == null || x.Fab == concreteServiceFeature.Fab));
+                AddGlobalMissingFeatures(globalFeature, filledUpFeatures);
+            }
 
-            filledUpFeatures.Add(fillUpFeature);
-            AddAbstractionLevelMissingFeatures(fillUpFeature, filledUpFeatures);
+            var concreteServiceFeatures = _selectedFeatures
+                .Where(x => IsSameMedicalService(x, feature) && x.Fab != null)
+                .Concat(filledUpFeatures.Where(x => IsSameMedicalService(x, feature) && x.Fab != null));
+
+
+            var abstractionLevelFabs = concreteServiceFeatures.Select(x => x.Fab.Name).Distinct().ToList();
+
+            foreach (var abstractionLevelFab in abstractionLevelFabs)
+            {
+                if (_selectedFeatures.Any(x =>
+                        IsSameMedicalService(x, feature) && x.AbstractionLevel && x.Freeze &&
+                        x.Fab?.Name == abstractionLevelFab) ||
+                    filledUpFeatures.Any(x =>
+                        IsSameMedicalService(x, feature) && x.AbstractionLevel && x.Freeze &&
+                        x.Fab?.Name == abstractionLevelFab))
+                    continue;
+
+                var fillUpFeature = _unreducedFeatures[(feature.Service.Type, feature.Service.Code)].Single(x =>
+                    x.AbstractionLevel && x.Freeze && x.Fab.Name == abstractionLevelFab);
+
+                filledUpFeatures.Add(fillUpFeature);
+                AddAbstractionLevelMissingFeatures(fillUpFeature, filledUpFeatures);
+            }
         }
 
         private void AddMissingAbstractionLevelsFeature(IFeature feature, ICollection<IFeature> filledUpFeatures)
         {
             if (_selectedFeatures.Any(x =>
-                    x.Service.Type == feature.Service.Type && x.Service.Code == feature.Service.Code &&
-                    x.AbstractionLevel && !x.Global && x.Fab == null))
+                    IsSameMedicalService(x, feature) && x.AbstractionLevel && !x.Global && x.Fab == null))
                 return;
 
             if (!filledUpFeatures.Any(x =>
-                    x.Service.Type == feature.Service.Type && x.Service.Code == feature.Service.Code &&
-                    x.AbstractionLevel && !x.Global && x.Fab == null))
+                    IsSameMedicalService(x, feature) && x.AbstractionLevel && !x.Global && x.Fab == null))
             {
                 filledUpFeatures.Add(_unreducedFeatures[(feature.Service.Type, feature.Service.Code)]
                     .Single(x => x.AbstractionLevel && !x.Global && x.Fab == null));
@@ -232,17 +236,17 @@ namespace Masterarbeit.Classes.Feature
             ICollection<IFeature> filledUpFeatures)
         {
             if (_selectedFeatures.Any(x =>
-                    x.Service.Type == feature.Service.Type && x.Service.Code == feature.Service.Code &&
-                    !x.AbstractionLevel && x.Fab == feature.Fab && x.Freeze))
+                    IsSameMedicalService(x, feature) && !x.AbstractionLevel && IsSameFab(x, feature) &&
+                    x.Freeze))
                 return;
 
             if (filledUpFeatures.Any(x =>
-                    x.Service.Type == feature.Service.Type && x.Service.Code == feature.Service.Code &&
-                    !x.AbstractionLevel && x.Fab == feature.Fab && x.Freeze))
+                    IsSameMedicalService(x, feature) && !x.AbstractionLevel && IsSameFab(x, feature) &&
+                    x.Freeze))
                 return;
 
             var fillUpFeature = _unreducedFeatures[(feature.Service.Type, feature.Service.Code)]
-                .Single(x => !x.AbstractionLevel && x.Fab == feature.Fab && x.Freeze);
+                .Single(x => !x.AbstractionLevel && IsSameFab(x, feature) && x.Freeze);
 
             filledUpFeatures.Add(fillUpFeature);
             AddConcreteMissingFeatures(fillUpFeature, filledUpFeatures);
@@ -251,17 +255,17 @@ namespace Masterarbeit.Classes.Feature
         private void AddMissingAbstractionLevelFeature(IFeature feature, ICollection<IFeature> filledUpFeatures)
         {
             if (_selectedFeatures.Any(x =>
-                    x.Service.Type == feature.Service.Type && x.Service.Code == feature.Service.Code &&
-                    x.AbstractionLevel && x.Fab == feature.Fab && !x.Freeze))
+                    IsSameMedicalService(x, feature) && x.AbstractionLevel && IsSameFab(x, feature) &&
+                    !x.Freeze))
                 return;
 
             if (filledUpFeatures.Any(x =>
-                    x.Service.Type == feature.Service.Type && x.Service.Code == feature.Service.Code &&
-                    x.AbstractionLevel && x.Fab == feature.Fab && !x.Freeze))
+                    IsSameMedicalService(x, feature) && x.AbstractionLevel && IsSameFab(x, feature) &&
+                    !x.Freeze))
                 return;
 
             var fillUpFeature = _unreducedFeatures[(feature.Service.Type, feature.Service.Code)]
-                .Single(x => x.AbstractionLevel && x.Fab == feature.Fab && !x.Freeze);
+                .Single(x => x.AbstractionLevel && IsSameFab(x, feature) && !x.Freeze);
 
             filledUpFeatures.Add(fillUpFeature);
 
@@ -272,17 +276,15 @@ namespace Masterarbeit.Classes.Feature
             ICollection<IFeature> filledUpFeatures)
         {
             if (_selectedFeatures.Any(x =>
-                    x.Service.Type == feature.Service.Type && x.Service.Code == feature.Service.Code &&
-                    !x.AbstractionLevel && x.Fab == feature.Fab))
+                    IsSameMedicalService(x, feature) && IsSameFab(x, feature) && !x.AbstractionLevel && !x.Freeze))
                 return;
 
             if (filledUpFeatures.Any(x =>
-                    x.Service.Type == feature.Service.Type && x.Service.Code == feature.Service.Code &&
-                    !x.AbstractionLevel && x.Fab == feature.Fab))
+                    IsSameMedicalService(x, feature) && IsSameFab(x, feature) && !x.AbstractionLevel && !x.Freeze))
                 return;
 
             var fillUpFeature = _unreducedFeatures[(feature.Service.Type, feature.Service.Code)]
-                .Single(x => !x.AbstractionLevel && !x.Global && x.Fab == feature.Fab && !x.Freeze);
+                .Single(x => !x.AbstractionLevel && !x.Global && IsSameFab(x, feature) && !x.Freeze);
 
             filledUpFeatures.Add(fillUpFeature);
             AddConcreteMissingFeatures(fillUpFeature, filledUpFeatures);
@@ -341,6 +343,19 @@ namespace Masterarbeit.Classes.Feature
             }
 
             return missingFabs;
+        }
+
+        private bool IsSameMedicalService(IFeature feature1, IFeature feature2)
+        {
+            return feature1.Service.Type == feature2.Service.Type && feature1.Service.Code == feature2.Service.Code;
+        }
+
+        private bool IsSameFab(IFeature feature1, IFeature feature2)
+        {
+            if (feature1.Fab == null || feature2.Fab == null)
+                return false;
+
+            return feature1.Fab.Name == feature2.Fab.Name;
         }
     }
 }

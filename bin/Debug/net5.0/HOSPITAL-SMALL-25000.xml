@@ -1,0 +1,5211 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<HospitalData>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-452</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>48.681</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>18.786</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-454</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>53.623</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>3.884</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-455</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>120.629</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>10.429</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-456</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>3.793</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-459</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>10.563</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-460</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>5.426</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-462</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>12.254</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-465</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>6.321</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-466</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>8.288</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-467</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>5.857</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-469</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>76.12</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>35.395</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-470</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>79.884</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-471</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>9.804</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-482</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>3.612</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>10.208</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-484</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>12.962</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-489</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.812</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>3.713</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-490</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>7.021</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.065</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-491</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.694</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-492</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.631</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-493</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.02</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>6.655</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-501</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>4.881</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-511</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>12.546</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>129.667</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-512</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>3.261</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-513</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>60.753</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>36.354</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-514</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>4.45</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-524</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>7.149</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-526</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>5.9</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.668</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-530</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>79.924</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.806</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-531</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.496</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-534</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>22.015</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-535</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>5.017</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-536</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>30.76</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-538</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>4.695</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-539</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.791</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-541</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>6.205</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>15.861</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-542</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>14.305</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.922</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-543</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>11.858</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.779</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-545</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>10.554</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-546</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>4.387</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-547</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>7.149</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-549</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>18.884</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-572</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>5.55</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>18.322</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-575</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>6.874</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-578</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>14.558</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-611</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.72</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-612</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.572</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-621</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.497</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-622</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.748</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-653</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.375</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-712</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.579</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-780</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>3.25</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-781</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>5.323</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-782</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>21.213</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-783</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>3.219</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-784</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>44.37</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-785</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>12.928</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-786</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>39.392</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-787</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>108.915</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-788</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>16.402</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.832</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-790</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>204.997</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-791</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>10.257</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-792</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>43.155</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-793</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>94.686</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>4.19</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-794</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>230.995</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>2.346</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-795</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>15.806</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-796</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>17.328</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-797</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>6.216</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-800</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>43.742</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-801</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>27.072</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-802</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>4.804</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-804</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>3.327</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-805</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>41.566</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-806</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>5.985</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-807</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>16.044</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-808</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>17.07</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-809</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.684</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-810</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>2.574</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>145.754</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-811</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>77.116</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-812</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>171.251</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>2.352</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-813</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>10.529</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-814</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>29.63</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.895</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-819</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>14.372</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-820</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>265.382</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-821</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>43.289</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-822</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>221.762</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-823</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>60.375</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.61</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-824</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>43.045</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-825</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.973</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-827</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.101</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-829</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>182.522</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-830</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.852</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-832</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>3.551</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-836</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>42.662</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-839</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>112.407</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-840</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>3.817</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-841</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.903</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-842</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.338</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-844</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.541</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-845</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.389</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-849</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.287</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-850</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>19.476</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-851</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>10.152</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-852</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>11.36</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-853</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.979</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-854</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>8.506</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-855</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>24.7</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-856</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>3.646</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-859</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>36.209</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-864</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>46.147</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>2.377</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-865</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>40.605</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.364</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-866</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>23.471</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-869</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>7.85</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-892</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>39.039</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>2.283</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-894</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>21.967</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.535</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-895</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>15.299</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.326</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-896</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>148.031</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>5.039</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-897</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.106</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-898</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.828</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-900</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>74.662</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>2.573</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-902</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>58.577</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-903</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.231</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-911</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>12.649</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-916</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>190.712</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.206</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-921</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.462</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-930</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.995</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-932</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>113.938</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.806</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-983</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>38.155</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-984</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>3.24</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-988</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>3.542</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>5-995</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>6.578</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>6-001</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.671</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>6-002</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>2.119</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-017</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>8.373</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-020</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.895</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>12.945</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-83b</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>37.986</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>120.173</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-83c</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>4.613</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-100</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>2.396</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-123</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.041</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-124</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.427</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-127</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.931</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-132</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.667</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-133</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>2.111</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-144</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>5.221</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>28.819</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-146</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.874</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.326</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-148</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>18.224</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-152</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>21.884</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>19.932</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-153</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>11.428</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>6.088</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-158</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.372</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.743</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-159</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.716</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-190</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>3.583</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>158.885</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-191</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.365</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-192</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>74.891</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>12.181</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-200</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.871</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-201</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>22.649</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-210</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>5.346</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-211</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.435</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-212</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.435</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-310</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.647</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-390</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>86.488</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>20.088</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-401</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>11.333</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-500</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>3.471</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.65</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-550</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>39.45</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>318.805</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-640</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>6.168</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.843</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-701</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>108.208</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>20.684</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-706</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>45.903</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-718</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>24.453</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-771</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>28.273</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>13.041</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-800</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>130.67</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>217.581</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-803</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.98</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-810</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>7.714</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-812</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>24.696</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>21.656</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-831</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>153.902</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>46.305</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-836</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>122.747</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>10.264</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-837</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>17.764</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-840</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>64.899</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>7.704</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-841</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>3.449</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-849</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.843</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-900</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.395</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.162</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-914</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>23.759</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-915</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>8.153</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-916</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>3.737</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-930</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>191.268</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>391.468</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-931</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>137.329</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>23.045</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-933</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>209.729</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>47.17</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-980</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.535</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>8-987</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>22.979</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>6.856</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>9-200</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>48.085</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>81.859</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>9-401</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>82.455</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>7.806</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>9-500</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>61.061</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>5.316</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>OPS</Type>
+    <Code>9-984</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>545.755</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>627.776</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>H64Z</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.476</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I01Z</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>9.022</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I04Z</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>11.026</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I05A</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>3.37</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I05B</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>19.104</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I07A</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.132</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I08A</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>4.564</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I08B</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>4.555</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I08C</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>6.182</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I08D</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>10.112</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I08E</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>14.557</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I08F</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>77.863</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I08G</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.216</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I08I</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.72</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I09E</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>10.653</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I09F</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>32.009</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I09H</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>16.124</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I09I</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>44.006</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I10B</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.167</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I10D</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.728</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I10F</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.852</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I12C</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.67</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I13A</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.996</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I13B</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>5.19</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I13C</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>13.496</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I13D</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>4.889</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I13E</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>50.476</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I13F</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>6.21</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I13G</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>25.671</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I14Z</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.042</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I16A</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>9.194</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I16B</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.895</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>3.481</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I16C</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>9.103</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I18A</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>7.532</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I18B</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.784</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>19.382</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I20A</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>8.764</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I20B</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>5.016</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I20C</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.2</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I20D</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.132</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I20E</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>4.824</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I20F</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>13.745</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I21Z</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>64.054</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I22A</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>14.729</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I22B</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>5.838</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I23B</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>10.868</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I23C</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>10.127</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I24A</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.498</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I24B</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>18.492</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I27D</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>11.564</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I27E</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>5.992</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I28E</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.828</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I29A</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.574</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I29B</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>20.54</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I29C</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>7.56</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I30A</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.59</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I30B</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>51.525</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I30C</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.622</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I31A</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>8.764</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I31B</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>7.175</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I31C</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.272</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I32D</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>7.127</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I32E</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>4.115</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I32F</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>6.492</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I34Z</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>226.191</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I41Z</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>2.79</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>28.503</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I43A</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>15.582</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I43B</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>8.13</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I44B</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>10.628</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I44C</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>140.322</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I44D</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>53.367</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I44E</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.367</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I46B</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>12.811</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I47A</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>9.044</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I47B</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>50.687</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I47C</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>153.527</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I50A</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.539</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I50B</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>7.66</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I59Z</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>4.504</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I65C</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.218</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I66C</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.157</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I66F</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.097</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>9.043</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I66G</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>2.561</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I66H</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.18</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I68B</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.24</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I68C</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.722</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.598</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I68D</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>3.567</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>73.211</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I68E</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.2</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>3.2</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I69A</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>3.824</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>6.358</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I69B</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.988</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>4.326</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I71B</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>11.492</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I73Z</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.579</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I74A</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.532</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I74B</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.332</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I74C</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>3.198</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I75B</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.831</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I76A</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.654</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I76B</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.936</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>I77Z</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>3.476</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>J02C</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>16.878</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>J03Z</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.786</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>J08A</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.69</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>J09B</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.106</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>J10B</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.636</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>J11B</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.327</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>J11C</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.535</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>5.495</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>J11D</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.798</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>J21Z</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>3.748</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>J22Z</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>4.408</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>J44Z</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.458</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>J61B</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.78</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.78</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>J61C</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>4.326</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.47</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>J62B</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.23</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>J64B</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>11.177</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>15.55</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>J64C</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>6.765</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>J65A</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>2.211</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>18.932</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>J65B</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>5.122</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>J67A</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.462</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>J67B</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>2.317</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>J68B</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.498</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>K04Z</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>93.482</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>K06A</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>3.529</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>K06B</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.414</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>K06C</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>17.493</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>K06D</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.846</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>6.768</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>K07A</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>13.293</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>K07B</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.31</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>K09A</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>3.103</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>K09C</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.184</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>K14Z</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>4.968</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>K44Z</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.473</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>K60E</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>30.168</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>K60F</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>35.128</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.13</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>K62B</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.11</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.555</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>K62C</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>62.706</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.376</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>K64C</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.749</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>K64D</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>6.728</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>L09D</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.238</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>L33Z</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>6.874</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>L44Z</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>3.048</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>L60D</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>12.641</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>L62C</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.93</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>L63B</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>2.192</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>L63D</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>2.673</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>L63E</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>28.32</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.453</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>L64D</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>7.396</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>3.341</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>L70B</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.609</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>L74Z</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.749</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>M04D</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.497</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>M05A</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.572</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>M09B</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.029</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>M60B</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.574</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>M62Z</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.133</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>N09B</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.579</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>N34Z</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>4.067</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>N60B</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.772</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>N62A</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.714</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>N62B</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.532</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>Q01Z</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.171</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>Q02C</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>4.365</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.206</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>Q60C</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>6.566</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.62</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>Q60D</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.449</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>Q61A</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.486</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>Q61B</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>26.33</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>Q62Z</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>2.466</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>Q63B</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.822</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>R01B</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>10.242</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>R12C</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.779</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>R61G</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>4.412</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>R61H</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.07</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>R62C</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.579</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>R65Z</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.264</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>S63B</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.221</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>T01A</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>7.149</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>T01B</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>3.394</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>T01E</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.123</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>T44Z</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>3.6</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>T60C</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>3.906</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>T60E</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>9.917</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>T60F</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.399</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>T60G</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.25</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>T62B</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>4.104</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>T63C</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>10.782</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>T63D</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>3.266</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.118</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>T64C</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>4.432</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>U60B</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.764</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>U63Z</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.201</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>U64Z</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>4.556</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>V60B</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>20.291</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.503</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>V63Z</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.161</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>V64Z</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>2.827</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>W04C</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>3.334</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>X01B</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>18.659</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>X01C</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.19</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>X04Z</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.727</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>X05B</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.411</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>X06B</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.062</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>X06C</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.54</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>X60Z</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>2.508</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>8.785</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>X62Z</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>6.302</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>5.538</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>X64Z</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.62</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>Y62Z</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.365</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>Y63Z</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.186</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>Z64C</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.727</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.217</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>DRG</Type>
+    <Code>Z65Z</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>5.664</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Phlegmone</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>13.227</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Pilonidalzyste mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.106</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Plasmozytom und bösartige Plasmazellen-Neubildungen</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>2.338</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>10.242</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Pneumonie durch Bakterien, anderenorts nicht klassifiziert</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>3.806</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Pneumonie durch feste und flüssige Substanzen mit relevanter Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>2.921</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Pneumonie durch feste und flüssige Substanzen ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>8.48</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Pneumonie durch Streptococcus pneumoniae</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>9.146</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Pneumonie, Erreger nicht näher bezeichnet</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>81.788</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.887</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Pneumothorax ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.394</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Polyneuritis</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.462</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Psychische und Verhaltensstörungen durch Alkohol ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>20.291</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.503</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Psychische und Verhaltensstörungen durch Cannabinoide ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>6.378</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Psychische und Verhaltensstörungen durch multiplen Substanzgebrauch und Konsum anderer psychotroper Substanzen</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.7</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Psychische und Verhaltensstörungen durch Opioide ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.161</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Psychische und Verhaltensstörungen durch weitere psychotrope Substanzen ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.644</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Purpura und sonstige hämorrhagische Diathesen ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>5.042</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Pyothorax mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>3.071</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Reizdarmsyndrom</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.453</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Respiratorische Insuffizienz, anderenorts nicht klassifiziert ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.793</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Rhizarthrose [Arthrose des Daumensattelgelenkes] mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.661</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Rhizarthrose [Arthrose des Daumensattelgelenkes] ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.671</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Rückenschmerzen ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>2.966</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>34.855</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sarkoidose mit relevanter Prozedur</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.517</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sarkoidose ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.245</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Schlafstörungen ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.166</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Schmerz und andere Zustände im Zusammenhang mit den weiblichen Genitalorganen und dem Menstruationszyklus ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.266</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Schmerzzustände</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>3.121</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Schulterläsionen mit Op</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.895</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>23.502</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sepsis und weitere bakterielle Erkrankungen</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>27.174</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>25.597</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Skoliose mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.549</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Somatoforme Störungen ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>3.128</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige abdominale Hernien mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.108</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige alimentäre Mangelzustände</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.13</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Anämien mit relevanter Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.439</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige angeborene Fehlbildungen des Darmes, Leber und Gallenblase mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.457</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige angeborene Fehlbildungen des Darmes, Leber und Gallenblase ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.763</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Appendizitis mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>3.164</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Arthrose ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.994</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.673</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Bandscheibenschäden mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.411</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Bandscheibenschäden ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.687</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>19.892</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige bösartige Neubildungen der Haut mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.326</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Deformitäten der Wirbelsäule und des Rückens ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.411</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Dermatitis</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.76</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.49</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige entzündliche Krankheit der Vagina und Vulva mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.579</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige entzündliche Leberkrankheiten mit relevanter Prozedur</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.345</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige entzündliche Leberkrankheiten ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.345</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige erworbene Deformitäten der Extremitäten mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>3.929</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige funktionelle Darmstörungen mit relevanter Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>5.6</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.157</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige funktionelle Darmstörungen ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>7.124</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>5.896</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Gelenkkrankheiten, anderenorts nicht klassifiziert mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>4.259</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Gelenkkrankheiten, anderenorts nicht klassifiziert ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>5.997</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige interstitielle Lungenkrankheiten ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.258</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige kardiale Arrhythmien mit Op</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>9.016</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige kardiale Arrhythmien ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.9</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Krankheiten der Arterien und Arteriolen und der Kapillaren mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.098</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Krankheiten der Arterien und Arteriolen und der Kapillaren ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.941</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Krankheiten der Gallenblase mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>4.104</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Krankheiten der Gallenwege mit Op</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.483</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Krankheiten der Gallenwege ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.428</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Krankheiten der Harnblase mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>6.874</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Krankheiten der Haut und der Unterhaut, anderenorts nicht klassifiziert mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.688</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Krankheiten der Synovialis und der Sehnen mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.705</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Krankheiten der Wirbelsäule und des Rückens, anderenorts nicht klassifiziert ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>3.039</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Krankheiten des Anus und des Rektums mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.077</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Krankheiten des Anus und des Rektums ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>3.049</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Krankheiten des Darmes mit Op</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>3.181</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Krankheiten des Darmes ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.624</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Krankheiten des Harnsystems mit Op</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.453</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Krankheiten des Harnsystems mit relevanter Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.906</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Krankheiten des Harnsystems ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>23.062</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.453</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Krankheiten des Magens und des Duodenums mit relevanter Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>2.087</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.205</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Krankheiten des Magens und des Duodenums ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.395</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Krankheiten des Nervensystems</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.544</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Krankheiten des Ösophagus mit relevanter Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>2.991</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Krankheiten des Pankreas mit relevanter Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.085</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Krankheiten des Peritoneums mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.791</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Krankheiten des Peritoneums ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.457</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.457</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Krankheiten des Verdauungssystems mit Op</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>5.967</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Krankheiten des Verdauungssystems mit relevanter Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>9.643</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.444</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Krankheiten des Verdauungssystems ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.047</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Krankheiten des Weichteilgewebes, anderenorts nicht klassifiziert</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>5.936</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Krankheiten mit Systembeteiligung des Bindegewebes</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>2.172</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.335</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Krankheitszustände der Pleura mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.646</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige näher bezeichnete Gelenkschädigungen mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>3.799</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige näher bezeichnete Gelenkschädigungen ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.425</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige nichtinfektiöse Gastroenteritis und Kolitis mit relevanter Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>6.412</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>5.589</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige nichtinfektiöse Gastroenteritis und Kolitis ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>2.424</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>3.375</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige nichttoxische Struma mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>16.395</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige pulmonale Herzkrankheiten und Krankheiten der Lungengefäße ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>6.856</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Störungen des Wasser- und Elektrolythaushaltes sowie des Säure-Basen-Gleichgewichts</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>9.214</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige und nicht näher bezeichnete Gastroenteritis und Kolitis infektiösen und nicht näher bezeichneten Ursprungs mit relevanter Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>3.375</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige und nicht näher bezeichnete Gastroenteritis und Kolitis infektiösen und nicht näher bezeichneten Ursprungs ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>18.246</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.587</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige und nicht näher bezeichnete Krankheiten des Kreislaufsystems</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>38.683</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.287</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige und nicht näher bezeichnete Schäden durch äußere Ursachen</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.462</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Viruskrankheiten mit relevanter Prozedur</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.118</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstige Viruskrankheiten ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>14.048</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>sonstige weitere Infektionskrankheiten ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>2.216</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>sonstiger weiterer Diabetes mellitus</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>2.866</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Sonstiges Aneurysma und sonstige Dissektion mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>8.197</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Spondylopathien mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>20.506</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Spondylopathien ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>2.338</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>6.135</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Spontanruptur der Synovialis und von Sehnen mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>4.2</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Spontanruptur der Synovialis und von Sehnen ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.459</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Störungen der Nebennieren ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>3.054</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Störungen der Vestibularfunktion</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>10.481</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Störungen Hypophyse und Glandulae parathyroideae ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.812</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Symptome, die das Erkennungs- und Wahrnehmungsvermögen, die Stimmung und das Verhalten betreffen</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>9.963</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Symptome, die das Harnsystem betreffen</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>2.094</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Symptome, die das Kreislaufsystem und das Atmungssystem betreffen</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>26.014</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>3.333</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Symptome, die das Nervensystem und das Muskel-Skelett-System betreffen</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>8.808</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.594</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Symptome, die das Verdauungssystem und das Abdomen betreffen</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>13.109</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>6.966</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Symptome, die die Haut und das Unterhautgewebe betreffen</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.456</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Symptome, die die Nahrungs- und Flüssigkeitsaufnahme betreffen</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>4.998</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Synkope und Kollaps</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>11.891</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Thrombose, Phlebitis und Thrombophlebitis mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.565</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Thrombose, Phlebitis und Thrombophlebitis ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.864</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>14.751</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Thyreoiditis ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.704</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Toxische Leberkrankheit mit relevanter Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.546</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Toxische Leberkrankheit ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.104</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Toxische Wirkung durch Kontakt mit giftigen Tieren</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.158</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Tuberkulose mit relevanter Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>2.679</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Ulcus cruris, anderenorts nicht klassifiziert mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>9.779</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Ulcus duodeni mit relevanter Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>4.803</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>4.82</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Ulcus duodeni ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.964</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Ulcus pepticum jejuni ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.964</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Ulcus ventriculi mit relevanter Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>8.688</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>4.771</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Ulcus ventriculi ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>6.593</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Unerwünschte Nebenwirkungen, anderenorts nicht klassifiziert</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>2.508</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Unwohlsein und Ermüdung</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.368</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Urethritis und urethrales Syndrom ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.453</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Urtikaria</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.821</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Varizen der unteren Extremitäten mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>9.71</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Varizen der unteren Extremitäten ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.168</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>3.412</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Vaskuläre Demenz ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.878</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Veränderungen der Knochenkontinuität mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>5.585</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Verbrennungen oder Verätzungen der äußeren Körperoberfläche, Lokalisation bezeichnet ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.096</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Verbrennungen oder Verätzungen mehrerer und nicht näher bezeichneter Körperregionen ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.455</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Vergiftung durch Antiepileptika, Sedativa, Hypnotika und Antiparkinsonmittel</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.015</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Vergiftung durch Betäubungsmittel und Psychodysleptika [Halluzinogene]</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.427</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Vergiftung durch nichtopioidhaltige Analgetika, Antipyretika und Antirheumatika</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.392</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Vergiftung durch psychotrope Substanzen, anderenorts nicht klassifiziert</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.585</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Verletzung von intraabdominalen Organen mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.171</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Verletzung von Muskeln und Sehnen in Höhe der Hüfte und des Oberschenkels mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>4.664</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Verletzung von Muskeln und Sehnen in Höhe der Hüfte und des Oberschenkels ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.435</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Verletzung von Muskeln und Sehnen in Höhe der Schulter und des Oberarmes mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>11.487</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Verletzung von Muskeln und Sehnen in Höhe des Unterschenkels mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>5.804</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Verletzung von Muskeln und Sehnen in Höhe des Unterschenkels ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.195</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Verletzungen der Knöchelregion und des Fußes mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.856</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Verletzungen von Nerven, Gefäßen oder Muskeln und Sehnen in Höhe des Unterarmes mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.431</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Versorgung künstlicher Körperöffnungen mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>6.432</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Virusbedingte und sonstige näher bezeichnete Darminfektionen mit relevanter Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.444</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Virusbedingte und sonstige näher bezeichnete Darminfektionen ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.888</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Virushepatitis ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.052</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Virusinfektionen, die durch Haut- und Schleimhautläsionen gekennzeichnet sind</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>5.143</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.184</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Viruspneumonie, anderenorts nicht klassifiziert</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>81.356</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Vitamin-B12-Mangelanämie mit relevanter Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>2.466</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Volumenmangel</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>27.781</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>5.68</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Vorhofflimmern und Vorhofflattern ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>27.862</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Weitere Allgemeinsymptome</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.768</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Weitere Angeborene Fehlbildungen und Deformitäten des Muskel-Skelett-Systems mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.72</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Weitere Angeborene Fehlbildungen, Deformitäten und Chromosomenanomalien mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.892</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>weitere bösartige Neubildungen des mesothelialen und Weichteilgewebes  ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.609</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>weitere entündliche Polyarthropathien</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.532</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>weitere Formen der Hypertonie (sekundäre, Nieren etc.) ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.372</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>weitere Gründe bei Personen mit Gesundheitsrisiken hinsichtlich übertragbarer Krankheiten</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.392</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>weitere Gründe das Gesundheitswesen in Anspruch zu nehmen</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.217</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Weitere gutartige Neubildungen mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.252</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>weitere neurotische Störungen</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.022</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>weitere Osteopathien</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.654</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>weitere spezifische infektiöse Darmerkrankungen mit relevanter Prozedur</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.218</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>weitere spezifische infektiöse Darmerkrankungen ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>5.36</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>weitere Störungen der Blutglukose-Regulation und des Pankreas</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>2.16</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>weitere Varizen und sonstige Venenkrankheiten</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.61</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>2.606</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Weitere Vergiftungen durch Arzneimittel, Drogen und biologisch aktive Substanzen</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.374</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Weitere Verletzungen des Abdomens, der Lumbosakralgegend, der Lendenwirbelsäule und des Beckens ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.713</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>weitere Verletzungen des Halses mit Op</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.333</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Weitere Verletzungen des Thorax ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.916</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Zerebrale transitorische Ischämie und verwandte Syndrome ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>9.563</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Zervikale Bandscheibenschäden ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.48</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Zystitis mit Op</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>2.174</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Zystitis mit relevanter Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.453</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MLG</Type>
+    <Code>Zystitis ohne Op oder sonstige relevante Prozedur</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>7.427</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MDC</Type>
+    <Code>12</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.202</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MDC</Type>
+    <Code>13</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>0.772</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>5.892</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MDC</Type>
+    <Code>16</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>42.484</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>3.997</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MDC</Type>
+    <Code>17</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>8.104</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>10.242</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MDC</Type>
+    <Code>19</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>6.521</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MDC</Type>
+    <Code>20</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>29.174</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.503</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MDC</Type>
+    <Code>22</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>1.551</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MDC</Type>
+    <Code>23</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>6.391</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>0.217</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MDC</Type>
+    <Code>18A</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>1.221</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MDC</Type>
+    <Code>18B</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>41.779</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>11.661</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MDC</Type>
+    <Code>21A</Code>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>3.334</CaseMix>
+    </Fab>
+  </HospitalDataService>
+  <HospitalDataService>
+    <Type>MDC</Type>
+    <Code>21B</Code>
+    <Fab>
+      <Name>HA0100 Innere</Name>
+      <CaseMix>9.43</CaseMix>
+    </Fab>
+    <Fab>
+      <Name>HA1500 ACH</Name>
+      <CaseMix>41.912</CaseMix>
+    </Fab>
+  </HospitalDataService>
+</HospitalData>
